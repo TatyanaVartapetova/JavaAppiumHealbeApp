@@ -253,8 +253,22 @@ public class MainPageObject {
         int middle_y = location.getY() + size.getHeight()/2;
         //int tap_y = middle_y + 20;
 
-
         this.tapToPoint(middle_x, middle_y);
+    }
+
+    public void doubleTapToCenterOfElement(By by, String error_message) {
+
+        WebElement element = waitForElementPresent(by, error_message, 10);
+
+        Point location = element.getLocation(); // расположение элемента на странице - это точка левый верхний угол
+        Dimension size = element.getSize(); // размеры элемента
+
+
+        int middle_x = location.getX() + size.getWidth()/2;
+        int middle_y = location.getY() + size.getHeight()/2;
+        //int tap_y = middle_y + 20;
+
+        this.doubleTapToPoint(middle_x, middle_y);
     }
 
     public void tapToPoint(int x, int y) {
@@ -269,6 +283,24 @@ public class MainPageObject {
 
         this.driver.perform(Collections.singletonList(tap));
     }
+
+    public void doubleTapToPoint(int x, int y) {
+
+        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+        Sequence tap = new Sequence(finger, 1);
+
+        tap.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), x, y));
+        tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+        tap.addAction(new Pause(finger, Duration.ofMillis(100)));
+        tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+        tap.addAction(new Pause(finger, Duration.ofMillis(100)));
+        tap.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+        tap.addAction(new Pause(finger, Duration.ofMillis(100)));
+        tap.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+        this.driver.perform(Collections.singletonList(tap));
+    }
+
 
     public void tapToPointRelativeToElement(By by, int margin_x, int margin_y, String error_message){
         WebElement element = waitForElementPresent(by, error_message, 10);

@@ -15,7 +15,7 @@ public class Main extends CoreTestCase {
     @Test
     public void test(){
         OnboardingPageObject OnboardingPageObject = new OnboardingPageObject(driver);
-        OnboardingPageObject.passOnboardingFull("en");
+        OnboardingPageObject.passOnboardingFull("ru");
     }
 
 }
