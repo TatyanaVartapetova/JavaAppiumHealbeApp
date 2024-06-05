@@ -8,8 +8,14 @@ public class Main extends CoreTestCase {
     @Test
     public void testSignIn(){
         OnboardingPageObject OnboardingPageObject = new OnboardingPageObject(driver);
-        OnboardingPageObject.passOnboarding();
+        OnboardingPageObject.passOnboardingQuick();
         EnterPageObject EnterPageObject = new EnterPageObject(driver);
         EnterPageObject.signInAndAssertSignInSuccessful("v60@v.co", "Heal");
     }
+    @Test
+    public void test(){
+        OnboardingPageObject OnboardingPageObject = new OnboardingPageObject(driver);
+        OnboardingPageObject.passOnboardingFull("en");
+    }
+
 }
