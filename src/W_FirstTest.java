@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 
-public class FirstTest extends CoreTestCase { //название класса, наследуем lib.ui.CoreTestCase с запуском и тд, а отсюда этот код удаляем
+public class W_FirstTest extends CoreTestCase { //название класса, наследуем lib.ui.CoreTestCase с запуском и тд, а отсюда этот код удаляем
 private MainPageObject MainPageObject;// вот эту всю часть с MainPageObject надо будет удалить после рефакторинга, она тут не нужна будет
 protected void setUp() throws Exception{
     super.setUp();
@@ -13,7 +13,7 @@ protected void setUp() throws Exception{
 }
     @Test
     public void testSearch() { //все тесты должны начинаться со слова test
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        W_SearchPageObject SearchPageObject = new W_SearchPageObject(driver);
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Java");
         SearchPageObject.waitForSearchResult("programming language");
@@ -21,7 +21,7 @@ protected void setUp() throws Exception{
 
     @Test
     public void testOnboardingNextButton(){
-    NavigationUI NavigationUI = new NavigationUI(driver);
+    W_NavigationUI NavigationUI = new W_NavigationUI(driver);
     NavigationUI.navigationNext();
     NavigationUI.navigationNext();
     MainPageObject.waitForElementPresent(By.id("com.healbe.healbegobe.debug:id/logo"), "Cannot find logo on Enter Form", 5);
@@ -34,7 +34,7 @@ protected void setUp() throws Exception{
 
 @Test
 public void testSignIn(){
-    NavigationUI NavigationUI = new NavigationUI(driver);
+    W_NavigationUI NavigationUI = new W_NavigationUI(driver);
     NavigationUI.navigationNext();
     NavigationUI.navigationNext();
     MainPageObject.waitForElementAndClick(By.id("com.healbe.healbegobe.debug:id/sign_in"), "Cannot click on Sign In Button on Enter Form", 5);
@@ -54,7 +54,7 @@ public void testSignIn(){
 }
 
 public void testSignUp(){
-    NavigationUI NavigationUI = new NavigationUI(driver);
+    W_NavigationUI NavigationUI = new W_NavigationUI(driver);
     NavigationUI.navigationNext();
     NavigationUI.navigationNext();
     MainPageObject.waitForElementAndClick(By.id("com.healbe.healbegobe.debug:id/button"), "Cannot click on Sign Up Button on Enter Form", 5);
@@ -95,7 +95,7 @@ public void testSignUp(){
 }
     @Test
     public void testCancelSearch() {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        W_SearchPageObject SearchPageObject = new W_SearchPageObject(driver);
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Java");
         SearchPageObject.waitForCancelButtonToAppear();
@@ -105,12 +105,12 @@ public void testSignUp(){
 
     @Test
     public void testCompareArticleTitle() {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        W_SearchPageObject SearchPageObject = new W_SearchPageObject(driver);
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Java");
         SearchPageObject.clickByArticleWithSubstring("programming language");
 
-        ArticlePageObject ArticlePageObject = new ArticlePageObject(driver);
+        W_ArticlePageObject ArticlePageObject = new W_ArticlePageObject(driver);
         String article_title = ArticlePageObject.getArticleTitle();
 //
 //        MainPageObject.waitForElementAndClick(
@@ -195,12 +195,12 @@ public void testSignUp(){
 
     @Test //4 урок - 1
     public void testSwipeArticle() {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        W_SearchPageObject SearchPageObject = new W_SearchPageObject(driver);
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Krot");
         SearchPageObject.clickByArticleWithSubstring("Surname");
 
-        ArticlePageObject ArticlePageObject = new ArticlePageObject(driver);
+        W_ArticlePageObject ArticlePageObject = new W_ArticlePageObject(driver);
       //  ArticlePageObject.waitForTitleElement();
         ArticlePageObject.swipeToFooter();
 //
@@ -215,19 +215,19 @@ public void testSignUp(){
 
     @Test //4 урок - 2 - сохранение и удаление статьи
     public void testSaveFirstArticleToMyList() {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        W_SearchPageObject SearchPageObject = new W_SearchPageObject(driver);
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Java");
         SearchPageObject.clickByArticleWithSubstring("programming language");
-        ArticlePageObject ArticlePageObject = new ArticlePageObject(driver);
+        W_ArticlePageObject ArticlePageObject = new W_ArticlePageObject(driver);
         ArticlePageObject.waitForTitleElement();
         String article_title = ArticlePageObject.getArticleTitle();
         String name_of_folder = "Programming";
         ArticlePageObject.addArticleToMyList(name_of_folder);
-        NavigationUI NavigationUI = new NavigationUI(driver);
+        W_NavigationUI NavigationUI = new W_NavigationUI(driver);
         NavigationUI.navigationNext(); // тут было navigationUp
         NavigationUI.navigationNext(); // тут было navigationUp
-        MyListsPageObject MyListsPageObject = new MyListsPageObject(driver);
+        W_MyListsPageObject MyListsPageObject = new W_MyListsPageObject(driver);
         MyListsPageObject.clickToMyListsButton();
         MyListsPageObject.openFolderByName(name_of_folder);
         MyListsPageObject.swipeByArticleToDelete(article_title);
@@ -235,7 +235,7 @@ public void testSignUp(){
 
     @Test //4 урок - 3
     public void testAmountOfNotEmptySearch() {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        W_SearchPageObject SearchPageObject = new W_SearchPageObject(driver);
         SearchPageObject.initSearchInput();
         String search_line = "Gecko";
         SearchPageObject.typeSearchLine(search_line);
@@ -245,7 +245,7 @@ public void testSignUp(){
 
     @Test //4 урок - 4 (assertion error)
     public void testAmountOfEmptyResults() {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        W_SearchPageObject SearchPageObject = new W_SearchPageObject(driver);
         SearchPageObject.initSearchInput();
         String search_line = "jhfkjhk";
         SearchPageObject.typeSearchLine(search_line);
@@ -255,11 +255,11 @@ public void testSignUp(){
 
     @Test //4 урок - 5 (rotation)
     public void testChangeScreenOrientationOnSearchResults() {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        W_SearchPageObject SearchPageObject = new W_SearchPageObject(driver);
         SearchPageObject.initSearchInput();
         SearchPageObject.typeSearchLine("Java");
         SearchPageObject.clickByArticleWithSubstring("programming language");
-        ArticlePageObject ArticlePageObject = new ArticlePageObject(driver);
+        W_ArticlePageObject ArticlePageObject = new W_ArticlePageObject(driver);
         String title_before_rotation = ArticlePageObject.getArticleTitle();
         this.rotateScreenLandscape();
         String title_after_rotation = ArticlePageObject.getArticleTitle();
@@ -292,7 +292,7 @@ public void testSignUp(){
 @Test // 4 урок - 6 (background) - тест падает, потому что там баг. 
 public void testCheckSearchArticleOnBackground(){
 
-    SearchPageObject SearchPageObject = new SearchPageObject(driver);
+    W_SearchPageObject SearchPageObject = new W_SearchPageObject(driver);
     SearchPageObject.initSearchInput();
     SearchPageObject.typeSearchLine("Java");
     SearchPageObject.waitForSearchResult("programming language");

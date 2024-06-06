@@ -3,7 +3,7 @@ package lib.ui;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 
-public class SearchPageObject extends MainPageObject{
+public class W_SearchPageObject extends MainPageObject{
     private static final String
     SEARCH_INIT_ELEMENT = "//*[contains(@text, 'Search Wikipedia')]",
     SEARCH_INPUT = "//*[contains(@text, 'Search Wikipedia')]",
@@ -11,7 +11,7 @@ public class SearchPageObject extends MainPageObject{
     SEARCH_RESULT_ELEMENT =  "//*[@resource-id='org.wikipedia:id/search_results_list']//*[@resource-id='org.wikipedia:id/page_list_item_title']",
     SEARCH_RESULT_BY_SUBSTRING_TPL = "//*[contains(@text, '{SUBSTRING}')]",
     SEARCH_EMPTY_RESULT_ELEMENT = "//*[@text='No results']";
-public SearchPageObject(AppiumDriver driver){
+public W_SearchPageObject(AppiumDriver driver){
     super(driver); //таким образом мы берем драйвер из MainPageObject
 }
 /* TEMPLATE METHOD - такие методы называются методами темплэйтов(шаблонов)*/

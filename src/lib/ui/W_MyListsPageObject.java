@@ -3,7 +3,7 @@ package lib.ui;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 
-public class MyListsPageObject extends MainPageObject{
+public class W_MyListsPageObject extends MainPageObject{
     public static final String
     FOLDER_BY_NAME_TPL = "//*[@text='{FOLDER_NAME}']",
     MY_LISTS_BUTTON = "org.wikipedia:id/nav_tab_reading_lists",
@@ -14,7 +14,7 @@ public class MyListsPageObject extends MainPageObject{
     private static String getArticleXpathByTitle(String article_title){
         return ARTICLE_BY_TITLE_TPL.replace("{ARTICLE_TITLE}", article_title);
     }
-    public MyListsPageObject(AppiumDriver driver){
+    public W_MyListsPageObject(AppiumDriver driver){
         super(driver);
     }
     public void clickToMyListsButton(){

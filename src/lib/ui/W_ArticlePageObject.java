@@ -4,7 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class ArticlePageObject extends MainPageObject {
+public class W_ArticlePageObject extends MainPageObject {
     private static final String
     TITLE = "//*[@text='Java (programming language)']",
             //"//*[@text='Automation for Apps']", в примере тут айди и он одинаковый для всех статей, поэтому у меня такая фигня
@@ -16,7 +16,7 @@ public class ArticlePageObject extends MainPageObject {
     MY_LIST_OK_BUTTON = "//*[@text='OK']",
     OPTIONS_ADD_TO_MY_LIST_BUTTON = "org.wikipedia:id/snackbar_action";
 
-    public ArticlePageObject(AppiumDriver driver){
+    public W_ArticlePageObject(AppiumDriver driver){
         super(driver);
     }
     public WebElement waitForTitleElement(){
