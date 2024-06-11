@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_weight">Peso actual</string>
+    <string name="current_progress">Variación</string>
+    <string name="your_weight_goal">Tu objetivo de peso es</string>
+    <string name="setup_weight_goal">Elige tu objetivo de peso</string>
+    <string name="select_a_plan">Selecciona un plan</string>
+    <string name="last_weights">Historial del peso</string>
+    <string name="show_all_weights">Ver todo el historial</string>
+    <string name="goals_history">Historial de objetivos</string>
+    <string name="by_">por %1$s</string>
+    <string name="since_">desde %1$s (%2$s)</string>
+    <string name="add_weight">Agregar peso</string>
+    <string name="no_weight_data_for_period">No te pesaste durante este período</string>
+    <string name="weight_history">Historial de peso</string>
+    <string name="no_weight_data">Sin datos</string>
+    <string name="no_weight_data_available">No hay datos de peso disponibles</string>
+    <string name="cancel_goal">Cancelar objietivo</string>
+    <string name="new_goal">Nueva objietivo</string>
+    <string name="time_to_track_weight">Es hora de pesarte</string>
+    <string name="connect_google_fit">Conéctate con Google Fit para mantener todos los datos de tu cuerpo en un solo lugar</string>
+    <string name="connect_google_fit_btn">Conecta Google Fit</string>
+    <string name="lets_go">Si, ¡vamos!</string>
+    <string name="weight_too_high">Está bien comenzar de a poco. Baja al menos el %d%% de tu peso actual. HEALBE ahora permite objetivos de baja de peso</string>
+    <string name="it_is_your_weight">¿Es tu peso actual?</string>
+    <string name="track_it_automatically">Sigue tu peso automáticamente</string>
+    <string name="weight_too_low">Se consistente. Alcanza tu objetivo de peso %1$s y luego sigue al siguiente.</string>
+    <string name="recommended_goal">Asegúrate de bajar de peso gradualmente. Dependiendo de tus condiciones actuales, el objetivo seguro y alcanzable sería %1$s — %2$s</string>
+    <string name="lazy">Relajado</string>
+    <string name="lazy_desc">Logra tu objetivo en %1$s con mínimo esfuerzo</string>
+    <string name="comfortable">Cómodo</string>
+    <string name="comfortable_desc">Alcanza tu objetivo en %1$s (recomendado)</string>
+    <string name="extreme">Rápido</string>
+    <string name="extreme_desc">Toma control de tus hábitos y alcanza tu objetivo en %1$s</string>
+    <string name="start_lose_it">Iniciar</string>
+    <string name="weight_goal_is">Tu objetivo de peso es</string>
+    <string name="weight_empty_error">No se puede guardar el campo de peso vacío</string>
+    <string name="way_to_lose_weight">Así que estás en camino para bajar %1$s en %2$s</string>
+    <string name="cannot_select_time">No puede configurar un tiempo futuro para la medición</string>
+    <string name="occurrence_underweight">Estás debajo del peso adecuado</string>
+    <string name="occurrence_underweight_desc">Tu IMC es más bajo de lo normal. El peso óptimo para una persona de tu altura es superior a %1$s</string>
+    <string name="occurrence_fast_loose">No bajes tan rápido</string>
+    <string name="occurrence_fast_loose_desc">Perder más de %1$s de peso por semana puede ser peligroso. Podrías dañar tu salud</string>
+    <string name="occurrence_slow_loose">Podrías hacerlo mejor</string>
+    <string name="occurrence_slow_loose_desc">Se acerca a su meta demasiado despacio. Intente reducir su ingesta de calorías e incremente su nivel de actividad</string>
+    <string name="occurrence_time_to_weight">Tiempo de pesarse</string>
+    <plurals name="occurrence_time_to_weight_desc">
+        <item quantity="one">No te has pesado durante una semana</item>
+        <item quantity="other">No te has pesado durante %d semanas</item>
+    </plurals>
+    <string name="occurrence_week_left">Queda una semana</string>
+    <string name="occurrence_week_left_desc">Solo queda una semana para alcanzar el objietivo. ¡Apúrate!</string>
+    <string name="occurrence_goal_difficult">El objetivo es difícil</string>
+    <string name="occurrence_goal_difficult_desc">Lograr %1$s para %2$s ya no es un objetivo seguro</string>
+    <string name="occurrence_goal_half">Haz bajado %1$s de %2$s</string>
+    <string name="occurrence_goal_half_desc">Sigue así ¡Tu objetivo está muy cerca!</string>
+    <string name="occurrence_goal_not_reached">El objetivo no fue alcanzado</string>
+    <string name="occurrence_goal_not_reached_desc">Se ha acabado el tiempo. Intenta fijar un nuevo objetivo más realista.</string>
+    <string name="occurrence_goal_reached">¡Has alcanzado el objetivo!</string>
+    <plurals name="occurrence_goal_reached_desc">
+        <item quantity="one">Has bajado %2$s y has alcanzado %3$s en un día</item>
+        <item quantity="other">Has perdido %2$s y has alcanzado %3$s en %1$d días</item>
+    </plurals>
+    <string name="setup_new_goal">Nueva objietivo</string>
+    <string name="source_gfit">Google Fit</string>
+    <string name="source_apple_health">Apple Health</string>
+    <string name="source_healbe">HEALBE</string>
+    <string name="source_withings">Withings / Nokia</string>
+    <string name="source_validic">Validic</string>
+    <string name="source_unknown">Desconocido</string>
+    <string name="goal_reached">Logrado</string>
+    <string name="goal_not_reached">No logrado</string>
+    <string name="goal_cancelled">Cancelado</string>
+    <!--Weight. Not-new goal CTA button-->
+    <string name="add_goal">Fijar un objetivo de peso</string>
+    <!--Weight. No data state-->
+    <string name="weigh_regularly_to_keep_track_our_body_weight">Pésate regularmente para ver el progreso</string>
+    <!--Weight. Goal achieved screen. Button-->
+    <string name="hooray">¡¡¡Hurraaa!!!</string>
+    <!--Weight. Goal setup screen. Desc-->
+    <string name="if_want_control_body_need_measure_it">Conocer el punto de partida es un buen paso hacia los cambios</string>
+    <!--Weight. Main screen section title-->
+    <string name="previous_weights">Pesaje previo</string>
+    <!--Weight. Goal achieved screen. Title-->
+    <string name="сongratulations">¡Felicidades!</string>
+</resources>

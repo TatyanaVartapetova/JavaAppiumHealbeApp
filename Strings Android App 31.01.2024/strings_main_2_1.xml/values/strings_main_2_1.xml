@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Type of activity, calories burned while sitting+Basal metabolism-->
+    <string name="why_is_it_important">Why is this important?</string>
+    <string name="collecting_data_continue_wearing">Collecting data, please keep wearing GoBe.</string>
+    <string name="collecting_data_description">The longer you wear GoBe, the more accurately it estimates the Activity and calorie Intake. We recommend wearing GoBe for %1$s per day.</string>
+    <string name="great_wearing">You are wearing GoBe perfectly! Keep it up!</string>
+    <string name="great_wearing_description">You are wearing GoBe for %1$s per day, so it has everything needed for an accurate estimation of your Activity and calorie Intake.</string>
+    <string name="not_enough_data">There is not enough data, don\'t forget to wear GoBe</string>
+    <string name="not_enough_data_description">You wear GoBe only for %1$s per day, so we do not have enough data for an accurate estimation of your daily activity and calorie intake, we recommend wearing GoBe for at least %2$s a day.</string>
+    <string name="show_all">Show all</string>
+</resources>

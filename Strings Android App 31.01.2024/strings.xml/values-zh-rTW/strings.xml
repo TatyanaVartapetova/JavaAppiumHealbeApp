@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_to_image">選擇應用以選擇圖像</string>
+    <string name="cancel">取消</string>
+    <string name="ok">確定</string>
+    <string name="connection_error">無法連接到您的GoBe。 請再試一次。</string>
+    <string name="close">關閉</string>
+    <string name="end_time">結束時間</string>
+    <string name="update">安裝</string>
+    <string name="connect">連接</string>
+    <string name="disconnect">斷開連接</string>
+    <string name="connected">已連接</string>
+    <string name="warning">警告！</string>
+    <string name="enable">啟用</string>
+    <string name="apply">套用</string>
+    <string name="date">日期</string>
+    <string name="time">時間</string>
+    <string name="delete">刪除</string>
+    <string name="confirm">確認</string>
+    <string name="logs_channel_name">HEALBE 報告通知</string>
+    <string name="notifications_state_channel_name">GoBe狀態通知</string>
+    <string name="notifications_sync_channel_name">數據通知</string>
+    <string name="notifications_default_channel_name">默認通知</string>
+    <!--duration in minutes short form (10 min, 24 min)-->
+    <string name="num_m">%1$d分鐘</string>
+    <!--duration in hours short form (5 h, 3 h)-->
+    <string name="num_h">%1$d小時</string>
+    <!--duration in days short form (3 d, 5 d)-->
+    <string name="num_d">%1$d天</string>
+    <!--duration in weeks short form (4 w, 9 w)-->
+    <string name="num_w">%1$d週</string>
+    <string-array name="genders">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <plurals name="num_seconds">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="num_videos">
+        <item quantity="other">%1$d個視頻</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%1$d分鐘</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d小時</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">小時</item>
+    </plurals>
+    <plurals name="num_days">
+        <item quantity="other">%d日</item>
+    </plurals>
+    <plurals name="num_weeks">
+        <item quantity="other">%d週</item>
+    </plurals>
+    <plurals name="num_months">
+        <item quantity="other">%d月</item>
+    </plurals>
+    <plurals name="num_years">
+        <item quantity="other">%1$d年</item>
+    </plurals>
+    <!--The current progress of the firmware update string. For example:
+"Step 1 of 3: Downloading update from server"-->
+    <string name="no_app_to_open">沒有應用程序可以完成這個操作</string>
+    <string name="recommendation_desc">建議睡眠時間是根據您過去7天的睡眠時間計算。您前一天的活動和壓力水平也會影響建議的睡眠時間。 
+
+位於您年齡段的人群的正常睡眠持續時間從%1$d到%2$d%3$s小時,有所不同。</string>
+    <string name="search">搜索</string>
+    <string name="menu_user">資料</string>
+    <string name="menu_settings">設置</string>
+    <string name="enable_bluetooth">啟用藍牙以連接您的GoBe</string>
+    <string name="bluetooth_error">設備內部藍牙錯誤</string>
+    <!-- Location warning card -->
+    <string name="requires_location_services">在某些設備上,Android需要啟用位置服務才能通過Bluetooth LE查找GoBe。 HEALBE不使用您的位置數據。如果無法連接GoBe,請嘗試在智能手機上啟用定位服務。</string>
+    <string name="energy_help_title">能量平衡：有效信息</string>
+    <string name="water_help_title">水平衡：有效信息</string>
+    <string name="hearth_help_title">心臟：有效信息</string>
+    <string name="night_help_title">睡眠：實用資訊</string>
+    <string name="stress_help_title">壓力：有效信息</string>
+    <string name="check_internet_connection">檢查網路連接</string>
+    <string name="please_wait">請稍等</string>
+    <string name="week_report">每週報告</string>
+    <string name="query_too_short">查詢太短了</string>
+    <string name="range">範圍</string>
+    <string name="articles">文章</string>
+    <!--concatenatas with "The data may be incomplete". Used to describe graph incompleteness or other data loss. Please, make sure to leave space after dot if your locale uses such punctuation between two sentences.-->
+    <string name="something_updated">"你最近更新了你的GoBe,應用程序或智能手機。 "</string>
+    <!--Error, universal for fields-->
+    <string name="field_is_empty">這個字段不應為空</string>
+    <!--Dashboard. Week report. Water Balance subtitle-->
+    <string name="last_days_legend">最近7天的</string>
+    <!--Dashboard. Week report. Legend-->
+    <string name="average_legend">平均水平</string>
+    <!--Back button (used when user could go back to previous page/screen). Do not use words utilizing "Cancel" meaning as a synonym or translation-->
+    <string name="back_button">後面</string>
+    <!--Separator, used for e.g. in sequences like "Wed, Tue, Fri, ...". Please change to your target language's native punctuation mark.-->
+    <string name="comma_spacer">,</string>
+    <!--Separator, used for concatenation. Please change to your target language's native punctuation mark.-->
+    <string name="dot_spacer">。</string>
+    <!--Notification description-->
+    <string name="notification_charged">您的GoBe充滿電了。您可以開始戴了！</string>
+    <!--Time descriptor-->
+    <string name="earlier">早些</string>
+    <!--Time descriptor-->
+    <string name="last_week">上週</string>
+    <!--Error - no item chosen in a list. (item in this case is an option / tag etc. )-->
+    <string name="no_items_err">至少選擇一個項目。</string>
+    <!--Error - no option chosen in a picker.-->
+    <string name="no_option_err">選擇其中一個選項。</string>
+    <!--Error - app should be updated to proceed-->
+    <string name="app_upd_err">請更新應用程序或聯繫支持（%s）。</string>
+</resources>

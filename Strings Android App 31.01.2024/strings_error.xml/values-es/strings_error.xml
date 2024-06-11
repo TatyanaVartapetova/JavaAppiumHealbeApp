@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_services_not_installed">Los servicios de Google Play no están instalados. La acción no está disponible</string>
+    <string name="google_fit_sync_error">No se puede sincronizar Google Fit. Habilita la sincronización nuevamente</string>
+    <string name="google_fit_auth_error">No se puede iniciar sesión en Google Fit. Por favor, comprueba la conexión a Internet.</string>
+    <string name="an_error_occurred">Ocurrió un error</string>
+    <string name="e30_access_id_error">Error de identificación de acceso</string>
+    <string name="e31_get_access_id_error">Obtener error de identificación de acceso</string>
+    <string name="e32_login_or_password_wrong">Emparejamiento no válido: email-contraseña</string>
+    <string name="e33_user_exists">Esta dirección de correo electrónico ya está registrada. Si este es usted, por favor proceda a registrarse.</string>
+    <string name="e34_user_data_empty">Los datos del usuario están vacíos</string>
+    <string name="e35_user_not_exists">Usuario no existe</string>
+    <string name="e36_user_group_empty">El grupo de usuarios está vacío</string>
+    <string name="e37_too_much_wrong_tries">Realizaste demasiados intentos de inicio de sesión. El inicio de sesión está temporalmente bloqueado. Intenta nuevamente más tarde.</string>
+    <string name="e60_healbe_not_found">No se ha encontrado a GoBe</string>
+    <string name="e61_healbe_not_registered">GoBe no está registrado</string>
+    <string name="e62_healbe_already_registered">Este Healbe GoBe ya está registrado por otro usuario</string>
+    <string name="e65_already_exists">Ya existe</string>
+    <string name="e5_upload_failed">Falló la carga</string>
+    <string name="app_error_json_syntax_error">Error de respuesta del servidor. Vuelve a intentarlo más tarde o ponte en contacto con el soporte técnico en %s.</string>
+    <string name="invalid_age">La edad no puede ser menor de 18 años ni mayor de 100</string>
+    <string name="the_search_has_no_results">No hay resultados</string>
+    <string name="gobe_name_small_len_error">El nombre debe tener al menos 3 caracteres de longitud</string>
+    <string name="gobe_name_to_short_error">El nombre es demasiado corto</string>
+    <!--Name for spanish autoemail header-->
+    <string name="surveys_problem">Problema de las encuestas</string>
+    <!--Used to denote when we have problems with confirmation of user payment in AppStore or GooglePlay-->
+    <string name="getdone_payment_err_store">HEALBE GetDone asunto de confirmación de pago</string>
+    <!--Used to form email header for automatic email sender-->
+    <string name="getdone_payment_err">HEALBE GetDone asunto de pago</string>
+</resources>

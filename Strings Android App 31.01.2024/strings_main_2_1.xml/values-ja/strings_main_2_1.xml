@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Type of activity, calories burned while sitting+Basal metabolism-->
+    <string name="why_is_it_important">なぜ大事なのですか？</string>
+    <string name="collecting_data_continue_wearing">データ収集中です。GoBe3の装着を続けてください。</string>
+    <string name="collecting_data_description">GoBe3を装着する時間が長ければ長いほど、活動や摂取カロリー測定も上昇していきます。GoBe3を1日当たりに%1$s時間装着することをお勧めします。</string>
+    <string name="great_wearing">GoBeをしっかり着けていますね。この調子で続けてください！</string>
+    <string name="great_wearing_description">GoBe3を%1$s時間していただいたことで、GoBe3は活動や摂取カロリーに関する正確なデータを得ることができました。</string>
+    <string name="not_enough_data">十分なデータがありません。忘れずにGoBeを着けるようにしてください</string>
+    <string name="not_enough_data_description">GoBeを1日%1$sしか着けていません。活動量とカロリー摂取量の正確な推定に必要なデータが十分にないため、1日%2$s以上着用することを推奨します。</string>
+    <string name="show_all">すべて表示する</string>
+</resources>

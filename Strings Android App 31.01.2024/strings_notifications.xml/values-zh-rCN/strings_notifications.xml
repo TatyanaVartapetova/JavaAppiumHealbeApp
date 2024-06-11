@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_not_sync">您没有与GoBe同步%1$s。 请不要忘记同步您的数据。</string>
+    <string name="notification_not_weight">您已 %1$s 没添加体重。 为了更好地跟踪您的动态请添加您的当前体重。</string>
+    <!--Notifications section title-->
+    <string name="notif_title">活动</string>
+    <!--Notifications section. Error title. When no notifications found-->
+    <string name="no_notif_title">没有活动</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc1">在GoBe配对后,HEALBE开始发送方便的个人通知和建议。如果没有发生,请联系我们的客服支持</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc2">你的通知将出现在这里</string>
+    <!--Notifications section. Error. Button-->
+    <string name="contact_sup_bttn">联系支持</string>
+</resources>

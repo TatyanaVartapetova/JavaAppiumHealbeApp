@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_services_not_installed">Google Play Services are not installed, action is unavailable</string>
+    <string name="google_fit_sync_error">Cannot sync Google Fit, please enable sync again</string>
+    <string name="google_fit_auth_error">Cannot log in to Google Fit. Please check internet connection.</string>
+    <string name="error_loading_article" translatable="false">Error loading article</string>
+    <string name="an_error_occurred">An error occurred</string>
+    <string name="e30_access_id_error">Access id error</string>
+    <string name="e31_get_access_id_error">Get access id error</string>
+    <string name="e32_login_or_password_wrong">Wrong email or password</string>
+    <string name="e33_user_exists">This email address is already registered. If this is you, please proceed to sign in.</string>
+    <string name="e34_user_data_empty">User data is empty</string>
+    <string name="e35_user_not_exists">User does not exist</string>
+    <string name="e36_user_group_empty">User group is empty</string>
+    <string name="e37_too_much_wrong_tries">Too many log in attempts. Logging in is temporarily blocked. Try again later.</string>
+    <string name="e60_healbe_not_found">GoBe wasn\'t found</string>
+    <string name="e61_healbe_not_registered">GoBe is not registered</string>
+    <string name="e62_healbe_already_registered">GoBe is already registered</string>
+    <string name="e65_already_exists">Already exists</string>
+    <string name="e5_upload_failed">Upload failed</string>
+    <string name="app_error_json_syntax_error">Malformed server response error. Please, try again later or contact technical support at %s.</string>
+    <string name="invalid_age">Age cannot be lower than 18 and greater than 100</string>
+    <string name="the_search_has_no_results">the search has no results</string>
+    <string name="gobe_name_small_len_error">Name should be at least 3 characters</string>
+    <string name="gobe_name_to_short_error">Name is too short</string>
+    <!--Name for spanish autoemail header-->
+    <string name="surveys_problem">Surveys problem</string>
+    <!--Used to denote when we have problems with confirmation of user payment in AppStore or GooglePlay-->
+    <string name="getdone_payment_err_store">HEALBE GetDone payment confirmation issue</string>
+    <!--Used to form email header for automatic email sender-->
+    <string name="getdone_payment_err">HEALBE GetDone payment issue</string>
+</resources>

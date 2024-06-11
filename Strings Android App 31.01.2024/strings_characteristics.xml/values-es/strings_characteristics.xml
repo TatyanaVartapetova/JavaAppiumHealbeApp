@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="maximum">Máximo</string>
+    <string name="minimum">Mínimo</string>
+    <string name="current_pulse">Pulso actual</string>
+    <string name="sleep_average">Promedio de sueño</string>
+    <string name="awake_average">Promedio despierto</string>
+    <string name="blood_pressure">Presión sanguínea</string>
+    <string name="measure">Estimación</string>
+    <string name="no_data">Sin datos</string>
+    <string name="quality">Calidad</string>
+    <string name="current_level">Nivel actual</string>
+    <string name="recommendation">Recomendación</string>
+    <string name="duration">Duración</string>
+    <string name="awake">Despertares</string>
+    <string name="efficiency">Eficiencia</string>
+    <string name="intake">Ingesta</string>
+    <string name="burned">Quemado</string>
+    <string name="balance">Balance</string>
+    <string name="steps">Pasos</string>
+    <string name="walking">Andando</string>
+    <string name="running">Corriendo</string>
+    <string name="basal">Metabolismo basal</string>
+    <string name="basal_time">por usar GoBe por %1$s</string>
+    <string name="fat">Grasa</string>
+    <string name="nutrients_intake">Nutrientes</string>
+    <string name="carbohydrates">Carbohidratos</string>
+    <string name="protein">Proteína</string>
+    <plurals name="times">
+        <item quantity="one">%1$d vez</item>
+        <item quantity="other">%1$d veces</item>
+    </plurals>
+    <!--Pulse. Hint shown upon tapping the (i) button on average pulse metrice-->
+    <string name="pulse_sleepavg_hint">El pulso promedio de sueño se calcula en base al período de sueño más largo durante el día o la noche</string>
+</resources>

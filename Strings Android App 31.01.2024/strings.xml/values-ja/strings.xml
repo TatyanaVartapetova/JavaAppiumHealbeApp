@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_to_image">アプリを選択して写真をアップロード</string>
+    <string name="cancel">キャンセル</string>
+    <string name="ok">OK</string>
+    <string name="connection_error">GoBeに接続できませんでした。もう一度お試しください。</string>
+    <string name="close">閉じる</string>
+    <string name="end_time">終了時間</string>
+    <string name="update">インストール</string>
+    <string name="connect">接続</string>
+    <string name="disconnect">切断</string>
+    <string name="connected">接続済み</string>
+    <string name="warning">警告！</string>
+    <string name="enable">有効にする</string>
+    <string name="apply">適用</string>
+    <string name="date">日付</string>
+    <string name="time">時刻</string>
+    <string name="delete">削除</string>
+    <string name="confirm">確認</string>
+    <string name="logs_channel_name">HEALBEログ通知</string>
+    <string name="notifications_state_channel_name">GoBeステータス通知</string>
+    <string name="notifications_sync_channel_name">データ通知</string>
+    <string name="notifications_default_channel_name">初期設定通知</string>
+    <!--duration in minutes short form (10 min, 24 min)-->
+    <string name="num_m">%1$d分</string>
+    <!--duration in hours short form (5 h, 3 h)-->
+    <string name="num_h">%1$d時間</string>
+    <!--duration in days short form (3 d, 5 d)-->
+    <string name="num_d">%1$d日</string>
+    <!--duration in weeks short form (4 w, 9 w)-->
+    <string name="num_w">%1$d 週間</string>
+    <string-array name="genders">
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+    <plurals name="num_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="num_videos">
+        <item quantity="other">%1$d本の ビデオ</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%1$d 分</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d 時間</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">時間</item>
+    </plurals>
+    <plurals name="num_days">
+        <item quantity="other">%d 日</item>
+    </plurals>
+    <plurals name="num_weeks">
+        <item quantity="other">%d 週間</item>
+    </plurals>
+    <plurals name="num_months">
+        <item quantity="other">%d 月</item>
+    </plurals>
+    <plurals name="num_years">
+        <item quantity="other">%1$d 年</item>
+    </plurals>
+    <!--The current progress of the firmware update string. For example:
+"Step 1 of 3: Downloading update from server"-->
+    <string name="no_app_to_open">この操作を実行できるアプリがありません</string>
+    <string name="recommendation_desc">推奨睡眠時間は、あなたの過去7日間の睡眠時間に基づいています。 推奨睡眠時間は前日の活動とストレスレベルによっても影響されます。
+
+同年代の普通の睡眠期間は、%1$d～%2$d%3$sです。</string>
+    <string name="search">検索</string>
+    <string name="menu_user">プロフィール</string>
+    <string name="menu_settings">設定</string>
+    <string name="enable_bluetooth">GoBeと接続するにはBluetoothがオンである必要があります</string>
+    <string name="bluetooth_error">内部デバイスBluetooth LEエラー</string>
+    <!-- Location warning card -->
+    <string name="requires_location_services">デバイスによっては、Bluetooth LEを通じてのGoBe検索の為にAndroidは位置情報へのアクセスを要求する場合があります。GoBeへの接続ができない場合、スマホ上の「位置情報」を有効にするのをお試しください。</string>
+    <string name="energy_help_title">エネルギーバランス：お役立ち情報</string>
+    <string name="water_help_title">水分バランス：お役立ち情報</string>
+    <string name="hearth_help_title">心臓：お役立ち情報</string>
+    <string name="night_help_title">睡眠：お役立ち情報</string>
+    <string name="stress_help_title">ストレス：お役立ち情報</string>
+    <string name="check_internet_connection">インターネット接続を確認してください</string>
+    <string name="please_wait">お待ちください</string>
+    <string name="week_report">週間レポート</string>
+    <string name="query_too_short">クエリが短すぎます！</string>
+    <string name="range">範囲</string>
+    <string name="articles">記事</string>
+    <!--concatenatas with "The data may be incomplete". Used to describe graph incompleteness or other data loss. Please, make sure to leave space after dot if your locale uses such punctuation between two sentences.-->
+    <string name="something_updated">"お使いのGoBe、HEALBE公式アプリまたはお使いのスマートフォンのアップデートを完了しました。 "</string>
+    <!--Error, universal for fields-->
+    <string name="field_is_empty">このフィールドは空白にしておくことができません</string>
+    <!--Dashboard. Week report. Water Balance subtitle-->
+    <string name="last_days_legend">過去7日間</string>
+    <!--Dashboard. Week report. Legend-->
+    <string name="average_legend">平均レベル</string>
+    <!--Back button (used when user could go back to previous page/screen). Do not use words utilizing "Cancel" meaning as a synonym or translation-->
+    <string name="back_button">戻る</string>
+    <!--Separator, used for e.g. in sequences like "Wed, Tue, Fri, ...". Please change to your target language's native punctuation mark.-->
+    <string name="comma_spacer">、</string>
+    <!--Separator, used for concatenation. Please change to your target language's native punctuation mark.-->
+    <string name="dot_spacer">。</string>
+    <!--Notification description-->
+    <string name="notification_charged">GoBeがフル充電されました。装着頂けます！</string>
+    <!--Time descriptor-->
+    <string name="earlier">過去の通知</string>
+    <!--Time descriptor-->
+    <string name="last_week">先週の通知</string>
+    <!--Error - no item chosen in a list. (item in this case is an option / tag etc. )-->
+    <string name="no_items_err">少なくとも項目を1つ選択してください。</string>
+    <!--Error - no option chosen in a picker.-->
+    <string name="no_option_err">オプションを一つ選択してください。</string>
+    <!--Error - app should be updated to proceed-->
+    <string name="app_upd_err">アプリをアップデートして下さい。又は、HEALBEユーザーサポートセンター  に連絡してください(%s)。</string>
+</resources>

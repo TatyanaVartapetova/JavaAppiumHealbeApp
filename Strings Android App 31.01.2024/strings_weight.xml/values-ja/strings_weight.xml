@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_weight">現在の体重</string>
+    <string name="current_progress">体重変化</string>
+    <string name="your_weight_goal">目標体重</string>
+    <string name="setup_weight_goal">目標体重を選択</string>
+    <string name="select_a_plan">プランを選択</string>
+    <string name="last_weights">体重の履歴</string>
+    <string name="show_all_weights">すべての体重データを表示</string>
+    <string name="goals_history">目標履歴</string>
+    <string name="by_">%1$sまで</string>
+    <string name="since_">%1$s以来(%2$s)</string>
+    <string name="add_weight">体重測定</string>
+    <string name="no_weight_data_for_period">この期間、体重測定が行われませんでした</string>
+    <string name="weight_history">体重履歴</string>
+    <string name="no_weight_data">データなし</string>
+    <string name="no_weight_data_available">体重データがありません</string>
+    <string name="cancel_goal">目標を取り消す</string>
+    <string name="new_goal">新しい目標</string>
+    <string name="time_to_track_weight">体重の追跡を始めましょう</string>
+    <string name="connect_google_fit">Google Fitに接続して、身体データを一か所にまとめましょう</string>
+    <string name="connect_google_fit_btn">Google Fitに接続する</string>
+    <string name="lets_go">はい、開始します！</string>
+    <string name="weight_too_high">少なくとも現在の体重の%d%%以上であれば、最小限の目標で始めてもOKです。HEALBEは現在、減量目標のみをサポートしています</string>
+    <string name="it_is_your_weight">これはあなたの現在の体重ですか？</string>
+    <string name="track_it_automatically">自動的に追跡する</string>
+    <string name="weight_too_low">着実に頑張りましょう。 目標体重%1$sに到達してから次の目標に進みましょう</string>
+    <string name="recommended_goal">体重は徐々に減らすようにしましょう。あなたの現在のコンディションに基づいた、安全で実現可能な目標は%1$s～%2$sです</string>
+    <string name="lazy">ライト</string>
+    <string name="lazy_desc">最小限の努力で目標を%1$sで達成</string>
+    <string name="comfortable">らくらく</string>
+    <string name="comfortable_desc">目標を%1$sで達成（推奨）</string>
+    <string name="extreme">短期</string>
+    <string name="extreme_desc">習慣を管理して目標を%1$sで達成</string>
+    <string name="start_lose_it">開始</string>
+    <string name="weight_goal_is">あなたの目標体重は</string>
+    <string name="weight_empty_error">目標体重は必須です</string>
+    <string name="way_to_lose_weight">%2$sで%1$sの減量が目標ですね</string>
+    <string name="cannot_select_time">測定時間を未来に設定することはできません</string>
+    <string name="occurrence_underweight">あなたの体重は軽すぎます</string>
+    <string name="occurrence_underweight_desc">あなたのBMI値は正常値を下回っています。あなたと同じ身長の最適な体重は%1$sを超える体重です。</string>
+    <string name="occurrence_fast_loose">急激に減量しないように気をつけましょう</string>
+    <string name="occurrence_fast_loose_desc">1週あたり%1$sを超える減量は危険です。健康を損なう恐れがあります。</string>
+    <string name="occurrence_slow_loose">もう少し頑張れますね</string>
+    <string name="occurrence_slow_loose_desc">目標を達成するためにもう少し頑張りましょう。マイペースを守りながら、摂取カロリーを少なめにして、運動量を増やしましょう。</string>
+    <string name="occurrence_time_to_weight">体重計測の時間です</string>
+    <plurals name="occurrence_time_to_weight_desc">
+        <item quantity="other">%d日間体重計測を行っていません</item>
+    </plurals>
+    <string name="occurrence_week_left">残り１週間</string>
+    <string name="occurrence_week_left_desc">目標達成まで残り1週間となりました。急ぎましょう！</string>
+    <string name="occurrence_goal_difficult">目標達成は困難です</string>
+    <string name="occurrence_goal_difficult_desc">%2$sまでに安全に%1$sに達成することはできなくなりました。</string>
+    <string name="occurrence_goal_half">あなたは、%2$s中%1$s減量しました</string>
+    <string name="occurrence_goal_half_desc">この調子で頑張りましょう。ゴールは目の前です！</string>
+    <string name="occurrence_goal_not_reached">目標達成できませんでした</string>
+    <string name="occurrence_goal_not_reached_desc">時間切れとなりました。より達成しやすい目標を設定しましょう。</string>
+    <string name="occurrence_goal_reached">目標に達成しました！</string>
+    <plurals name="occurrence_goal_reached_desc">
+        <item quantity="other">あなたは %2$s 減量できました。%1$d日で %3$s になりました。</item>
+    </plurals>
+    <string name="setup_new_goal">新しい目標</string>
+    <string name="source_gfit">Google Fit</string>
+    <string name="source_apple_health">Appleヘルスケア</string>
+    <string name="source_healbe">HEALBE</string>
+    <string name="source_withings">Withings / Nokia</string>
+    <string name="source_validic">Validic</string>
+    <string name="source_unknown">不明</string>
+    <string name="goal_reached">到達</string>
+    <string name="goal_not_reached">未到達</string>
+    <string name="goal_cancelled">キャンセル済</string>
+    <!--Weight. Not-new goal CTA button-->
+    <string name="add_goal">目標体重を設定</string>
+    <!--Weight. No data state-->
+    <string name="weigh_regularly_to_keep_track_our_body_weight">定期的に体重を測定し、ここで成果を確認しましょう</string>
+    <!--Weight. Goal achieved screen. Button-->
+    <string name="hooray">やったあ！</string>
+    <!--Weight. Goal setup screen. Desc-->
+    <string name="if_want_control_body_need_measure_it">スタート地点を知ることは、変化を促進させる良いステップ！</string>
+    <!--Weight. Main screen section title-->
+    <string name="previous_weights">前回の計量履歴</string>
+    <!--Weight. Goal achieved screen. Title-->
+    <string name="сongratulations">おめでとうございます！</string>
+</resources>

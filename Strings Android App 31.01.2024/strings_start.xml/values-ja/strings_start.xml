@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="welcome_name">%sさん、ようこそ!</string>
+    <string name="bluetooth_is_off">Bluetooth無効</string>
+    <string name="bluetooth_is_on">Bluetoothがオンです</string>
+    <string name="you_need_bluetooth">GoBeと接続するにはBluetoothが\nオンである必要があります</string>
+    <string name="continue_start">続行</string>
+    <string name="turn_on_bluetooth">Bluetoothを起動する</string>
+    <string name="start_search">検索開始</string>
+    <string name="searching_devices_nearby">近くのデバイスを探しています…</string>
+    <string name="query_error">ネットワークエラーです。ネットワーク接続を確認するか、後でもう一度やり直してください。</string>
+    <string name="repeat_search">検索を繰り返す</string>
+    <string name="make_sure">GoBeが携帯電話の近くにあり、電源が入っていることを確認してください。</string>
+    <string name="gobe_wristband_name">あなたのGoBeの名前</string>
+    <string name="body_measurements">体測値</string>
+    <string name="setup_pin">PINコードの設定</string>
+    <string name="pin_helper">データの安全を確保するのに使用する6桁のPINコードを作成します</string>
+    <string name="pins_different">入力されたPINコードが同じではありません</string>
+    <string name="pins_is_default">「000000」は使用できません</string>
+    <string name="enter_pin">GoBeのPINコードを入力してください</string>
+    <string name="restore_pin">PINコードのリセット</string>
+    <string name="pin_required">GoBeのPINコードが一致しません。GoBeにアクセスするにはPINコードを更新してください。</string>
+    <string name="new_pin_required">GoBeのPINコードが設定されていません。GoBeにアクセスするには新しいPINコードを入力してください。</string>
+    <string name="forgot_pin">PINコードをお忘れですか？</string>
+    <string name="enter_puk">こちらにGoBeのPUKコードを入力してください</string>
+    <string name="puk_code">PUKコード</string>
+    <string name="not_have_puk_code">PUKコードがありませんか？</string>
+    <string name="incorrect_puk">PUKコードが正しくありません</string>
+    <string name="pin_restored">PINコードがリセットされました</string>
+    <string name="confirm_helper">確認のため、PINコードを再入力してください</string>
+    <string name="puk_sent">PUKコードは、数分後に、(一番最初に登録した)Eメールアドレスに送信されます。そのコードをコピーして上の入力欄に貼り付けてください。</string>
+    <string name="support">サポート</string>
+    <string name="retry">再試行</string>
+    <string name="fw_lost_connection">GoBeとのコネクション喪失</string>
+    <string name="fw_final_error">アップデートに失敗しました</string>
+    <string name="fw_final_error_stat">エラーが繰り返される場合\nサポートチームまでお問い合わせ\nください: %s。</string>
+    <string name="fw_begin_error_stat">サポートチームまでお問い合わせ\nください: %s</string>
+    <string name="warn_permission">HEALBEアプリからの位置情報へのアクセスが拒否されました。</string>
+    <string name="email_fw_sup">デバイスのファームウェア認証に失敗しました</string>
+    <string name="available">利用可能</string>
+    <string name="no_updates">アップデートはありません</string>
+    <string name="сharge_not_enough">お使いのGoBeの充電量がアップデートを始めるのに十分ではありません。アップデートを始めるには、GoBeを充電器に接続してください</string>
+    <string name="or_enable_location_services">または位置情報サービスを有効にする</string>
+    <plurals name="n_updates_avail">
+        <item quantity="other">%d アップデート</item>
+    </plurals>
+    <string name="select_gobe_device">接続するGoBeデバイスを選択してください:</string>
+    <string name="pin_helper_connect">GoBeは、アクティベーション中に設定されたPINコードで保護されています</string>
+    <!--Quick start. title of quick start scenario-->
+    <string name="welcome_title">GoBeを使用する準備をしてください：</string>
+    <!--Quick start. alghorythm - step 1-->
+    <string name="welcome_1st_step">デバイスの保護フィルムをすべて外します</string>
+    <!--Quick start. alghorythm - step 2-->
+    <string name="welcome_2nd_step">充電ケーブルをGoBeに接続してください</string>
+    <!--Quick start. alghorythm - step 3-->
+    <string name="welcome_3rd_step">充電ケーブルを充電器のUSBポートに接続してください</string>
+    <!--Quick start. description under CONTINUE button-->
+    <string name="gobe3_charge_advice">充電器が接続されると、GoBe3は自動的にオンになります。</string>
+    <!--Start screen. title -->
+    <string name="start_screen_title">バージョンアップした\n自分に会える👋</string>
+    <!--Start screen. desc, 1st part of the "please, sign in to continue or | create an account| " phrase -->
+    <string name="start_screen_desc">サインインして続行する\nか</string>
+    <!--Start screen. desc, 2nd part of the "please, sign in to continue or | create an account| " phrase. shown as a link-like button -->
+    <string name="start_screen_signup">アカウントを作成してください</string>
+    <!-- Update wizard. Desc shown if update is critical -->
+    <string name="update_install_needed">最新のアップデートが提供されていますので、GoBe経験を改善するためにインストールすることをお勧めします</string>
+    <!-- Quick start. Successful onnection screen title-->
+    <string name="connect_gobe">GoBeを接続する</string>
+    <!-- Quick start. Unsuccessful onnection screen. Button for showing short advices -->
+    <string name="tips_button">ヒント</string>
+    <!-- Quick start. GoBe connection screen. Short description shown after the search is performed -->
+    <string name="search_complete">検索が完了しました</string>
+    <!-- Quick start. GoBe connection screen. If user has paired GoBe already, this warning is shown -->
+    <string name="unpair_warning">GoBe\"%1$s\"に接続しようとしています。以前接続したGoBe\"%2$s\"は忘れられます。</string>
+    <!-- Quick start. Connection state-->
+    <string name="searching">検索…</string>
+    <!-- Quick start. Button for advices and suggestions-->
+    <string name="understood">了解</string>
+    <!-- Quick start. Title for geolocation request-->
+    <string name="geo_request">位置情報サービスを有効にします</string>
+    <!-- Quick start. Title for disconnect request-->
+    <string name="disconnect_request">ほかのデバイスを切断してください</string>
+    <!-- Quick start. Advice on turning on gobe2-->
+    <string name="gobe2_advice">GoBe2をオンにするには、本体横のボタンをデバイスが振動して「HELLO」または「SYNC」のメッセージが表示されるまで長押し（3秒間）します。</string>
+    <!-- Quick start. Advice on disconnecting all the devices bt current one-->
+    <string name="multiconnection_advice">GoBeは既に他のデバイスへの接続済みの状態の場合、使用したいスマートフォンには接続できません。GoBeが、HEALBEアプリを通して、またBluetooth既定メニューで他のデバイスに接続されていないことをお確かめください。</string>
+    <!-- Quick start. Title for the support screen-->
+    <string name="contact_support">サポートチームまでお問い合わせ ください</string>
+    <!-- Quick start. Desc for the support screen-->
+    <string name="contact_support_desc">あなただけでは問題を解決できませんでしたか？私たちのサポートチームに書いてください。HEALBE Customer Careのスペシャリストが喜んでお手伝いします！</string>
+    <!-- Quick start. Title for the quick start - connection screen-->
+    <string name="connect_your_gobe">GoBeを接続する</string>
+    <string name="checking_updates">更新プログラムの確認中…</string>
+    <!-- Update. Update unavailable description 1st part. Concatenates with other string into "The latest updates have to be installed to continue working with GoBe .Contact our support team\nat %s-->
+    <string name="update_unavailable_desc">GoBeを引き続き使用するには、最新の更新プログラムをインストールする必要があります。サポートチーム（%s）にお問い合わせください。</string>
+    <string name="firmware_success_notif">GoBeのアップデートが完了しました。</string>
+    <string name="firmware_fail_notification">GoBeのアップデートに失敗しました。HEALBEアプリに戻って詳細をご確認ください。</string>
+    <!--Firmware update. Insufficient charge title.-->
+    <string name="charge_gobe_title">充電器を接続してください</string>
+</resources>

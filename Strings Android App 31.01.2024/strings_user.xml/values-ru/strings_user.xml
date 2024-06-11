@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_out_popout">Выйти</string>
+    <string name="sleep_duration">Длительность сна</string>
+    <string name="weight_error">На настоящий момент HEALBE GoBe может работать только с весом от %1$s до %2$s</string>
+    <string name="wrong_params">Неверный логин или пароль</string>
+    <string name="pass_restored">Пожалуйста, проверьте свою почту. Мы уже отправили вам инструкцию по сбросу пароля!</string>
+    <!--Toast, so place for translation is virtually unlimited-->
+    <string name="email_registered">Пользователь с таким email уже зарегистрирован. Если это вы, пожалуйста, войдите в приложение.</string>
+    <string name="height">Рост</string>
+    <string name="volume">Объем</string>
+    <string name="distance">Расстояние</string>
+    <string name="length">Рост и длина</string>
+    <string name="step">Длина шага</string>
+    <string name="weight">Вес</string>
+    <string name="glass_volume">Объем стакана воды</string>
+    <string name="height_error">Рост должен быть между %1$s и %2$s</string>
+    <string name="step_error">Длина шага должна быть между %1$s и %2$s</string>
+    <string name="wristband_will_be_reset_error">Это действие приведет к перезагрузке GoBe. Продолжить?</string>
+    <string name="last_name_is_empty">Поле \"Фамилия\" не может быть пустым</string>
+    <string name="restore">Сбросить</string>
+    <string name="restore_password">Сброс пароля</string>
+    <string name="wrong_symbols">"Использованы недопустимые символы. Используйте только буквы, пробелы и символы в скобках (\' ` -)"</string>
+    <string name="name_is_empty">Поле \"Имя\" не может быть пустым</string>
+    <string name="step_len_empty_error">Поле \"Длина шага\" не может быть пустым</string>
+    <string name="height_empty_error">Поле \"Рост\" не может быть пустым</string>
+    <string name="edit_profile">Редактирование</string>
+    <string name="gender">Пол</string>
+    <string name="date_of_birth">Дата рождения</string>
+    <string name="password">Пароль</string>
+    <string name="email">Email</string>
+    <string name="forgot">Забыли пароль?</string>
+    <string name="privacy_address">https://healbe.com/privacy/?utm_source=android_app&amp;utm_medium=privacy</string>
+    <string name="privacy">Условиями использования и Политикой конфиденциальности</string>
+    <string name="by_signing_up">Регистрируясь, вы соглашаетесь с 
+
+%s</string>
+    <string name="will_log_out">Вы собираетесь выйти из своего аккаунта. Вы уверены?</string>
+    <string name="sign_out">Выйти из аккаунта</string>
+    <string name="sign_in">Войти</string>
+    <string name="or_sign_in">или войдите</string>
+    <string name="create_account">Создайте аккаунт</string>
+    <string name="or_create">или зарегистрируйтесь</string>
+    <string name="password_error">Пароль должен содержать как минимум 4 символа</string>
+    <string name="login_error">Некорректный формат поля email</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="city">Город</string>
+    <string name="country">Страна</string>
+    <string name="continue_text">Продолжить</string>
+    <string name="last_name">Фамилия</string>
+    <string name="first_name">Имя</string>
+    <string name="please_check_fields_is_correct">"Проверьте правильность заполнения полей"</string>
+    <string name="please_fill_your_profile">Заполните Профиль</string>
+    <string name="buy_address">https://healbe.com/store/?utm_source=android_app&amp;utm_medium=store</string>
+    <string name="buy_link">Купить</string>
+    <!--Link title with call to action — like «Forgot password?». «%s» here will be replaced with «>» arrow symbol.-->
+    <string name="buy_it">Ещё нет GoBe? %s!</string>
+    <string name="login_healbe">Войдите в свой аккаунт HEALBE</string>
+    <!--Profile. Delete profile button-->
+    <string name="profile_delete">Удалить профиль</string>
+    <!--Profile. Delete warning title-->
+    <string name="action_warning">Вы уверены?</string>
+    <!--Profile. Delete warning description-->
+    <string name="profile_delete_desc">Пожалуйста, продолжайте, только если вы действительно хотите удалить профиль HEALBE и все свои данные.</string>
+    <!--Profile. Delete success title-->
+    <string name="profile_delete_success">Ваш профиль будет безвозвратно удалён в течение 30 дней после подтверждения.</string>
+    <!--Profile. Delete success description-->
+    <string name="profile_delete_success_desc">Вы можете продолжать использовать приложение HEALBE до тех пор, пока данные не будут удалены. Это произойдёт в течение следующих 30 дней. Если вы передумаете до того момента, как профиль будет удалён, просто напишите нам через чат в приложении или на почту %s.</string>
+    <!--Profile. Delete photo button-->
+    <string name="photo_delete">Удалить фото</string>
+    <!--Profile. Take photo button-->
+    <string name="photo_take">Сделать фото</string>
+    <!--Profile. Go to Library button-->
+    <string name="photo_choose">Выбрать из Галереи</string>
+</resources>

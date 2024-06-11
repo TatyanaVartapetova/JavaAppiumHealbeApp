@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="energy_header">能量平衡</string>
+    <!-- String in format "n steps, h hour m minutes active" -->
+    <string name="energy_activity_info_full">%1$s,%2$s活跃</string>
+    <!-- String in format "h hour m minutes active" -->
+    <string name="energy_activity_info_only_active">%s活跃</string>
+    <string name="hydration_header_cur">水合作用</string>
+    <string name="hydration_header">水平衡</string>
+    <string name="pulse_header">脉冲</string>
+    <string name="pulse_header_cur">当前脉冲</string>
+    <string name="night_header">睡眠</string>
+    <string name="stress_header">压力</string>
+    <string name="stress_header_cur">当前压力</string>
+    <string name="weight_header">体重</string>
+    <string name="current_header">当前数值</string>
+    <string name="last_header">上次数值</string>
+    <string name="may_take_up_to_hour">可能需要花费1小时</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="dashboard_menu">仪表板</string>
+    <string name="settings_menu">设置</string>
+    <string name="needs_bluetooth">HEALBE应用需要通过蓝牙操纵您的GoBe</string>
+    <string name="again">重试</string>
+    <string name="exit_app">退出应用</string>
+    <string name="device_not_linked">设备未配对</string>
+    <string name="no_sensor_data">没有传感器数据</string>
+    <string name="not_wear">这一天没有佩戴GoBe</string>
+    <string name="no_contact">检查传感器接触</string>
+    <string name="time_to_add_weight">增重时间</string>
+    <string name="charge_your_gobe">给您的GoBe充电</string>
+    <string name="battery_level">电量：%d%%</string>
+    <string name="smart_alarm">智能闹钟</string>
+    <string name="by_time_in_zero">按时间</string>
+    <string name="by_time_in">按时间,%s后</string>
+    <string name="by_quality_dash">按质量</string>
+    <string name="upcoming">即将来临</string>
+    <string name="last_weight_in">上次称体重</string>
+    <!--average pulse during awake-->
+    <string name="awake_avg">今日脉搏：%d</string>
+    <!--average pulse during asleep-->
+    <string name="asleep_avg">睡眠脉搏：%d</string>
+    <!--average pulse during awake for weeks -->
+    <string name="awake_pulse">清醒</string>
+    <!--average pulse during asleep for weeks -->
+    <string name="asleep_pulse">睡着</string>
+    <string name="healbe_support">HEALBE支持</string>
+    <string name="if_you_have">通过应用内聊天或电邮联系 HEALBE 客户服务支持团队</string>
+    <string name="support_mail">gobe@healbe.com</string>
+    <string name="advice_title">建议</string>
+    <string name="advice_ble_error">在一些安卓设备上,通过蓝牙LE连接可能有问题。如果您无法连接GoBe,尝试在手机上重新启动蓝牙或重新启动设备。</string>
+    <string name="advice_no_contact">如果GoBe传感器与皮肤无接触或接触不良,请扣紧腕带,或者用湿巾清洁接触面。</string>
+    <string name="rate_header">请赐予五星好评</string>
+    <string name="rate_text">在应用程序商店中为我们的安卓应用评分,以支持我们的开发团队,帮助我们不断改进应用。</string>
+    <string name="rate_btn">为HEALBE应用评分</string>
+    <string name="don_t_show_this_again">不再显示</string>
+    <string name="average_per_day">平均每天</string>
+    <!--Title for Heart section. Seen in Dashboard -> Heart-->
+    <string name="heart_title">心</string>
+    <!--Dashboard. State of wearing advice. Shown when > 22 hours of wearing -->
+    <string name="timestate_great">您穿它很棒！我们收集了足够的数据。现在,我们拥有了一切需要的为了准确估计每日活动和卡路里摄入量。</string>
+    <!--Dashboard. State of Water balance level. Shown when water level rises-->
+    <string name="water_goes_up">水位上升</string>
+    <!--Dashboard. State of Water balance level. Shown when water level falls-->
+    <string name="water_goes_down">水位下降</string>
+    <!--Dashboard. Daily reports section. Inside the section one could learn more about day-by-day results-->
+    <string name="daily_reports">每日报告</string>
+    <!--Support Button-->
+    <string name="support_button">联系我们</string>
+    <!--Dashboard. State of wearing advice. Shown when > 22 hours of wearing-->
+    <string name="timestate_not_worn">试着每天戴上您的GoBe至少%1$s。 在这种情况下,我们能够尽可能准确地估计热量摄入和燃烧。</string>
+    <!--Dashboard. Stress daily accumulation subtitle-->
+    <string name="day_accumulated">平均每天累计</string>
+    <!--Dashboard. Stress daily accumulation subtitle-->
+    <string name="no_accumulated">无累积的压力</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="balance_positive">正</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="balance_negative">负</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="balance_zero">零</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="not_worn">短时间佩戴</string>
+    <!--Dashboard. State of wearing advice. Shown when > 22 hours of wearing-->
+    <string name="timestate_collect">我们正在收集数据. 请继续整天佩戴您的GoBe为最准确的测量!</string>
+    <!--Dashboard. GoBe State-->
+    <string name="reset_pin">请重置PIN码</string>
+    <!--Dashboard. Week report. Stress legend-->
+    <string name="legend_balance">平衡</string>
+    <!--Dashboard. Week report. Stress legend-->
+    <string name="legend_fatigue">疲劳</string>
+    <!--Dashboard. Week report. Stress legend-->
+    <string name="legend_exhaustion">衰竭</string>
+    <!--Dashboard. Week report. Stress title while balanced-->
+    <string name="balanced_stress">均衡压力</string>
+    <!--Dashboard. Week report. legend markup-->
+    <string name="average_level">平均水平</string>
+    <!--Dashboard. Week report. legend markup-->
+    <string name="sleep_legend">睡眠质量：</string>
+    <!--Separation symbol. May be used for separating strings like [4 wake-ups | 42 min]-->
+    <string name="special_sep">%1$s - %2$s</string>
+    <!--Week reports. Legend. Dangerous Stress-->
+    <string name="danger_legend">危险</string>
+    <!--Dashboard. Week report legend-->
+    <string name="above_stress">高于正常值</string>
+    <!--Dashboard. Sleep desc. Concatenates into "n times · n% quality"-->
+    <string name="sleep_overall_quality">%s · %d%%质量</string>
+    <string name="confirm_email_suggestion">请检查你的电邮%s并验证以使你的帐户更安全,更容易恢复。</string>
+    <string name="resend_email_confirmation">重新发送电邮</string>
+    <!--Wearing time widget. Title descripting good wearing-->
+    <string name="timestate_great_title">足够的佩戴时间</string>
+    <!--Wearing time widget. Title descripting not enough wearing-->
+    <string name="timestate_collect_title">GoBe需要更多佩戴时间</string>
+    <!--Wearing time widget. Title descripting bad wearing time-->
+    <string name="timestate_not_worn_title">佩戴时间不足</string>
+    <!--Wearing time widget. Description for bar with 24-hour wearing time-->
+    <string name="wearbar_description">过去24小时的GoBe佩戴时间：</string>
+    <!--Upcoming alarm cell notification-->
+    <string name="upcoming_alarm_cell">智能报警设置为%1$s</string>
+    <!--GoBe charging notification-->
+    <string name="gobecharge_cell">充电你的GoBe以最大程度地收集数据</string>
+    <!--Dashboard. Insights cell title-->
+    <string name="insights_main_title">分析</string>
+    <!--Dashboard. Insights cell desc-->
+    <string name="insights_dash_desc">指标关联</string>
+    <!--GetDone. Name of a service-->
+    <string name="getd_name">HEALBE GetDone</string>
+    <!--GetDone. Main call to action-->
+    <string name="getd_CTA">使用HEALBE GetDone付费订阅版本实现目标的指南</string>
+    <!--GetDone. Placeholder for a picker-->
+    <string name="getd_placeholder">选择您的目标</string>
+    <!--GetDone. Additional call to action-->
+    <string name="getd_CTA2">与我们的专家一起学习如何实现目标</string>
+    <!--GetDone. Description for a  service screen-->
+    <string name="getd_desc">选择最舒适的方式来达成目标</string>
+    <!--GetDone. Button for subscription-->
+    <string name="getd_buybttn">购买订阅</string>
+    <!--Title in stress section.-->
+    <string name="stresslevels_title">压力水平</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_services_not_installed">未安装Google Play服务,此操作不可用</string>
+    <string name="google_fit_sync_error">无法与Google 健身同步,请重新开启同步</string>
+    <string name="google_fit_auth_error">无法登录Google 健身。 请检查互联网连接。</string>
+    <string name="an_error_occurred">出现错误</string>
+    <string name="e30_access_id_error">访问ID错误</string>
+    <string name="e31_get_access_id_error">获取访问ID错误</string>
+    <string name="e32_login_or_password_wrong">电子邮件或密码的错误</string>
+    <string name="e33_user_exists">此邮箱地址已被注册,若是本人,请登入。</string>
+    <string name="e34_user_data_empty">用户数据为空</string>
+    <string name="e35_user_not_exists">用户不存在</string>
+    <string name="e36_user_group_empty">用户组为空</string>
+    <string name="e37_too_much_wrong_tries">登录尝试次数过多。 暂时阻止登录。请稍后再试。</string>
+    <string name="e60_healbe_not_found">找不到GoBe</string>
+    <string name="e61_healbe_not_registered">未注册GoBe</string>
+    <string name="e62_healbe_already_registered">已注册GoBe</string>
+    <string name="e65_already_exists">已存在</string>
+    <string name="e5_upload_failed">上传失败</string>
+    <string name="app_error_json_syntax_error">服务器响应格式错误。请稍后再试或联系技术支持（%s）。</string>
+    <string name="invalid_age">年龄不能低于18岁或超过100岁</string>
+    <string name="the_search_has_no_results">搜索没有结果</string>
+    <string name="gobe_name_small_len_error">名称应包含至少3个字符</string>
+    <string name="gobe_name_to_short_error">名称太短</string>
+    <!--Name for spanish autoemail header-->
+    <string name="surveys_problem">调查问题</string>
+    <!--Used to denote when we have problems with confirmation of user payment in AppStore or GooglePlay-->
+    <string name="getdone_payment_err_store">HEABLE GetDone付款确认问题</string>
+    <!--Used to form email header for automatic email sender-->
+    <string name="getdone_payment_err">HEALBE GetDone付款问题</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="energy_header">エネルギーバランス</string>
+    <!-- String in format "n steps, h hour m minutes active" -->
+    <string name="energy_activity_info_full">%1$s, %2$sアクティブ</string>
+    <!-- String in format "h hour m minutes active" -->
+    <string name="energy_activity_info_only_active">%sアクティブ</string>
+    <string name="hydration_header_cur">水分</string>
+    <string name="hydration_header">水分バランス</string>
+    <string name="pulse_header">脈拍</string>
+    <string name="pulse_header_cur">現在の脈拍</string>
+    <string name="night_header">睡眠</string>
+    <string name="stress_header">ストレス</string>
+    <string name="stress_header_cur">現在のストレス</string>
+    <string name="weight_header">体重</string>
+    <string name="current_header">現在の数値</string>
+    <string name="last_header">前回の数値</string>
+    <string name="may_take_up_to_hour">最大1時間を要する場合があります</string>
+    <string name="edit">編集</string>
+    <string name="save">保存</string>
+    <string name="dashboard_menu">ダッシュボード</string>
+    <string name="settings_menu">設定</string>
+    <string name="needs_bluetooth">HEALBEアプリはGoBeと連携するためにBluetoothが必要です</string>
+    <string name="again">再試行</string>
+    <string name="exit_app">アプリを終了する</string>
+    <string name="device_not_linked">ペアなし</string>
+    <string name="no_sensor_data">センサーデータがありません</string>
+    <string name="not_wear">この日GoBeが装着されていませんでした</string>
+    <string name="no_contact">センサーとの接触を確認</string>
+    <string name="time_to_add_weight">体重を追加する時間です</string>
+    <string name="charge_your_gobe">GoBeを充電してください</string>
+    <string name="battery_level">バッテリー残量: %d%%</string>
+    <string name="smart_alarm">スマートアラーム</string>
+    <string name="by_time_in_zero">時刻で</string>
+    <string name="by_time_in">時刻で、%s以内</string>
+    <string name="by_quality_dash">睡眠の質で</string>
+    <string name="upcoming">今後</string>
+    <string name="last_weight_in">前回の体重測定</string>
+    <!--average pulse during awake-->
+    <string name="awake_avg">覚醒平均: %d</string>
+    <!--average pulse during asleep-->
+    <string name="asleep_avg">睡眠時平均: %d</string>
+    <!--average pulse during awake for weeks -->
+    <string name="awake_pulse">覚醒</string>
+    <!--average pulse during asleep for weeks -->
+    <string name="asleep_pulse">睡眠時</string>
+    <string name="healbe_support">HEALBE サポート</string>
+    <string name="if_you_have">アプリチャット、またはEメールでHEALBEサポートセンターまでお気軽にお問い合わせください。</string>
+    <string name="support_mail">support-jp@healbe.com</string>
+    <string name="advice_title">アドバイス</string>
+    <string name="advice_ble_error">一部のAndroid端末では、Bluetooth LE 経由で接続する際に問題が発生する場合があります。 GoBeを接続できない場合、スマートフォンのBluetooth機能を一度停止し再起動するか、端末を再起動してください。</string>
+    <string name="advice_no_contact">センサーが皮膚に接触していない、または正しく接触していない場合は、ストラップをしっかりと締めてみるか、ウェットティッシュで接触面を拭いてみてください。</string>
+    <string name="rate_header">アプリ品質向上への取り組み</string>
+    <string name="rate_text">アプリストアで弊社のAndroidアプリを評価して、開発チームがアプリを改善し、より良いものにすることができるようご協力ください。</string>
+    <string name="rate_btn">HEALBE アプリを評価する</string>
+    <string name="don_t_show_this_again">今後表示しない</string>
+    <string name="average_per_day">1日あたりの平均</string>
+    <!--Title for Heart section. Seen in Dashboard -> Heart-->
+    <string name="heart_title">心臓</string>
+    <!--Dashboard. State of wearing advice. Shown when > 22 hours of wearing -->
+    <string name="timestate_great">正しい装着により十分なデータが収集できました！これで、毎日の活動量とカロリー摂取量を正確に推定するために必要なものがすべてが揃いました。</string>
+    <!--Dashboard. State of Water balance level. Shown when water level rises-->
+    <string name="water_goes_up">量が上がっています</string>
+    <!--Dashboard. State of Water balance level. Shown when water level falls-->
+    <string name="water_goes_down">量が下がっています</string>
+    <!--Dashboard. Daily reports section. Inside the section one could learn more about day-by-day results-->
+    <string name="daily_reports">日報</string>
+    <!--Support Button-->
+    <string name="support_button">お問い合わせ</string>
+    <!--Dashboard. State of wearing advice. Shown when > 22 hours of wearing-->
+    <string name="timestate_not_worn">カロリー摂取量と燃焼量を可能な限り正確に推定するためには、GoBeを1日%1$s以上装着することをおすすめします。</string>
+    <!--Dashboard. Stress daily accumulation subtitle-->
+    <string name="day_accumulated">日平均積立</string>
+    <!--Dashboard. Stress daily accumulation subtitle-->
+    <string name="no_accumulated">蓄積ストレスなし</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="balance_positive">プラス</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="balance_negative">マイナス</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="balance_zero">ゼロ</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="not_worn">低い着用時期</string>
+    <!--Dashboard. State of wearing advice. Shown when > 22 hours of wearing-->
+    <string name="timestate_collect">データを収集しています。正確に測定できるよう、一日中GoBeを着用してください！</string>
+    <!--Dashboard. GoBe State-->
+    <string name="reset_pin">PINコードのリセット</string>
+    <!--Dashboard. Week report. Stress legend-->
+    <string name="legend_balance">バランス</string>
+    <!--Dashboard. Week report. Stress legend-->
+    <string name="legend_fatigue">疲労</string>
+    <!--Dashboard. Week report. Stress legend-->
+    <string name="legend_exhaustion">消耗</string>
+    <!--Dashboard. Week report. Stress title while balanced-->
+    <string name="balanced_stress">平衡ストレス</string>
+    <!--Dashboard. Week report. legend markup-->
+    <string name="average_level">平均レベル</string>
+    <!--Dashboard. Week report. legend markup-->
+    <string name="sleep_legend">眠りの質：</string>
+    <!--Separation symbol. May be used for separating strings like [4 wake-ups | 42 min]-->
+    <string name="special_sep">%1$s：%2$s</string>
+    <!--Week reports. Legend. Dangerous Stress-->
+    <string name="danger_legend">危険</string>
+    <!--Dashboard. Week report legend-->
+    <string name="above_stress">やや高め</string>
+    <!--Dashboard. Sleep desc. Concatenates into "n times · n% quality"-->
+    <string name="sleep_overall_quality">%s回・%d%%の質</string>
+    <string name="confirm_email_suggestion">アカウントをより安全且つ簡単に復元できるよう、%sメールアドレスをご確認いただき、メールアドレスを認証していただくようお願い致します。</string>
+    <string name="resend_email_confirmation">メール再送</string>
+    <!--Wearing time widget. Title descripting good wearing-->
+    <string name="timestate_great_title">装着時間は十分です</string>
+    <!--Wearing time widget. Title descripting not enough wearing-->
+    <string name="timestate_collect_title">GoBeをもう少し長く装着してください</string>
+    <!--Wearing time widget. Title descripting bad wearing time-->
+    <string name="timestate_not_worn_title">装着時間が不十分です</string>
+    <!--Wearing time widget. Description for bar with 24-hour wearing time-->
+    <string name="wearbar_description">直近24時間のGoBe装着時間：</string>
+    <!--Upcoming alarm cell notification-->
+    <string name="upcoming_alarm_cell">スマートアラームは %1$s に設定されています</string>
+    <!--GoBe charging notification-->
+    <string name="gobecharge_cell">収集したデータを最大限に活用するには、GoBeを充電してください</string>
+    <!--Dashboard. Insights cell title-->
+    <string name="insights_main_title">インサイト</string>
+    <!--Dashboard. Insights cell desc-->
+    <string name="insights_dash_desc">指標の相関関係</string>
+    <!--GetDone. Name of a service-->
+    <string name="getd_name">HEALBE GetDone</string>
+    <!--GetDone. Main call to action-->
+    <string name="getd_CTA">HEALBE GetDoneでゴールまでの近道を手に入れよう</string>
+    <!--GetDone. Placeholder for a picker-->
+    <string name="getd_placeholder">ゴールを選ぶ</string>
+    <!--GetDone. Additional call to action-->
+    <string name="getd_CTA2">ゴールを達成するための方法を、専門家と一緒に学びましょう</string>
+    <!--GetDone. Description for a  service screen-->
+    <string name="getd_desc">最も快適な方法で、ゴールを目指す</string>
+    <!--GetDone. Button for subscription-->
+    <string name="getd_buybttn">サブスクを購入する</string>
+    <!--Title in stress section.-->
+    <string name="stresslevels_title">ストレスレベル</string>
+</resources>

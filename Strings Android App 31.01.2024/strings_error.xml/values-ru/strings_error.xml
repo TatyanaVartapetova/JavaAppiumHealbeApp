@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_services_not_installed">Сервисы Google Play не установлены, действие недоступно</string>
+    <string name="google_fit_sync_error">Не удалось установить связь с Google Fit, пожалуйста, настройте интеграцию повторно</string>
+    <string name="google_fit_auth_error">Не удается подключиться к Google Fit. Проверьте интернет-подключение.</string>
+    <string name="an_error_occurred">Ошибка</string>
+    <string name="e30_access_id_error">Ошибка кода доступа</string>
+    <string name="e31_get_access_id_error">Ошибка получения кода доступа</string>
+    <string name="e32_login_or_password_wrong">Неверный логин или пароль</string>
+    <string name="e33_user_exists">Пользователь с таким email уже зарегистрирован. Если это вы, пожалуйста, войдите в приложение.</string>
+    <string name="e34_user_data_empty">Отсутствует информация о пользователе (User data)</string>
+    <string name="e35_user_not_exists">Пользователь не существует</string>
+    <string name="e36_user_group_empty">Отсутствует информация о пользователе  (User group)</string>
+    <string name="e37_too_much_wrong_tries">Слишком много неудачных попыток входа. Вход временно заблокирован. Повторите попытку позже.</string>
+    <string name="e60_healbe_not_found">GoBe не найден</string>
+    <string name="e61_healbe_not_registered">Устройство GoBe не зарегистрировано</string>
+    <string name="e62_healbe_already_registered">Ваш GoBe уже зарегистрирован</string>
+    <string name="e65_already_exists">Уже существует</string>
+    <string name="e5_upload_failed">Ошибка отправки данных</string>
+    <string name="app_error_json_syntax_error">Некорректный ответ сервера. Пожалуйста, попробуйте позже или обратитесь в службу поддержки по адресу %s.</string>
+    <string name="invalid_age">Ваш возраст должен быть в границах 18–100 лет</string>
+    <string name="the_search_has_no_results">поиск не дал результатов</string>
+    <string name="gobe_name_small_len_error">Имя должно содержать не менее 3 символов</string>
+    <string name="gobe_name_to_short_error">Имя слишком короткое</string>
+    <!--Name for spanish autoemail header-->
+    <string name="surveys_problem">Проблема с опросом</string>
+    <!--Used to denote when we have problems with confirmation of user payment in AppStore or GooglePlay-->
+    <string name="getdone_payment_err_store">Неполадки с подтверждением оплаты HEALBE GetDone</string>
+    <!--Used to form email header for automatic email sender-->
+    <string name="getdone_payment_err">Неполадки с оплатой HEALBE GetDone</string>
+</resources>

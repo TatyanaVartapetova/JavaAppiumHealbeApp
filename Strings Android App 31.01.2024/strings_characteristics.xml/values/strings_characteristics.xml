@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="maximum">Maximum</string>
+    <string name="minimum">Minimum</string>
+    <string name="current_pulse">Current pulse</string>
+    <string name="sleep_average">Sleep average</string>
+    <string name="awake_average">Awake average</string>
+    <string name="blood_pressure">Blood pressure</string>
+    <string name="measure">Estimate</string>
+    <string name="no_data">No data</string>
+    <string name="quality">Quality</string>
+    <string name="current_level">Current level</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="duration">Duration</string>
+    <string name="awake">Wake-ups</string>
+    <string name="efficiency">Efficiency</string>
+    <string name="intake">Intake</string>
+    <string name="burned">Burned</string>
+    <string name="balance">Balance</string>
+    <string name="steps">Steps</string>
+    <string name="walking">Walking</string>
+    <string name="running">Running</string>
+    <string name="basal">Basal metabolism</string>
+    <string name="basal_time">for %1$s wearing GoBe</string>
+    <string name="fat">Fat</string>
+    <string name="nutrients_intake">Nutrients</string>
+    <string name="carbohydrates">Carbs</string>
+    <string name="protein">Protein</string>
+    <plurals name="times">
+        <item quantity="one">%1$d time</item>
+        <item quantity="other">%1$d times</item>
+    </plurals>
+    <!--Pulse. Hint shown upon tapping the (i) button on average pulse metrice-->
+    <string name="pulse_sleepavg_hint">The average sleeping pulse is calculated based on the longest sleep period during the day or night.</string>
+</resources>

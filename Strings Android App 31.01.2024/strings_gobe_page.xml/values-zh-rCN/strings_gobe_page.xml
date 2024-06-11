@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_connected">未连接</string>
+    <string name="no_contact_with_skin">传感器与皮肤无接触或弱接触。</string>
+    <string name="successfully_updated">更新成功</string>
+    <string name="installing">正在安装……</string>
+    <string name="charging">正在充电……</string>
+    <string name="percent" formatted="false">%d%%</string>
+    <string name="your_healbe_gobe">我的GoBe</string>
+    <string name="gobe_display">GoBe显示屏</string>
+    <string name="system_information">服务信息</string>
+    <string name="about_this_device">关于本设备</string>
+    <string name="change_orientation">旋转屏幕</string>
+    <string name="change_gobe_s_pin">更改 PIN码</string>
+    <string name="find_another_gobe">连接其他的GoBe</string>
+    <string name="connecting">正在连接……</string>
+    <string name="gobe_connection_error_desc">未找到您的GoBe。请确认GoBe在您附近,且已充满电和已打开电源。此外,也请取消配对已连接GoBe的其他设备。</string>
+    <string name="gobe_connection_error_short">未找到您的GoBe</string>
+    <string name="gobe_bluetooth_disabled_desc">蓝牙已禁用。请打开蓝牙以便连接您的GoBe</string>
+    <string name="flashing">正在重启……</string>
+    <string name="edit_your_gobe_s_name">为您的GoBe设置名称</string>
+    <string name="set_name">保存</string>
+    <string name="erase_device">抹掉GoBe设备数据</string>
+    <string name="reset">重置</string>
+    <string name="reset_suc">设备已成功重置</string>
+    <string name="reset_err">重置错误</string>
+    <string name="reset_warning_text">这个操作将重置您的GoBe设备,确定吗？</string>
+    <string name="change_pin_code">更改PIN码</string>
+    <string name="update_pin">更新PIN码</string>
+    <string name="set_gobe_name">为您的GoBe设置名称</string>
+    <string name="firmware_update">GoBe更新</string>
+    <string name="checking_avail">正在检查可用GoBe固件</string>
+    <string name="cancel_update">取消更新</string>
+    <string name="abort_update">放弃更新</string>
+    <string name="connection_failed">未检测到网络连接,请确保您的设备已连接到网络,然后重试。</string>
+    <string name="disconnected">已断开连接</string>
+    <string name="pin_need">PIN码已更改</string>
+    <string name="wrong_symbols_in_pin">符号错误。仅可使用数字。</string>
+    <string name="wrong_pin">PIN码错误</string>
+    <string name="fw_need">需要更新</string>
+    <string name="fw_available">GoBe更新可用</string>
+    <string name="uploading_logs_title">正在上传日志</string>
+    <string name="uploading_logs_text">正在准备……</string>
+    <string name="log_uploaded_successfully">日志发送成功</string>
+    <string name="logs_uploading_failed">日志上传失败。请重试</string>
+    <string name="send_logs_text">发送日志</string>
+    <string name="send_logs">发送</string>
+    <string name="uploading_logs_progress">已上传%d%%</string>
+    <string name="logs_uploading_started">日志上载已开始。检查通知栏中的上载的状态。</string>
+    <string name="command_not_supported">不支持的命令</string>
+    <string name="command_not_supported_message">请为您的GoBe检查固件更新,或通过%s联系我们的支持团队。</string>
+    <string name="synchronization_p_dd">同步（%1$d%%）……</string>
+    <!--GoBe page, User manual button.-->
+    <string name="user_manual">使用手册</string>
+    <!--GoBe menu. Button used for GoBe3 only. Switches the GoBe's screen view between two types.-->
+    <string name="switch_screen_mode">切换屏幕模式</string>
+    <!--GoBe menu. GoBe charging state shown after the charging process is completed.-->
+    <string name="charged">已充满</string>
+    <!--GoBe menu. Error. Shown for problems with saving GoBe's name-->
+    <string name="save_name_error">无法保存名称</string>
+    <!--PIN update. Second title shown afer the first PIN code was entered-->
+    <string name="repeat_pin">重复PIN码确认</string>
+    <!--PIN update. Title for Enter PIN section-->
+    <string name="enter_new_pin">输入PIN码</string>
+    <!--Quick start. Toast shown after PIN was saved-->
+    <string name="pin_saved">PIN码保存成功</string>
+    <!--Quick start. PIN code field placeholder-->
+    <string name="pin_placeholder">PIN码</string>
+    <!--Phys activity permission-->
+    <string name="need_anctivity_recognition_permissions">身体活动权限缺失。</string>
+    <!--GoBe status. Shown on GoBe page and Dashboard when some permissions are missing-->
+    <string name="need_bluetooth_permissions">需要许可</string>
+    <!--GoBe menu. Alert text shown if Nearby devices permission is missing-->
+    <string name="need_bluetooth_permissions_desc">附近设备权限缺失。请允许 HEALBE 应用程序使用蓝牙连接你的 GoBe。</string>
+</resources>

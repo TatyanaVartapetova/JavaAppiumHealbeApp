@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_sync_channel_name">Уведомления о синхронизации</string>
+    <!--GoBe push. Increased stress event title.-->
+    <string name="stress_push_title">💣 Вы почти на пределе</string>
+    <!--GoBe push. Increased stress event desc.-->
+    <string name="stress_push_desc">Ваш Уровень стресса стал Высоким. Сделайте перерыв, чтобы проверить, что именно вызывает стресс, и постарайтесь запланировать дополнительный отдых.</string>
+</resources>

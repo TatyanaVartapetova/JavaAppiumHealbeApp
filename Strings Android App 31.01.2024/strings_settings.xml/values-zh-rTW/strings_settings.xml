@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wristband_notifications">震動訊號</string>
+    <string name="enable_notifications">振動</string>
+    <string name="enable_notifications_desc">如果您想在水平衡不足或發生其他事件時在手腕上接收GoBe振動警報,請設定通知。</string>
+    <string name="time_interval">時間間隔</string>
+    <string name="time_interval_desc">選擇時間間隔,啟用震動提醒。</string>
+    <string name="start_time">開始時間</string>
+    <string name="google_fit_settings_header">Google Fit整合設置</string>
+    <string name="google_fit_button_text">與Google Fit整合</string>
+    <string name="do_you_like_app">您喜歡我們的應用程序嗎？</string>
+    <string name="sync_weight_data">同步體重數據</string>
+    <string name="sync_weight_data_desc">如果您想同步HEALBE应用程序與Google Fit的體重資料,請開啟這個選項。</string>
+    <string name="export_sensors_data">導出傳感器數據</string>
+    <string name="export_sensors_data_desc">"如果您想將GoBe傳感器的數據導出到Google Fit,請打開這個選項。您的脈搏,睡眠,步數,卡路里攝入量和燃燒數據將在Google Fit和其他應用程序中可用。"</string>
+    <string name="report_problem">回報問題</string>
+    <string name="rate_the_app">為應用程序評價</string>
+    <string name="google_fit_connection_error">Google Fit連接錯誤</string>
+    <string name="email_feedback">用戶反饋</string>
+    <string name="version">應用版本：%1$s (%2$d)</string>
+    <!--Settings. SDK version string.-->
+    <string name="sdk_version">HEALBE SDK：%1$s</string>
+    <!--Settings. Subscription section title-->
+    <string name="subscriptions_title">訂閱服務</string>
+    <!--Settings. Subscription section. Restore bttn-->
+    <string name="subscriptions_rest_bttn">恢復訂閱</string>
+    <!--Settings. Title for the Fast sync switcher-->
+    <string name="fast_sync">快速同步</string>
+</resources>

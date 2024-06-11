@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Type of activity, calories burned while sitting+Basal metabolism-->
+    <string name="why_is_it_important">Почему это важно?</string>
+    <string name="collecting_data_continue_wearing">Собираем данные, пожалуйста, продолжайте носить GoBe.</string>
+    <string name="collecting_data_description">Чем дольше вы носите GoBe, тем точнее он оценивает вашу Активность и Усвоенные калории. Мы рекомендуем носить GoBe %1$s в сутки.</string>
+    <string name="great_wearing">Вы отлично носите GoBe, так держать!</string>
+    <string name="great_wearing_description">Вы носите GoBe %1$s в сутки и у него есть всё, что необходимо для точной оценки Активности и Усвоенных калорий.</string>
+    <string name="not_enough_data">Недостаточно данных, не забывайте носить GoBe</string>
+    <string name="not_enough_data_description">Вы носите GoBe всего по %1$s в сутки, нам не хватает данных для точной оценки активности и усвоенных калорий, рекомендуем носить GoBe минимум %2$s в сутки.</string>
+    <string name="show_all">Показать всё</string>
+</resources>

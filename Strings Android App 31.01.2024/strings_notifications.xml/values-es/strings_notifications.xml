@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_not_sync">No has sincronizado tu GoBe durante %1$s. Por favor, no olvides sincronizar tus datos.</string>
+    <string name="notification_not_weight">No has registrado tu peso durante %1$s. Por favor, registra tu peso actual para seguir mejor su variación.</string>
+    <!--Notifications section title-->
+    <string name="notif_title">Eventos</string>
+    <!--Notifications section. Error title. When no notifications found-->
+    <string name="no_notif_title">Aún no hay eventos</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc1">HEALBE envía notificaciones personales y consejos una vez emparejado con GoBe. Póngase en contacto con nuestro soporte si eso no sucedió.</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc2">Tus notificaciones aparecerán aquí</string>
+    <!--Notifications section. Error. Button-->
+    <string name="contact_sup_bttn">Contacto con soporte</string>
+</resources>

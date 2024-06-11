@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_services_not_installed">Google Play開発者サービスがインストールされていないため、実行できません</string>
+    <string name="google_fit_sync_error">Google Fitと同期できません。同期を再度有効にしてください。</string>
+    <string name="google_fit_auth_error">Google Fitにログインできません。インターネット接続を確認してください。</string>
+    <string name="an_error_occurred">エラーが発生しました</string>
+    <string name="e30_access_id_error">アクセスIDエラー</string>
+    <string name="e31_get_access_id_error">アクセスID取得エラー</string>
+    <string name="e32_login_or_password_wrong">メールアドレスまたはパスワードが正しくありません</string>
+    <string name="e33_user_exists">このメールアドレスは、すでに登録されています。あなたのアドレスである場合は、サインインしてください。</string>
+    <string name="e34_user_data_empty">ユーザーデータが空です</string>
+    <string name="e35_user_not_exists">存在しないユーザーです</string>
+    <string name="e36_user_group_empty">ユーザーグループが空です</string>
+    <string name="e37_too_much_wrong_tries">ログイン試行の回数が上限を超えた為、ログインが一時的にブロックされています。しばらく経ってからもう一度お試しください。</string>
+    <string name="e60_healbe_not_found">GoBeが見つかりませんでした</string>
+    <string name="e61_healbe_not_registered">GoBeが登録されていません</string>
+    <string name="e62_healbe_already_registered">GoBeは既に登録されています</string>
+    <string name="e65_already_exists">既に存在します</string>
+    <string name="e5_upload_failed">アップロードに失敗しました</string>
+    <string name="app_error_json_syntax_error">不正なサーバー応答エラーです。 後でもう一度やり直すか、テクニカルサポート（%s）に連絡してください。</string>
+    <string name="invalid_age">年齢は18～100で入力してください</string>
+    <string name="the_search_has_no_results">検索結果がありません</string>
+    <string name="gobe_name_small_len_error">名前は3文字以上で入力してください</string>
+    <string name="gobe_name_to_short_error">名前が短すぎます</string>
+    <!--Name for spanish autoemail header-->
+    <string name="surveys_problem">アンケートの問題</string>
+    <!--Used to denote when we have problems with confirmation of user payment in AppStore or GooglePlay-->
+    <string name="getdone_payment_err_store">HEALBE GetDone支払い確認の問題</string>
+    <!--Used to form email header for automatic email sender-->
+    <string name="getdone_payment_err">HEALBE GetDone支払いの問題</string>
+</resources>

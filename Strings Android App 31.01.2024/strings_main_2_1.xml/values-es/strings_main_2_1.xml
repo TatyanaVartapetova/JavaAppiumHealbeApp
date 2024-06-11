@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Type of activity, calories burned while sitting+Basal metabolism-->
+    <string name="why_is_it_important">¿Por qué es importante?</string>
+    <string name="collecting_data_continue_wearing">Recogiendo datos, por favor, sigue llevando GoBe.</string>
+    <string name="collecting_data_description">Mientras más tiempo uses GoBe, mayor será la precisión para estimar la Actividad y la Ingesta de calorías. Recomendamos usar GoBe por %1$s por día.</string>
+    <string name="great_wearing">¡Llevas GoBe perfectamente! ¡Sigue así!</string>
+    <string name="great_wearing_description">Estás usando GoBe por %1$s al día, por lo que tiene todo lo necesario para una estimación precisa de tu actividad e ingesta de calorías.</string>
+    <string name="not_enough_data">No hay suficientes datos, no olvides llevar GoBe</string>
+    <string name="not_enough_data_description">Usaste GoBe solo un %1$s por día, por lo que no tenemos suficientes datos para una estimación precisa de tu actividad diaria e ingesta de calorías. Te recomendamos que uses GoBe por al menos %2$s al día.</string>
+    <string name="show_all">Ver todo</string>
+</resources>

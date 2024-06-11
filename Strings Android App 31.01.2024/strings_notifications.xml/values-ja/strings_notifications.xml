@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_not_sync">%1$s時間GoBeと同期していません。データの同期をお忘れなく。</string>
+    <string name="notification_not_weight">%1$sの体重測定レコードは追加されませんでした。体重変化をより良く追跡するために、現在の体重に関するレコードを追加してください。</string>
+    <!--Notifications section title-->
+    <string name="notif_title">イベント</string>
+    <!--Notifications section. Error title. When no notifications found-->
+    <string name="no_notif_title">イベントがありません</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc1">GoBe3と接続後、HEALBEチームからパーソナライズされた通知やアドバイスをお届けします。通知が届かない場合、サポートセンターへお問い合わせください。</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc2">通知がここに表示されます</string>
+    <!--Notifications section. Error. Button-->
+    <string name="contact_sup_bttn">サポートへのお問い合わせ</string>
+</resources>

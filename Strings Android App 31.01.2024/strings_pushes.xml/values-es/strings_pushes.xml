@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_sync_channel_name">Notificaciones de datos</string>
+    <!--GoBe push. Increased stress event title.-->
+    <string name="stress_push_title">💣Estás cerca de tu punto de ruptura</string>
+    <!--GoBe push. Increased stress event desc.-->
+    <string name="stress_push_desc">Tu nivel de estrés ha subido. Tómate un descanso para comprobar qué es lo que te está estresando e intenta planificar algún descanso adicional.</string>
+</resources>

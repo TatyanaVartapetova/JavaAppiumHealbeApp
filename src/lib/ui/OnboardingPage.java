@@ -3,16 +3,15 @@ package lib.ui;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 
-public class OnboardingPageObject extends MainPageObject {
+public class OnboardingPage extends MainPageObject {
 
-    public OnboardingPageObject(AppiumDriver driver) {
+    public OnboardingPage(AppiumDriver driver) {
         super(driver);
     }
 
     private static final String
 
             NAVIGATE_NEXT_BUTTON = "//android.widget.Button",
-            SIGN_IN_BUTTON_ENTER_FORM_SCREEN = "com.healbe.healbegobe.debug:id/sign_in", // я эту кнопку использую и в EnterPageObject, может как-то отдельно вынести или сделать ее паблик?
             ONBOARDING_TITLE_AND_TEXT_TPL = "//android.widget.TextView[@text='{ONBOARDING_TITLE_AND_TEXT}']";
 
     private String
@@ -73,7 +72,7 @@ public class OnboardingPageObject extends MainPageObject {
         // doubleTapToCenterOfElement(By.xpath("//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View"), "Cannot find center of element gif  onboarding"); - почему-то если вначале ускорить процесс, то он не кликает по второй кнопке NEXT, оэтому убрала этот метод
         navigationNext();
         navigationNext();
-        waitForElementPresent(By.id(SIGN_IN_BUTTON_ENTER_FORM_SCREEN), "Cannot find Sign in Button on EnterForm ", 15);
+        waitForElementPresent(By.id(URI.SIGN_IN_BUTTON_ENTER_FORM_SCREEN), "Cannot find Sign in Button on EnterForm ", 15);
     }
 
     public void passOnboardingFull(String locale) {
@@ -84,7 +83,7 @@ public class OnboardingPageObject extends MainPageObject {
         waitForElementPresent(By.xpath(getOnboardingPage2TitleXpath(onboarding_page2_title)), "cannot find title onboarding 2");
         waitForElementPresent(By.xpath(getOnboardingPage2TextXpath(onboarding_page2_text)), "cannot find description onboarding 2");
         navigationNext();
-        waitForElementPresent(By.id(SIGN_IN_BUTTON_ENTER_FORM_SCREEN), "Cannot find Sign in Button on EnterForm ", 15);
+        waitForElementPresent(By.id(URI.SIGN_IN_BUTTON_ENTER_FORM_SCREEN), "Cannot find Sign in Button on EnterForm ", 15);
     }
 
 

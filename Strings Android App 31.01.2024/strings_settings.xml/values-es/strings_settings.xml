@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wristband_notifications">Señales de vibración</string>
+    <string name="enable_notifications">Vibración</string>
+    <string name="enable_notifications_desc">Activa \"vibrar\" si deseas recibir notificaciones de vibración de GoBe en tu muñeca en caso de bajo nivel de hidratación u otros eventos.</string>
+    <string name="time_interval">Programado</string>
+    <string name="time_interval_desc">Selecciona el intervalo de tiempo en el GoBe puede vibrar.</string>
+    <string name="start_time">Hora de inicio</string>
+    <string name="google_fit_settings_header">Configuración de integración de Google Fit</string>
+    <string name="google_fit_button_text">Habilitar la integración con Google Fit</string>
+    <string name="do_you_like_app">¿Te gusta nuestra aplicación?</string>
+    <string name="sync_weight_data">Sincronizar datos de peso</string>
+    <string name="sync_weight_data_desc">Activa esta opción si deseas sincronizar tu peso en la aplicación HEALBE con Google Fit.</string>
+    <string name="export_sensors_data">Exportar datos del sensor</string>
+    <string name="export_sensors_data_desc">"Activa esta opción si deseas exportar datos de tu sensor de banda inteligente HEALBE GoBe a Google Fit: los datos de ingesta de calorías, calorías quemadas, pasos, pulso y sueño estarán disponibles en Google Fit y otras aplicaciones. "</string>
+    <string name="report_problem">Reportar problema</string>
+    <string name="rate_the_app">Valorar en la Google Play</string>
+    <string name="google_fit_connection_error">Error de conexión de Google Fit</string>
+    <string name="email_feedback">Feedback de usuario</string>
+    <string name="version">App versión: %1$s (%2$d)</string>
+    <!--Settings. SDK version string.-->
+    <string name="sdk_version">HEALBE SDK: %1$s</string>
+    <!--Settings. Subscription section title-->
+    <string name="subscriptions_title">Suscripciones</string>
+    <!--Settings. Subscription section. Restore bttn-->
+    <string name="subscriptions_rest_bttn">Restaurar suscripciones</string>
+    <!--Settings. Title for the Fast sync switcher-->
+    <string name="fast_sync">Sincronización rápida</string>
+</resources>

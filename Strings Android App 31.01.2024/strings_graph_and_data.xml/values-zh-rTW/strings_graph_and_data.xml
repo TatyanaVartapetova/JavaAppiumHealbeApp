@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="yesterday">昨天</string>
+    <string name="tonight">今晚</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="info">信息</string>
+    <string name="level_no_stress">安全</string>
+    <string name="level_light">低</string>
+    <string name="level_moderate">高微</string>
+    <string name="level_high">高</string>
+    <string name="level_very_high">極高</string>
+    <string name="calculating">校準</string>
+    <string name="low">低</string>
+    <string name="normal">正常</string>
+    <!-- NO DATA -->
+    <string name="not_wearing">您白天沒穿GoBe或者穿的時間不夠長。</string>
+    <string name="not_wearing_title">在%1$s沒有佩戴GoBe</string>
+    <string name="not_data_for_day">尚未收到當天的數據。</string>
+    <string name="not_data_for_day_title">在%1$s無數據</string>
+    <!-- the first parameter is date (today, yesterday or format_day_of_week_day_and_month) and the second is time -->
+    <string name="last_synchronization">上次同步是在：%1$s,%2$s。</string>
+    <string name="calculating_data">GoBe 正在針對您身體的特徵調整其算法及收集數據。這可能會需要 1 小時的時間。請佩戴您的 GoBe 並稍候。</string>
+    <string name="calculating_data_title">@string/collecting_data_title</string>
+    <string name="sensor_no_contact">這一天尚無數據。請確認 GoBe 緊緊戴在您的手腕上,而且傳感器和您的皮膚之間接觸良好。</string>
+    <string name="sensor_no_contact_title">傳感器無接觸</string>
+    <string name="no_sleep">尚未有睡眠週期</string>
+    <string name="no_sleep_text">GoBe還沒有記錄所選日期的任何睡眠週期,或者睡眠數據還沒有同步。</string>
+    <string name="no_sleep_past">在%1$s沒有睡眠記錄</string>
+    <string name="routine">日常生活</string>
+    <string name="sedentary">冷靜</string>
+    <string name="activities">活動</string>
+    <!-- BLOOD PRESSURE -->
+    <string name="please_sit_back">在GoBe估計您的血壓時,請坐下並放鬆</string>
+    <string name="we_do_not_measure_blood_pressure">請注意,GoBe不測量血壓。根據您的脈搏波估計“血壓”數字,這可能會導致讀數不准確。\n\n請記住,GoBe不是醫療設備。GoBe的血壓測量不應被視為使用醫療設備或醫療注意力的血壓測量的替代品。</string>
+    <string name="start_measurement">開始估算</string>
+    <string name="measurement_impossible">估算不成功。請檢查您的GoBe是否與您的皮膚接觸良好,並已與您的手機連接。</string>
+    <string name="measurement_failed">估算失敗</string>
+    <string name="repeat_measurement">重複估計</string>
+    <string name="measurement_in_progress">正在進行估計……</string>
+    <string name="current_pressure">當前血壓：</string>
+    <!-- ALARMS -->
+    <string name="sleep_quality">質量</string>
+    <string name="new_alarm">新鬧鐘</string>
+    <string name="by_time">按時間</string>
+    <string name="by_quality">按質量</string>
+    <string name="repeat_every_week">重複</string>
+    <string name="go_be_not_connected">未連接GoBe,請為您的GoBe充電,並將其靠近您的手機</string>
+    <string name="sleep_duration_will_calc">當達到所需的睡眠品質時,GoBe會叫醒您</string>
+    <string name="alarm_by">按%1$s提醒</string>
+    <string name="no_alarms">無鬧鐘</string>
+    <string name="add">添加</string>
+    <string name="time_window">時間窗口</string>
+    <string name="go_be_will_wake_up">GoBe將在最恰當的時間將您叫醒,之間%1$s</string>
+    <string name="alarm_at">在%1$s提醒</string>
+    <string name="alarm_duplicate_not_saved">具有相同參數的智慧報警已存在並已啟用。當前警報不會被保存。</string>
+    <string name="alarm_duplicate_enabled">鬧鐘已經存在並且已啟用</string>
+    <string name="too_many_alarms" tools:ignore="PluralsCandidate">您不能創建超過%d鬧鐘</string>
+    <string name="today_with_prefix">今天</string>
+    <string name="tomorrow_with_prefix">明天</string>
+    <string-array name="week_first_letter">
+    <!--Shortest Weekday name for Monday (for example "M" for "Monday" in English)-->
+        <item>一</item>
+    <!--Shortest Weekday name for Tuesday (for example "T" for "Tuesday" in English)-->
+        <item>二</item>
+    <!--Shortest Weekday name for Wednesday (for example "W" for "Wednesday" in English)-->
+        <item>三</item>
+    <!--Shortest Weekday name for Thursday (for example "T" for "Thursday" in English)-->
+        <item>四</item>
+    <!--Shortest Weekday name for Friday (for example "F" for "Friday" in English)-->
+        <item>五</item>
+    <!--Shortest Weekday name for Saturday (for example "S" for "Saturday" in English)-->
+        <item>六</item>
+    <!--Shortest Weekday name for Sunday (for example "S" for "Sunday" in English)-->
+        <item>日</item>
+    </string-array>
+    <string name="no">否</string>
+    <string name="weekend">週末</string>
+    <string name="weekend_with_prefix">週末</string>
+    <string name="weekdays">工作日</string>
+    <string name="weekdays_with_prefix">工作日</string>
+    <string name="every_day">每天</string>
+    <string name="every_day_with_prefix">每天</string>
+    <string name="no_repeat">再也不要重複</string>
+    <string name="no_repeat_with_prefix">再也不要重複</string>
+    <string name="alarm_desc_with_duration">在%1$s, %2$s內</string>
+    <string name="alarms_connection_lost">您的GoBe已斷開連接,請連接它以編輯鬧鐘</string>
+    <string name="alarms_updating">在GoBe上設置鬧鐘……</string>
+    <!-- RECOMMENDATIONS -->
+    <string name="sleep_recommendation">睡眠建議</string>
+    <string name="recommended_time_desc">根據您生活方式\n的建議睡眠長度</string>
+    <string name="base_duration">基本建議</string>
+    <string name="time_interval_incorrect">間隔開始時間不能比間隔結束時間晚</string>
+    <string name="smart_alarms">智能鬧鐘</string>
+    <!--Dashboard / Stress. Accumulated Block title for state when user has some accumulation of stress-->
+    <string name="accumulated_stress">累積的</string>
+    <!--Dashboard / Stress. Accumulated Block substring for state when user has some accumulation of stress-->
+    <string name="accumulated_1">壓力高於正常</string>
+    <string name="collecting_data">您的 GoBe 正在收集數據，大約需要 5 分鐘。請繼續佩戴您的 GoBe 並稍候。</string>
+    <string name="collecting_data_title">正在處理數據</string>
+    <!--Dashboard / Stress. Graph mark level or Accumulated stress state on dashboard -->
+    <string name="norm_stress">正常</string>
+    <!--small banner for new features-->
+    <!--Sleep. Graph legend. Sleep Anxiety - is the level of uncontrolled movements during sleep-->
+    <string name="legend_anxiety">焦慮水平</string>
+    <!--Sleep. Graph legend. REM - is the Rapid Eye Movement phase of sleep-->
+    <string name="legend_rem">快速眼動睡眠</string>
+    <!--Sleep. Quality desc. 0-45% sleep Quality description-->
+    <string name="sleep_short">超短睡眠</string>
+    <!--Sleep. Quality desc. 46-60% sleep Quality-->
+    <string name="sleep_deficit">可能睡眠不足</string>
+    <!--Sleep. Quality desc. 76-90% sleep Quality-->
+    <string name="sleep_continuous">長睡眠</string>
+    <!--Sleep. Quality desc. 91-100% sleep Quality-->
+    <string name="sleep_optimal">最佳睡眠時間</string>
+    <!--Sleep. Sleep period desc. Desc for sleep without wake-ups-->
+    <string name="sleeptable_no_awakes">沒有醒來</string>
+    <!--Sleep. Sleep period desc. Desc for sleep without wake-ups-->
+    <string name="sleeptable_awake">醒來</string>
+    <!--Smart alarms. Phrase for exact time (Time alarm without range)-->
+    <string name="go_be_will_wake_exacty">GoBe會在:%1$s 點喚醒您</string>
+    <plurals name="wake_ups_format">
+        <item quantity="other">%1$d次醒來</item>
+    </plurals>
+    <!--Water balance.Total loss metrice title-->
+    <string name="water_total_loss">全部耗水量</string>
+    <string name="multiday_sleep_desc">您可以在第二天的屏幕上找到這個睡眠記錄。 HEALBE應用程序會在您的睡眠結束當天記錄睡眠。</string>
+    <!--Sleep. Table. Quality description for 61-75% quality-->
+    <string name="sleep_short_60">短睡眠</string>
+    <!--Graph state.-->
+    <string name="graph_wearing_for">這一天您戴GoBe共%1$s小時。</string>
+    <string name="graph_bad_data">數據可能不完整。</string>
+    <string name="graph_bad_end">無法準確判斷您的睡眠結束時間。</string>
+    <!--Graph. Used when we need to shorten alarm icon(e.g. 08:00 - 08.45)
+ - if too many alarms for a short period of time. Please, refer to your language guides to translate correctly.-->
+    <string name="graph_alarm_interval">%1$s〜%2$s</string>
+    <!--Title used for Deficit feature-->
+    <string name="deficit_title">不足</string>
+    <!--Long title used for Deficit feature in Water balance-->
+    <string name="deficit_long_title">水分不足</string>
+    <!--Deficit long description-->
+    <string name="deficit_desc">補充水分不足，依照飲水提醒的通常量進行。 在個人資料中指定您舒適的玻璃容量，以便GoBe3更準確地通知您關於水分流失的情況。</string>
+    <!--Used to describe GoBe usage time-->
+    <string name="worn_for">穿著</string>
+    <!--string for languages that need female-gender nouns for "Hydration" levels-->
+    <string name="low_fem">低</string>
+    <!--string for languages that need female-gender nouns for "Hydration" levels-->
+    <string name="normal_fem">正常</string>
+    <!--Neuroactivity. Maximal tension denotes peaks of NS activity in time-->
+    <string name="neuro_maxtension">最大張力</string>
+    <!--Neuroactivity. Calmness state description-->
+    <string name="neuro_calm_desc">一般的放鬆。這種狀態是典型的冥想、情緒超脫或疲勞。 你的神經系統對環境的反應比平時慢。</string>
+    <!--Neuroactivity. Efficacy state description-->
+    <string name="neuro_efficacy_desc">神經系統的最佳工作狀態。在這種狀態下,您可以處理任何任務。 更有可能的是,你給了你的身體足够的資源,休息和睡眠。</string>
+    <!--Neuroactivity. Tension state description-->
+    <string name="neuro_tension_desc">明顯的心理情緒負荷。你的神經系統是活躍的,仍然有生產力,但這種負荷可能已經導致疲勞和易怒。 如果你在這個州花了很多時間,考慮多休息一下,至少在週末。</string>
+    <!--Neuroactivity. Overload state description-->
+    <string name="neuro_overload_desc">你的神經系統壓力過大。這種狀態會導致耗盡並影響整體效能。 安排好好休息是值得的。</string>
+    <!--Learn more button-->
+    <string name="bttn_learnmore">瞭解更多</string>
+    <!--Beta button disclaimer.-->
+    <string name="test_mode_pressure">請注意：血壓測量在測試模式下工作,不應被用作醫療設備的替代品。</string>
+    <!--Beta button disclaimer.-->
+    <string name="test_mode_nutrients">請注意：營養計數算灋在測試模式下工作。 計算是近似的。</string>
+    <!--Water balance. Today's section title-->
+    <string name="during_the_day">一天內</string>
+    <!--Smart alarms. Button to open GoBe menu-->
+    <string name="go_to_screen">到GoBe選單</string>
+    <!--Energy balance. Status to show that user is currently amidst the process of digestion-->
+    <string name="intake_in_progress">正在攝入</string>
+    <!--Neuroactivity. Main title-->
+    <string name="neuro_title">神經活動</string>
+    <!--Neuroactivity. States title-->
+    <string name="state_title">狀態</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_calm">安靜</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_effic">效率</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_tension">緊張</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_overload">超載</string>
+    <!--Neuroactivity. Trend option-->
+    <string name="neuro_trend_down">水平下降</string>
+    <!--Neuroactivity. Trend option-->
+    <string name="neuro_trend_up">水平上升</string>
+    <!--Neuroactivity. Legend. NS means Neural System-->
+    <string name="neuro_activity_level">神經系統活動水准</string>
+</resources>

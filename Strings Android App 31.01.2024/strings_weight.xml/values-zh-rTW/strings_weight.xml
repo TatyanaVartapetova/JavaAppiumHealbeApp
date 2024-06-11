@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_weight">當前體重</string>
+    <string name="current_progress">體重動態</string>
+    <string name="your_weight_goal">您的體重目標</string>
+    <string name="setup_weight_goal">選擇您的體重目標</string>
+    <string name="select_a_plan">選擇計劃</string>
+    <string name="last_weights">體重記錄</string>
+    <string name="show_all_weights">顯示所有體重數據</string>
+    <string name="goals_history">目標記錄</string>
+    <string name="by_">到%1$s</string>
+    <string name="since_">自%1$s以來 (%2$s)</string>
+    <string name="add_weight">體重</string>
+    <string name="no_weight_data_for_period">這段期間您沒有給自己量體重</string>
+    <string name="weight_history">體重記錄</string>
+    <string name="no_weight_data">沒有數據</string>
+    <string name="no_weight_data_available">沒有可用的體重數據</string>
+    <string name="cancel_goal">取消目標</string>
+    <string name="new_goal">新目標</string>
+    <string name="time_to_track_weight">是時候追蹤您的體重了</string>
+    <string name="connect_google_fit">與Google Fit連接,將您的身體數據儲存在一個地方</string>
+    <string name="connect_google_fit_btn">連接Google Fit</string>
+    <string name="lets_go">好,開始行動吧！</string>
+    <string name="weight_too_high">從小目標開始是可以的。 失去至少%d%%的當前體重。HEALBE現在只支持減肥目標。</string>
+    <string name="it_is_your_weight">這是您目前的體重嗎？</string>
+    <string name="track_it_automatically">自動追蹤</string>
+    <string name="weight_too_low">持續一致的目標。達成體重目標%1$s,然後繼續下一個目標</string>
+    <string name="recommended_goal">請確保您逐漸減掉您的體重。根據您當前的情況,安全和可實現的目標是 %1$s–%2$s。</string>
+    <string name="lazy">輕</string>
+    <string name="lazy_desc">在%1$s內以最小的努力達到目標</string>
+    <string name="comfortable">舒適</string>
+    <string name="comfortable_desc">在%1$s內達到目標（推薦選項）</string>
+    <string name="extreme">特快</string>
+    <string name="extreme_desc">掌握好自己的習慣並在%1$s內達到目標</string>
+    <string name="start_lose_it">開始</string>
+    <string name="weight_goal_is">您的體重目標是</string>
+    <string name="weight_empty_error">體重不能為空</string>
+    <string name="way_to_lose_weight">您正準備在%2$s內減掉%1$s</string>
+    <string name="cannot_select_time">您不能為測量設定未來的時間</string>
+    <string name="occurrence_underweight">您的體重過輕</string>
+    <string name="occurrence_underweight_desc">您的BMI身高體重指數低於正常水準,您身高的最佳體重應超過%1$s。</string>
+    <string name="occurrence_fast_loose">不能太快地減重</string>
+    <string name="occurrence_fast_loose_desc">每週減掉超過%1$s的體重可能會構成危險,它會損害您的健康。</string>
+    <string name="occurrence_slow_loose">您可以做得更好</string>
+    <string name="occurrence_slow_loose_desc">您的進度太慢了。您應盡量減少您的卡路里攝取量,並提高活動水平。</string>
+    <string name="occurrence_time_to_weight">是時候量體重</string>
+    <plurals name="occurrence_time_to_weight_desc">
+        <item quantity="other">您已%d週沒加量體重。</item>
+    </plurals>
+    <string name="occurrence_week_left">剩下一星期</string>
+    <string name="occurrence_week_left_desc">只剩下一個星期去達到目標,趕快行動吧！</string>
+    <string name="occurrence_goal_difficult">目標很難達到</string>
+    <string name="occurrence_goal_difficult_desc">在%2$s前達到%1$s不再是安全的目標。</string>
+    <string name="occurrence_goal_half">您減掉了%1$s/%2$s</string>
+    <string name="occurrence_goal_half_desc">堅持下去,目標就在眼前。</string>
+    <string name="occurrence_goal_not_reached">目標沒有達到</string>
+    <string name="occurrence_goal_not_reached_desc">時間已到了,請嘗試訂立一個更輕鬆的目標。</string>
+    <string name="occurrence_goal_reached">您已達到目標！</string>
+    <plurals name="occurrence_goal_reached_desc">
+        <item quantity="other">您減掉了%2$s並在 %1$s天内內達到%3$s的目標。</item>
+    </plurals>
+    <string name="setup_new_goal">新目標</string>
+    <string name="source_gfit">Google Fit</string>
+    <string name="source_apple_health">Apple健康</string>
+    <string name="source_healbe">HEALBE</string>
+    <string name="source_withings">Withings / Nokia</string>
+    <string name="source_validic">Validic</string>
+    <string name="source_unknown">未知</string>
+    <string name="goal_reached">實現了</string>
+    <string name="goal_not_reached">没實現了</string>
+    <string name="goal_cancelled">取消了</string>
+    <!--Weight. Not-new goal CTA button-->
+    <string name="add_goal">設置體重目標</string>
+    <!--Weight. No data state-->
+    <string name="weigh_regularly_to_keep_track_our_body_weight">定期量體重並在此查看進展</string>
+    <!--Weight. Goal achieved screen. Button-->
+    <string name="hooray">烏啦！</string>
+    <!--Weight. Goal setup screen. Desc-->
+    <string name="if_want_control_body_need_measure_it">了解你的出發點是邁向改變的好一步</string>
+    <!--Weight. Main screen section title-->
+    <string name="previous_weights">以前的稱重</string>
+    <!--Weight. Goal achieved screen. Title-->
+    <string name="сongratulations">恭喜！</string>
+</resources>

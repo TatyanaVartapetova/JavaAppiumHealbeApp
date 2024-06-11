@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_for_you">New for you</string>
+    <string name="see_all">See all</string>
+    <string name="retry">retry</string>
+    <string name="check_internet_connection">Check Internet connection</string>
+    <string name="an_error_occurred">An error occurred</string>
+</resources>

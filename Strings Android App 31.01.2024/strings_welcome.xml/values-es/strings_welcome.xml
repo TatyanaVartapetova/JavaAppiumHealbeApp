@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title_eb">Controla tu Balance de energía</string>
+    <string name="welcome_title_water">GoBe te notificará \ncuando beber agua</string>
+    <string name="welcome_title_pulse">Tu cuerpo te da señales \ndurante el día</string>
+    <string name="welcome_title_sleep">Tu cuerpo se recupera \nmientras duermes</string>
+    <string name="welcome_title_stress">Controla tu nivel de estrés</string>
+    <string name="welcome_text_eb">Tú decides cuánto «combustible» \nle das a tu cuerpo \ny cuánto deberías gastar</string>
+    <string name="welcome_text_water">Tu cuerpo funciona mejor \ncuando bebes suficiente agua</string>
+    <string name="welcome_text_pulse">Monitoriza tu pulso con GoBe\ndurante cualquier actividad</string>
+    <string name="welcome_text_sleep">GoBe te da información detallada \nsobre la calidad de tu sueño, \ny la \"Alarma inteligente\" te despertará \nen el momento adecuado</string>
+    <string name="welcome_text_stress">GoBe determina el Nivel de estrés \nen función del monitoreo continuo \ndel estado de tu cuerpo</string>
+    <string name="skip">SALTAR</string>
+    <!--Onboarding section 1 screen 1 title-->
+    <string name="onb_1_title">Conéctate con tu cuerpo</string>
+    <!--Onboarding section 1 screen 1 description-->
+    <string name="onb_1_desc">Mejora tu nutrición y estilo de vida\n\nConoce el completo panel de control</string>
+    <!--Onboarding section 1 screen 1 button-->
+    <string name="onb_1_bttn">HOLA!</string>
+    <!--Onboarding section 1 screen 2 title-->
+    <string name="onb_2_title">Encuentra el equilibro perfecto</string>
+    <!--Onboarding section 1 screen 2 description-->
+    <string name="onb_2_desc">Mirada directa a tus hábtitos, equilibrio y estilo de vida personal</string>
+    <!--Onboarding section 1 screen 2 buttn-->
+    <string name="onb_2_bttn">ESTOY DENTRO!</string>
+    <!--Onboarding section 2 screen 1 title-->
+    <string name="onb_3_ttl">Cada caloría cuenta</string>
+    <!--Onboarding section 2 screen 1 description-->
+    <string name="onb_3_desc">GoBe contabiliza las calorías directamente cada vez que el tejido absorve glucosa\n(eso sucede incluso durante la noche)\n\nLa digestión y absorción de los diferentes nutrientes podría tomar hasta 24 horas…</string>
+    <!--Onboarding section 2 screen 1 button-->
+    <string name="onb_3_bttn">ENTIENDO</string>
+    <!--Onboarding section 2 screen 2 title-->
+    <string name="onb_4_ttl">El uso genera datos</string>
+    <!--Onboarding section 2 screen 2 description-->
+    <string name="onb_4_desc">…y como estos procesos duran mucho tiempo es mejor usar GoBe la mayor parte del tiempo, excepto cuando se carga</string>
+    <!--Onboarding section 2 screen 2 button-->
+    <string name="onb_4_bttn">Mientras más mejor</string>
+    <!--Onboarding section 2 screen 3 title-->
+    <string name="onb_5_ttl">Mantente conectado con tu cuerpo</string>
+    <!--Onboarding section 2 screen 3 description-->
+    <string name="onb_5_desc">El contacto con la piel es la clave para asegurar las lecturas\n\nColoca GoBe de 1 a 2 dedos de distancia de la muñeca. Dedería estar lo suficientemente apretado, pero cómodo</string>
+    <!--Onboarding section 2 screen 3 button-->
+    <string name="onb_5_bttn">EL CONTACTO ES LA CLAVE</string>
+    <!--Onboarding section 2 screen 4 title-->
+    <string name="onb_6_ttl">El poder de cambiar</string>
+    <!--Onboarding section 2 screen 4 description-->
+    <string name="onb_6_desc">La carga completa de GoBe toma 90 min\n\nEsta es nuestra recomendación para una carga óptima:\nCarga GoBe antes de ir a dormir o apenas te despiertes\n\nUsa la banda por lo menos 30 minutos antes de comer</string>
+    <!--Onboarding section 2 screen 4 button-->
+    <string name="onb_6_bttn">Y EL ÚLTIMO ES…</string>
+    <!--Onboarding section 2 screen 5 title-->
+    <string name="onb_7_ttl">Estamos siempre a tu lado</string>
+    <!--Onboarding section 2 screen 5 description-->
+    <string name="onb_7_desc">Comparte tu experiencia y recibe respuestas a tus preguntas en cualquier momento usando el  el correo electrónico\n\nEstamos para ayudarte \n24/7</string>
+    <!--Onboarding section 2 screen 5 button-->
+    <string name="onb_7_bttn">COMENCEMOS</string>
+</resources>

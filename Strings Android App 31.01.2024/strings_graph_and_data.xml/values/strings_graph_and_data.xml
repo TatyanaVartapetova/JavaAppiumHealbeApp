@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="yesterday">yesterday</string>
+    <string name="tonight">Tonight</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="info">Info</string>
+    <string name="level_no_stress">Safe</string>
+    <string name="level_light">Light</string>
+    <string name="level_moderate">Elevated</string>
+    <string name="level_high">High</string>
+    <string name="level_very_high">Very high</string>
+    <string name="calculating">Calibration</string>
+    <string name="low">Low</string>
+    <string name="normal">Normal</string>
+    <!-- NO DATA -->
+    <string name="not_wearing">You didn’t wear GoBe during the day or didn\'t wear it long enough.</string>
+    <string name="not_wearing_title">NOT WEARING GOBE FOR %1$s</string>
+    <string name="not_data_for_day">The data for this day hasn\'t been received yet.</string>
+    <string name="not_data_for_day_title">NO DATA FOR %1$s</string>
+    <!-- the first parameter is date (today, yesterday or format_day_of_week_day_and_month) and the second is time -->
+    <string name="last_synchronization">Last synchronization: %1$s, %2$s.</string>
+    <string name="calculating_data">GoBe is adapting its algorithm to your body\'s characteristics and collecting data. It may take more than 1 hour. Please keep on wearing your GoBe and wait.</string>
+    <string name="calculating_data_title">@string/collecting_data_title</string>
+    <string name="sensor_no_contact">No data for this day yet. Please make sure that you are wearing GoBe tightly around your wrist and there\'s good contact between the sensor and your skin.</string>
+    <string name="sensor_no_contact_title">NO SENSOR CONTACT</string>
+    <string name="no_sleep">NO SLEEP CYCLES YET</string>
+    <string name="no_sleep_text">GoBe didn\'t record any sleep cycles for the selected day, or the sleep data has not yet been synced.</string>
+    <string name="no_sleep_past">NO SLEEP REGISTERED FOR %1$s</string>
+    <string name="routine">Routine</string>
+    <string name="sedentary">Calm</string>
+    <string name="activities">Activity</string>
+    <!-- BLOOD PRESSURE -->
+    <string name="please_sit_back">Please sit back and relax while GoBe estimates your blood pressure</string>
+    <string name="we_do_not_measure_blood_pressure">Please be advised that GoBe does not measure blood pressure. The “blood pressure” figure is estimated based on your pulse wave, which may cause inaccurate readings. \n\nPlease remember that GoBe is NOT a medical device. The GoBe’s blood pressure measurements shall not be considered as a substitute for blood pressure measurements using medical devices or medical attention.</string>
+    <string name="start_measurement">start estimation</string>
+    <string name="measurement_impossible">Estimation is impossible. Check that your GoBe is in good contact with your skin and ensure that the smart band is connected with your phone.</string>
+    <string name="measurement_failed">Estimation failed</string>
+    <string name="repeat_measurement">Repeat estimation</string>
+    <string name="measurement_in_progress">Estimation in progress…</string>
+    <string name="current_pressure">Current blood pressure:</string>
+    <!-- ALARMS -->
+    <string name="sleep_quality">quality</string>
+    <string name="new_alarm">New alarm</string>
+    <string name="by_time">By time</string>
+    <string name="by_quality">By quality</string>
+    <string name="repeat_every_week">Repeat</string>
+    <string name="go_be_not_connected">GoBe is not connected. Power on your GoBe and keep it near the phone.</string>
+    <string name="sleep_duration_will_calc">GoBe will wake you upon reaching the desired sleep Quality</string>
+    <string name="alarm_by">Alarm by %1$s</string>
+    <string name="no_alarms">No alarms</string>
+    <string name="add">Add</string>
+    <string name="time_window">Time window</string>
+    <string name="go_be_will_wake_up">GoBe will wake you up at the most opportune moment between %1$s</string>
+    <string name="alarm_at">Alarm at %1$s</string>
+    <string name="alarm_duplicate_not_saved">The Smart alarm with the same parameters already exists and is enabled. The current alarm won\'t be saved.</string>
+    <string name="alarm_duplicate_enabled">Alarm already exists and was turned on</string>
+    <string name="too_many_alarms" tools:ignore="PluralsCandidate">You can\'t create more than %d alarms</string>
+    <string name="today_with_prefix">today</string>
+    <string name="tomorrow_with_prefix">tomorrow</string>
+    <string-array name="week_first_letter">
+    <!--Shortest Weekday name for Monday (for example "M" for "Monday" in English)-->
+        <item>M</item>
+    <!--Shortest Weekday name for Tuesday (for example "T" for "Tuesday" in English)-->
+        <item>T</item>
+    <!--Shortest Weekday name for Wednesday (for example "W" for "Wednesday" in English)-->
+        <item>W</item>
+    <!--Shortest Weekday name for Thursday (for example "T" for "Thursday" in English)-->
+        <item>T</item>
+    <!--Shortest Weekday name for Friday (for example "F" for "Friday" in English)-->
+        <item>F</item>
+    <!--Shortest Weekday name for Saturday (for example "S" for "Saturday" in English)-->
+        <item>S</item>
+    <!--Shortest Weekday name for Sunday (for example "S" for "Sunday" in English)-->
+        <item>S</item>
+    </string-array>
+    <string name="no">No</string>
+    <string name="weekend">Weekends</string>
+    <string name="weekend_with_prefix">weekends</string>
+    <string name="weekdays">Workdays</string>
+    <string name="weekdays_with_prefix">workdays</string>
+    <string name="every_day">Every day</string>
+    <string name="every_day_with_prefix">every day</string>
+    <string name="no_repeat">Never repeat</string>
+    <string name="no_repeat_with_prefix">never repeat</string>
+    <string name="alarm_desc_with_duration">In %1$s, %2$s</string>
+    <string name="alarms_connection_lost">Your GoBe is disconnected. Connect it to edit alarms.</string>
+    <string name="alarms_updating">Setting up alarms on GoBe…</string>
+    <!-- RECOMMENDATIONS -->
+    <string name="sleep_recommendation">Sleep recommendation</string>
+    <string name="recommended_time_desc">recommended time\nfor your lifestyle</string>
+    <string name="base_duration">Base recommendation</string>
+    <string name="time_interval_incorrect">Interval start can\'t be later than interval end</string>
+    <string name="smart_alarms">Smart alarms</string>
+    <!--Dashboard / Stress. Accumulated Block title for state when user has some accumulation of stress-->
+    <string name="accumulated_stress">Accumulated</string>
+    <!--Dashboard / Stress. Accumulated Block substring for state when user has some accumulation of stress-->
+    <string name="accumulated_1">stress above normal</string>
+    <string name="collecting_data">Your GoBe is collecting data now. It may take up a few minutes. Please keep wearing your GoBe and wait a little.</string>
+    <string name="collecting_data_title">PROCESSING DATA</string>
+    <!--Dashboard / Stress. Graph mark level or Accumulated stress state on dashboard -->
+    <string name="norm_stress">Normal</string>
+    <!--small banner for new features-->
+    <string name="beta" translatable="false">Beta</string>
+    <!--Sleep. Graph legend. Sleep Anxiety - is the level of uncontrolled movements during sleep-->
+    <string name="legend_anxiety">Anxiety level</string>
+    <!--Sleep. Graph legend. REM - is the Rapid Eye Movement phase of sleep-->
+    <string name="legend_rem">REM</string>
+    <!--Sleep. Quality desc. 0-45% sleep Quality description-->
+    <string name="sleep_short">very short sleep</string>
+    <!--Sleep. Quality desc. 46-60% sleep Quality-->
+    <string name="sleep_deficit">possible lack of sleep</string>
+    <!--Sleep. Quality desc. 76-90% sleep Quality-->
+    <string name="sleep_continuous">long sleep</string>
+    <!--Sleep. Quality desc. 91-100% sleep Quality-->
+    <string name="sleep_optimal">optimal sleep</string>
+    <!--Sleep. Sleep period desc. Desc for sleep without wake-ups-->
+    <string name="sleeptable_no_awakes">No wake-ups</string>
+    <!--Sleep. Sleep period desc. Desc for sleep without wake-ups-->
+    <string name="sleeptable_awake">Wake-up</string>
+    <!--Smart alarms. Phrase for exact time (Time alarm without range)-->
+    <string name="go_be_will_wake_exacty">GoBe will wake you up exactly at: %1$s</string>
+    <plurals name="wake_ups_format">
+        <item quantity="one">%1$d wake-up</item>
+        <item quantity="other">%1$d wake-ups</item>
+    </plurals>
+    <!--Water balance.Total loss metrice title-->
+    <string name="water_total_loss">Total loss</string>
+    <string name="multiday_sleep_desc">You can find this sleep record on the next day’s screen. The HEALBE app places sleep records on the day when your sleep ends.</string>
+    <!--Sleep. Table. Quality description for 61-75% quality-->
+    <string name="sleep_short_60">short sleep</string>
+    <!--Graph state.-->
+    <string name="graph_wearing_for">On this day, you\'ve been wearing your GoBe for %1$s h.</string>
+    <string name="graph_bad_data">The data may be incomplete.</string>
+    <string name="graph_bad_end">Unable to detect the end of your sleep accurately.</string>
+    <!--Graph. Used when we need to shorten alarm icon(e.g. 08:00 - 08.45)
+ - if too many alarms for a short period of time. Please, refer to your language guides to translate correctly.-->
+    <string name="graph_alarm_interval">%1$s-%2$s</string>
+    <!--Title used for Deficit feature-->
+    <string name="deficit_title">Deficit</string>
+    <!--Long title used for Deficit feature in Water balance-->
+    <string name="deficit_long_title">Water Deficit</string>
+    <!--Deficit long description-->
+    <string name="deficit_desc">Replenish the water Deficit with usual amounts by following drink reminders. Specify your comfortable Glass volume in the Profile to allow GoBe3 to notify you about water loss more accurately.</string>
+    <!--Used to describe GoBe usage time-->
+    <string name="worn_for">worn for</string>
+    <!--string for languages that need female-gender nouns for "Hydration" levels-->
+    <string name="low_fem">low</string>
+    <!--string for languages that need female-gender nouns for "Hydration" levels-->
+    <string name="normal_fem">normal</string>
+    <!--Neuroactivity. Maximal tension denotes peaks of NS activity in time-->
+    <string name="neuro_maxtension">Maximal tension</string>
+    <!--Neuroactivity. Calmness state description-->
+    <string name="neuro_calm_desc">A general relaxation. This state is typical for meditation, emotional detachment, or fatigue. Your nervous system reacts more slowly to your environment than usual.</string>
+    <!--Neuroactivity. Efficacy state description-->
+    <string name="neuro_efficacy_desc">An optimal working state for a nervous system. In this state you are ready to cope with any task. More likely, you are giving your body enough resources, rest and sleep.</string>
+    <!--Neuroactivity. Tension state description-->
+    <string name="neuro_tension_desc">A notable psycho-emotional load. Your nervous system (NS) is active and still productive, but such load may already lead to fatigue and irritability. If you spend a lot of time in this state, think about getting some extra rest, at least on weekends.</string>
+    <!--Neuroactivity. Overload state description-->
+    <string name="neuro_overload_desc">Your nervous system is overstressed. Such state leads to exhaustion and affects overall performance. It\'s worth scheduling a good rest.</string>
+    <!--Learn more button-->
+    <string name="bttn_learnmore">Learn more</string>
+    <!--Beta button disclaimer.-->
+    <string name="test_mode_pressure">Please note: The blood pressure measurement works in test mode and it should not be used as a substitute for medical devices</string>
+    <!--Beta button disclaimer.-->
+    <string name="test_mode_nutrients">Please note: The nutrient counting algorithm works in test mode. The calculation is approximate</string>
+    <!--Water balance. Today's section title-->
+    <string name="during_the_day">During the day</string>
+    <!--Smart alarms. Button to open GoBe menu-->
+    <string name="go_to_screen">to GoBe menu</string>
+    <!--Energy balance. Status to show that user is currently amidst the process of digestion-->
+    <string name="intake_in_progress">Intake in progress</string>
+    <!--Neuroactivity. Main title-->
+    <string name="neuro_title">Neuroactivity</string>
+    <!--Neuroactivity. States title-->
+    <string name="state_title">State</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_calm">Calmness</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_effic">Efficacy</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_tension">Tension</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_overload">Overload</string>
+    <!--Neuroactivity. Trend option-->
+    <string name="neuro_trend_down">level goes down</string>
+    <!--Neuroactivity. Trend option-->
+    <string name="neuro_trend_up">level goes up</string>
+    <!--Neuroactivity. Legend. NS means Neural System-->
+    <string name="neuro_activity_level">NS activity level</string>
+</resources>

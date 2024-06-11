@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="maximum">Максимум</string>
+    <string name="minimum">Минимум</string>
+    <string name="current_pulse">Текущий пульс</string>
+    <string name="sleep_average">Средний во сне</string>
+    <string name="awake_average">Средний днем</string>
+    <string name="blood_pressure">Давление</string>
+    <string name="measure">Оценить</string>
+    <string name="no_data">Нет данных</string>
+    <string name="quality">Качество</string>
+    <string name="current_level">Текущий уровень</string>
+    <string name="recommendation">Рекомендация</string>
+    <string name="duration">Длительность</string>
+    <string name="awake">Пробуждения</string>
+    <string name="efficiency">Эффективность</string>
+    <string name="intake">Усвоение</string>
+    <string name="burned">Расход</string>
+    <string name="balance">Баланс</string>
+    <string name="steps">Шаги</string>
+    <string name="walking">Ходьба</string>
+    <string name="running">Бег</string>
+    <string name="basal">Основной обмен</string>
+    <string name="basal_time">за %1$s ношения GoBe</string>
+    <string name="fat">Жиры</string>
+    <string name="nutrients_intake">Нутриенты</string>
+    <string name="carbohydrates">Углеводы</string>
+    <string name="protein">Белки</string>
+    <plurals name="times">
+        <item quantity="one">%1$d раз</item>
+        <item quantity="other">%1$d раз</item>
+        <item quantity="few">%1$d раза</item>
+        <item quantity="many">%1$d раз</item>
+    </plurals>
+    <!--Pulse. Hint shown upon tapping the (i) button on average pulse metrice-->
+    <string name="pulse_sleepavg_hint">Средний пульс во сне – это среднее количество ударов сердца за время самого долгого дневного или ночного сна.</string>
+</resources>

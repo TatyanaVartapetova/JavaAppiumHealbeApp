@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="yesterday">昨日</string>
+    <string name="tonight">今夜</string>
+    <string name="today">今日</string>
+    <string name="tomorrow">明日</string>
+    <string name="info">情報</string>
+    <string name="level_no_stress">安全</string>
+    <string name="level_light">軽い</string>
+    <string name="level_moderate">高め</string>
+    <string name="level_high">高い</string>
+    <string name="level_very_high">かなり高い</string>
+    <string name="calculating">測定中</string>
+    <string name="low">低い</string>
+    <string name="normal">適度</string>
+    <!-- NO DATA -->
+    <string name="not_wearing">日中にGoBeを着用しなかったか、着用時間が十分ではありませんでした。</string>
+    <string name="not_wearing_title">%1$s GoBeを装着していません</string>
+    <string name="not_data_for_day">この日のデータはまだ取得されていません。</string>
+    <string name="not_data_for_day_title">%1$sのデータがありません</string>
+    <!-- the first parameter is date (today, yesterday or format_day_of_week_day_and_month) and the second is time -->
+    <string name="last_synchronization">最後の同期は%1$s,%2$sに行われました。</string>
+    <string name="calculating_data">GoBeは、あなたの体の特徴にアルゴリズムを適応させ、データを収集しています。1時間以上かかる場合があります。GoBeを着けたまま少しお待ちください。</string>
+    <string name="calculating_data_title">@string/collecting_data_title</string>
+    <string name="sensor_no_contact">この日のデータがまだありません。GoBeを手首にしっかりと装着していること、センサーと肌が十分に接触していることを確認してください。</string>
+    <string name="sensor_no_contact_title">センサーの接触なし</string>
+    <string name="no_sleep">睡眠サイクルがまだありません</string>
+    <string name="no_sleep_text">GoBeは、選択した日の睡眠サイクルが不検出である、若しくは睡眠データがまだ同期されていない可能性があります。</string>
+    <string name="no_sleep_past">%1$sの睡眠は登録されていません</string>
+    <string name="routine">日課</string>
+    <string name="sedentary">安静時</string>
+    <string name="activities">アクティビティ</string>
+    <!-- BLOOD PRESSURE -->
+    <string name="please_sit_back">GoBeが血圧を測定中、椅子に深く座りリラックスしてください</string>
+    <string name="we_do_not_measure_blood_pressure">GoBeは血圧を測定しません。 この値は脈拍に基づき推定されるため、表示される値が正確ではない場合があります。\n\nGoBeは医療機器ではないことにご留意ください。 このベータテスト版において、HEALBEはユーザーの血圧測定値のいかなる不正確な数値についても一切の責任を負いません。</string>
+    <string name="start_measurement">推定を始める</string>
+    <string name="measurement_impossible">推定できません。GoBeが適切に皮膚に接触していることを確認するか、携帯電話とGoBeが接続されていることを確認してください。</string>
+    <string name="measurement_failed">推定に失敗しました</string>
+    <string name="repeat_measurement">推定を繰り返す</string>
+    <string name="measurement_in_progress">推定を実行中…</string>
+    <string name="current_pressure">現在の血圧:</string>
+    <!-- ALARMS -->
+    <string name="sleep_quality">睡眠の質</string>
+    <string name="new_alarm">新しいアラーム</string>
+    <string name="by_time">時刻で</string>
+    <string name="by_quality">睡眠の質で</string>
+    <string name="repeat_every_week">繰り返し</string>
+    <string name="go_be_not_connected">GoBeが接続されていません。GoBeをオンにし、GoBeが携帯電話の近くにあることを確認してください。</string>
+    <string name="sleep_duration_will_calc">GoBeは、望ましい睡眠の質に達したら起こします</string>
+    <string name="alarm_by">%1$sによるアラーム</string>
+    <string name="no_alarms">アラームなし</string>
+    <string name="add">追加</string>
+    <string name="time_window">時間幅</string>
+    <string name="go_be_will_wake_up">GoBeは%1$sの最適なタイミングであなたを起こします</string>
+    <string name="alarm_at">%1$sにアラーム</string>
+    <string name="alarm_duplicate_not_saved">同じパラメータのスマートアラームがすでに存在し、有効になっています。現在のアラームは保存されません。</string>
+    <string name="alarm_duplicate_enabled">アラームは既に存在し、オンにされました</string>
+    <string name="too_many_alarms" tools:ignore="PluralsCandidate">作成可能なアラームは%d件以下です</string>
+    <string name="today_with_prefix">今日</string>
+    <string name="tomorrow_with_prefix">明日</string>
+    <string-array name="week_first_letter">
+    <!--Shortest Weekday name for Monday (for example "M" for "Monday" in English)-->
+        <item>月</item>
+    <!--Shortest Weekday name for Tuesday (for example "T" for "Tuesday" in English)-->
+        <item>火</item>
+    <!--Shortest Weekday name for Wednesday (for example "W" for "Wednesday" in English)-->
+        <item>水</item>
+    <!--Shortest Weekday name for Thursday (for example "T" for "Thursday" in English)-->
+        <item>木</item>
+    <!--Shortest Weekday name for Friday (for example "F" for "Friday" in English)-->
+        <item>金</item>
+    <!--Shortest Weekday name for Saturday (for example "S" for "Saturday" in English)-->
+        <item>土</item>
+    <!--Shortest Weekday name for Sunday (for example "S" for "Sunday" in English)-->
+        <item>日</item>
+    </string-array>
+    <string name="no">いいえ</string>
+    <string name="weekend">週末</string>
+    <string name="weekend_with_prefix">週末</string>
+    <string name="weekdays">平日</string>
+    <string name="weekdays_with_prefix">平日</string>
+    <string name="every_day">毎日</string>
+    <string name="every_day_with_prefix">毎日</string>
+    <string name="no_repeat">繰り返しません</string>
+    <string name="no_repeat_with_prefix">繰り返しません</string>
+    <string name="alarm_desc_with_duration">%1$s以内、%2$s</string>
+    <string name="alarms_connection_lost">GoBeが接続されていません。アラームを変更するには接続してください。</string>
+    <string name="alarms_updating">GoBeでアラームを設定しています…</string>
+    <!-- RECOMMENDATIONS -->
+    <string name="sleep_recommendation">推奨睡眠時間</string>
+    <string name="recommended_time_desc">あなたのライフスタイルに\n合わせた推奨睡眠時間</string>
+    <string name="base_duration">基本推奨時間</string>
+    <string name="time_interval_incorrect">間隔開始時間は間隔終了時間後には設定できません</string>
+    <string name="smart_alarms">スマートアラーム</string>
+    <!--Dashboard / Stress. Accumulated Block title for state when user has some accumulation of stress-->
+    <string name="accumulated_stress">蓄積</string>
+    <!--Dashboard / Stress. Accumulated Block substring for state when user has some accumulation of stress-->
+    <string name="accumulated_1">ストレスやや高め</string>
+    <string name="collecting_data">GoBeは今、データを収集しています。数分かかる場合があります。GoBeを着けたまま少しお待ちください。</string>
+    <string name="collecting_data_title">データ処理中</string>
+    <!--Dashboard / Stress. Graph mark level or Accumulated stress state on dashboard -->
+    <string name="norm_stress">適度</string>
+    <!--small banner for new features-->
+    <!--Sleep. Graph legend. Sleep Anxiety - is the level of uncontrolled movements during sleep-->
+    <string name="legend_anxiety">不安レベル</string>
+    <!--Sleep. Graph legend. REM - is the Rapid Eye Movement phase of sleep-->
+    <string name="legend_rem">レム睡眠</string>
+    <!--Sleep. Quality desc. 0-45% sleep Quality description-->
+    <string name="sleep_short">超短時間睡眠</string>
+    <!--Sleep. Quality desc. 46-60% sleep Quality-->
+    <string name="sleep_deficit">睡眠不足気味</string>
+    <!--Sleep. Quality desc. 76-90% sleep Quality-->
+    <string name="sleep_continuous">まずまずの睡眠時間</string>
+    <!--Sleep. Quality desc. 91-100% sleep Quality-->
+    <string name="sleep_optimal">最適な睡眠時間</string>
+    <!--Sleep. Sleep period desc. Desc for sleep without wake-ups-->
+    <string name="sleeptable_no_awakes">覚醒なし</string>
+    <!--Sleep. Sleep period desc. Desc for sleep without wake-ups-->
+    <string name="sleeptable_awake">覚醒</string>
+    <!--Smart alarms. Phrase for exact time (Time alarm without range)-->
+    <string name="go_be_will_wake_exacty">GoBeは次の時間ちょうどに起こします %1$s</string>
+    <plurals name="wake_ups_format">
+        <item quantity="other">%1$d回覚醒</item>
+    </plurals>
+    <!--Water balance.Total loss metrice title-->
+    <string name="water_total_loss">脱水量</string>
+    <string name="multiday_sleep_desc">この睡眠記録は次の日の画面で確認できます。HEALBEアプリは、睡眠が終了した日に睡眠記録を表示します。</string>
+    <!--Sleep. Table. Quality description for 61-75% quality-->
+    <string name="sleep_short_60">短時間睡眠</string>
+    <!--Graph state.-->
+    <string name="graph_wearing_for">この日、あなたはGoBeを%1$s時間着用しています。</string>
+    <string name="graph_bad_data">データが不完全な可能性があります。</string>
+    <string name="graph_bad_end">睡眠の終わりを正確に検出できません。</string>
+    <!--Graph. Used when we need to shorten alarm icon(e.g. 08:00 - 08.45)
+ - if too many alarms for a short period of time. Please, refer to your language guides to translate correctly.-->
+    <string name="graph_alarm_interval">%1$s～%2$s</string>
+    <!--Title used for Deficit feature-->
+    <string name="deficit_title">不足量</string>
+    <!--Long title used for Deficit feature in Water balance-->
+    <string name="deficit_long_title">水分不足</string>
+    <!--Deficit long description-->
+    <string name="deficit_desc">水分補給通知に従って、通常の容量で水分不足を補給してください。GoBe3がより正確にあなたの水分バランスの低下を通知するようにプロファイルで快適なグラスの容量を指定してください。</string>
+    <!--Used to describe GoBe usage time-->
+    <string name="worn_for">装着時間</string>
+    <!--string for languages that need female-gender nouns for "Hydration" levels-->
+    <string name="low_fem">低い</string>
+    <!--string for languages that need female-gender nouns for "Hydration" levels-->
+    <string name="normal_fem">適度</string>
+    <!--Neuroactivity. Maximal tension denotes peaks of NS activity in time-->
+    <string name="neuro_maxtension">最高緊張レベル</string>
+    <!--Neuroactivity. Calmness state description-->
+    <string name="neuro_calm_desc">ゆっくりでリラックスした状態です。瞑想中、感情離脱、または疲労している時の状態です。神経系が普段より遅くて鈍く反応しています。穏やかでリラックスした状態です。瞑想中、落ち着いた状態、または非常に疲労している時の状態を含みます。自律神経が普段よりゆっくりで鈍く反応しています。</string>
+    <!--Neuroactivity. Efficacy state description-->
+    <string name="neuro_efficacy_desc">自律神経が最適な作業状態です。この状態では、どんな仕事でも対処することができます。あなたは身体に十分に休息をさせ、睡眠を与えているようですね。</string>
+    <!--Neuroactivity. Tension state description-->
+    <string name="neuro_tension_desc">顕著な精神的・感情的な負担がかかっている状態です。自律神経は活発で、生産性がまだ高いですが、疲労や過敏症が引き起こしやすいと思われます。このような状態がしばらく続くという状況にいるのであれば、少なくとも週末には十分にリフレッシュすることをお勧めします。</string>
+    <!--Neuroactivity. Overload state description-->
+    <string name="neuro_overload_desc">自律神経に過剰なストレスがかかっている状態です。このような状態は、疲労を招き、日常生活においてのパフォーマンスに影響を与えます。しっかり休息を取るようにしましょう。</string>
+    <!--Learn more button-->
+    <string name="bttn_learnmore">さらに詳しく</string>
+    <!--Beta button disclaimer.-->
+    <string name="test_mode_pressure">【ご注意】血圧測定はテスト版ですので、医療機器として使用しないでください。</string>
+    <!--Beta button disclaimer.-->
+    <string name="test_mode_nutrients">【ご注意】栄養計算アルゴリズムは、テスト版ですので、数値はおおよそのものです。</string>
+    <!--Water balance. Today's section title-->
+    <string name="during_the_day">日中</string>
+    <!--Smart alarms. Button to open GoBe menu-->
+    <string name="go_to_screen">GoBeメニューへ</string>
+    <!--Energy balance. Status to show that user is currently amidst the process of digestion-->
+    <string name="intake_in_progress">摂取量計算中</string>
+    <!--Neuroactivity. Main title-->
+    <string name="neuro_title">ニューロアクティビティー</string>
+    <!--Neuroactivity. States title-->
+    <string name="state_title">状態</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_calm">カームネス</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_effic">エフィカシー</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_tension">テンション</string>
+    <!--Neuroactivity. State-->
+    <string name="neuro_overload">オーバーロード</string>
+    <!--Neuroactivity. Trend option-->
+    <string name="neuro_trend_down">レベル低下中</string>
+    <!--Neuroactivity. Trend option-->
+    <string name="neuro_trend_up">レベル上昇中</string>
+    <!--Neuroactivity. Legend. NS means Neural System-->
+    <string name="neuro_activity_level">神経活動レベル</string>
+</resources>

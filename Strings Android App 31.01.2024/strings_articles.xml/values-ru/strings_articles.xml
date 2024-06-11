@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_for_you">Новое для вас</string>
+    <string name="see_all">Посмотреть все</string>
+    <string name="retry">повторить</string>
+    <string name="check_internet_connection">Проверьте интернет-соединение</string>
+    <string name="an_error_occurred">Ошибка</string>
+</resources>

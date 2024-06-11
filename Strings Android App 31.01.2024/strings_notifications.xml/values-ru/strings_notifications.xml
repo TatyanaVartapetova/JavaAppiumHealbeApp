@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_not_sync">Вы не синхронизировались со своим GoBe уже %1$s. Чтобы сократить время синхронизации, старайтесь выполнять её пару раз в день.</string>
+    <string name="notification_not_weight">Вы не обновляли данные о весе уже %1$s. Пожалуйста, добавьте запись о весе, чтобы вам было проще отслеживать динамику его изменений.</string>
+    <!--Notifications section title-->
+    <string name="notif_title">События</string>
+    <!--Notifications section. Error title. When no notifications found-->
+    <string name="no_notif_title">Событий пока нет</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc1">HEALBE начинает отправлять персональные уведомления и советы после первого соединения с GoBe. Свяжитесь с нашей службой поддержки, если этого не произошло</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc2">Ваши уведомления появятся здесь</string>
+    <!--Notifications section. Error. Button-->
+    <string name="contact_sup_bttn">Связаться с поддержкой</string>
+</resources>

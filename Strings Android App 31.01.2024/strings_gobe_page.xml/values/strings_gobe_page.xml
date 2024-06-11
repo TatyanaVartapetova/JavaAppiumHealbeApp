@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_connected">not connected</string>
+    <string name="no_contact_with_skin">No or bad contact of sensors with skin.</string>
+    <string name="successfully_updated">Successfully updated</string>
+    <string name="installing">installing…</string>
+    <string name="charging">Charging…</string>
+    <string name="percent" formatted="false">%d%%</string>
+    <string name="your_healbe_gobe">My GoBe</string>
+    <string name="gobe_display">GoBe display</string>
+    <string name="system_information">Service information</string>
+    <string name="about_this_device">about this device</string>
+    <string name="change_orientation">rotate screen</string>
+    <string name="change_gobe_s_pin">Change PIN code</string>
+    <string name="find_another_gobe">Connect another GoBe</string>
+    <string name="connecting">connecting…</string>
+    <string name="gobe_connection_error_desc">Can\'t find this GoBe. Make sure it\'s nearby, charged and is turned on. Also, unpair any other smartphones connected to your GoBe.</string>
+    <string name="gobe_connection_error_short">Can\'t find your GoBe</string>
+    <string name="gobe_bluetooth_disabled_desc">Bluetooth is disabled. Please turn on Bluetooth to be able to connect your GoBe</string>
+    <string name="flashing">restarting…</string>
+    <string name="edit_your_gobe_s_name">Set name for your GoBe</string>
+    <string name="set_name">Save</string>
+    <string name="connection_status" translatable="false">Connection status</string>
+    <string name="serial_number" translatable="false">Serial number</string>
+    <string name="mac_address" translatable="false">MAC address</string>
+    <string name="func_firmware_version" translatable="false">Func Firmware version</string>
+    <string name="ble_firmware_version" translatable="false">Ble Firmware version</string>
+    <string name="base_firmware_version" translatable="false">Base Firmware version</string>
+    <string name="erase_device">Erase data on GoBe</string>
+    <string name="reset">Reset</string>
+    <string name="reset_suc">Device was successfully reset</string>
+    <string name="reset_err">Reset error</string>
+    <string name="reset_warning_text">This action will reset your GoBe. Are you sure?</string>
+    <string name="sensor_api_version" translatable="false">Sensor API version</string>
+    <string name="change_pin_code">Change PIN code</string>
+    <string name="update_pin">Update PIN code</string>
+    <string name="set_gobe_name">Set name for your GoBe</string>
+    <string name="firmware_update">GoBe update</string>
+    <string name="checking_avail">Checking available GoBe firmware updates</string>
+    <string name="cancel_update">Cancel update</string>
+    <string name="abort_update">Cancel update</string>
+    <string name="connection_failed">Lost internet connection. Please, check your connection and try again.</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="pin_need">PIN code was changed</string>
+    <string name="wrong_symbols_in_pin">Wrong symbols. Only numbers allowed.</string>
+    <string name="wrong_pin">Wrong PIN code</string>
+    <string name="fw_need">update is required</string>
+    <string name="fw_available">Update available</string>
+    <string name="uploading_logs_title">Uploading logs</string>
+    <string name="uploading_logs_text">preparing…</string>
+    <string name="log_uploaded_successfully">Logs sent successfully</string>
+    <string name="logs_uploading_failed">Logs uploading failed. Please try again</string>
+    <string name="send_logs_text">Send logs</string>
+    <string name="send_logs">Send</string>
+    <string name="uploading_logs_progress">Uploaded %d%%</string>
+    <string name="logs_uploading_started">Logs uploading has been started. Check the uploading status in the notification bar.</string>
+    <string name="command_not_supported">Command Not Supported</string>
+    <string name="command_not_supported_message">Please check for GoBe firmware updates or contact our support team at %s.</string>
+    <string name="synchronization_p_dd">sync (%1$d%%)…</string>
+    <!--GoBe page, User manual button.-->
+    <string name="user_manual">User manual</string>
+    <string name="link_manual" translatable="false">https://healbe.com/manual/?utm_source=android_app&amp;utm_medium=manual&amp;utm_campaign=gobe2</string>
+    <string name="link_manual_gb3" translatable="false">https://healbe.com/manual-gobe3/?utm_source=android_app&amp;utm_medium=manual&amp;utm_campaign=gobe3</string>
+    <!--GoBe menu. Button used for GoBe3 only. Switches the GoBe's screen view between two types.-->
+    <string name="switch_screen_mode">Switch screen mode</string>
+    <!--GoBe menu. GoBe charging state shown after the charging process is completed.-->
+    <string name="charged">Charged</string>
+    <!--GoBe menu. Error. Shown for problems with saving GoBe's name-->
+    <string name="save_name_error">Can\'t save the name</string>
+    <!--PIN update. Second title shown afer the first PIN code was entered-->
+    <string name="repeat_pin">Repeat PIN code to confirm</string>
+    <!--PIN update. Title for Enter PIN section-->
+    <string name="enter_new_pin">Enter PIN code</string>
+    <!--Quick start. Toast shown after PIN was saved-->
+    <string name="pin_saved">PIN code was saved successfully</string>
+    <!--Quick start. PIN code field placeholder-->
+    <string name="pin_placeholder">PIN code</string>
+    <!--Phys activity permission-->
+    <string name="need_anctivity_recognition_permissions">Physical activity permission is missing.</string>
+    <!--GoBe status. Shown on GoBe page and Dashboard when some permissions are missing-->
+    <string name="need_bluetooth_permissions">Needs permission</string>
+    <!--GoBe menu. Alert text shown if Nearby devices permission is missing-->
+    <string name="need_bluetooth_permissions_desc">Nearby devices permission is missing. Please allow HEALBE app to use Bluetooth to connect your GoBe</string>
+</resources>

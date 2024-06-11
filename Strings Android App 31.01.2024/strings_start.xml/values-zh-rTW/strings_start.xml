@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="welcome_name">%s,歡迎！</string>
+    <string name="bluetooth_is_off">藍牙已關閉</string>
+    <string name="bluetooth_is_on">藍牙已開啟</string>
+    <string name="you_need_bluetooth">啟用藍牙以\n連接您的GoBe</string>
+    <string name="continue_start">繼續</string>
+    <string name="turn_on_bluetooth">開啟藍牙</string>
+    <string name="start_search">開始搜索</string>
+    <string name="searching_devices_nearby">正在搜索附近的設備……</string>
+    <string name="query_error">網絡錯誤,請稍檢查互聯網連接或後再試</string>
+    <string name="repeat_search">再次搜索</string>
+    <string name="make_sure">請確保GoBe在手機旁邊,並已開啟。</string>
+    <string name="gobe_wristband_name">您的GoBe名稱</string>
+    <string name="body_measurements">身體參數</string>
+    <string name="setup_pin">設置PIN碼</string>
+    <string name="pin_helper">為了確保資料安全,創建一個6位數的PIN碼</string>
+    <string name="pins_different">輸入的PIN碼不相符</string>
+    <string name="pins_is_default">PIN碼不能為「000000」</string>
+    <string name="enter_pin">輸入您的GoBe PIN碼</string>
+    <string name="restore_pin">重置PIN碼</string>
+    <string name="pin_required">您的GoBe PIN碼已更改,請輸入新的GoBe PIN碼以連接您的GoBe。</string>
+    <string name="new_pin_required">您的GoBe未有設置PIN碼,請設置PIN碼以連接您的GoBe。</string>
+    <string name="forgot_pin">忘記PIN碼？</string>
+    <string name="enter_puk">請輸入您的GoBe的PUK碼</string>
+    <string name="puk_code">PUK碼</string>
+    <string name="not_have_puk_code">沒有PUK碼？</string>
+    <string name="incorrect_puk">PUK 碼錯誤</string>
+    <string name="pin_restored">PIN碼已重置</string>
+    <string name="confirm_helper">請再次確認PIN碼</string>
+    <string name="puk_sent">PUK代碼已發送到您用於激活GoBe的電子郵件中。 請複制並粘貼在上面的字段中。</string>
+    <string name="support">支援</string>
+    <string name="retry">重試</string>
+    <string name="fw_lost_connection">已經與GoBe斷開連接</string>
+    <string name="fw_final_error">更新失敗</string>
+    <string name="fw_final_error_stat">如果錯誤重複出現,\n請聯繫我們的支援團隊\n(%s)。</string>
+    <string name="fw_begin_error_stat">請聯繫我們的支援團隊\n在 %s</string>
+    <string name="warn_permission">您已拒絕HEALBE應用訪問位置服務</string>
+    <string name="email_fw_sup">未能驗證該設備的固件</string>
+    <string name="available">可用</string>
+    <string name="no_updates">沒有可用的更新</string>
+    <string name="сharge_not_enough">您的GoBe電量不足,無法啟動更新。請將您的GoBe連接到充電器以開始更新</string>
+    <string name="or_enable_location_services">或啟用位置服務</string>
+    <plurals name="n_updates_avail">
+        <item quantity="other">%d更新</item>
+    </plurals>
+    <string name="select_gobe_device">選擇要連接的 GoBe 設備：</string>
+    <string name="pin_helper_connect">GoBe受啟動期間設定的PIN碼保護</string>
+    <!--Quick start. title of quick start scenario-->
+    <string name="welcome_title">請準備好GoBe操作：</string>
+    <!--Quick start. alghorythm - step 1-->
+    <string name="welcome_1st_step">從設備上取下所有保護膜</string>
+    <!--Quick start. alghorythm - step 2-->
+    <string name="welcome_2nd_step">將充電電纜連接到您的GoBe</string>
+    <!--Quick start. alghorythm - step 3-->
+    <string name="welcome_3rd_step">將充電電纜連接到充電器的USB埠</string>
+    <!--Quick start. description under CONTINUE button-->
+    <string name="gobe3_charge_advice">連接充電器後,GoBe3自動打開。</string>
+    <!--Start screen. title -->
+    <string name="start_screen_title">說“你好”👋\n為了更好的你自己！</string>
+    <!--Start screen. desc, 1st part of the "please, sign in to continue or | create an account| " phrase -->
+    <string name="start_screen_desc">請登入以繼續\n或</string>
+    <!--Start screen. desc, 2nd part of the "please, sign in to continue or | create an account| " phrase. shown as a link-like button -->
+    <string name="start_screen_signup">建立新帳戶</string>
+    <!-- Update wizard. Desc shown if update is critical -->
+    <string name="update_install_needed">最新更新可用。我們建議安裝它以改善您的GoBe體驗</string>
+    <!-- Quick start. Successful onnection screen title-->
+    <string name="connect_gobe">連接到您的GoBe</string>
+    <!-- Quick start. Unsuccessful onnection screen. Button for showing short advices -->
+    <string name="tips_button">建議</string>
+    <!-- Quick start. GoBe connection screen. Short description shown after the search is performed -->
+    <string name="search_complete">搜索完成</string>
+    <!-- Quick start. GoBe connection screen. If user has paired GoBe already, this warning is shown -->
+    <string name="unpair_warning">您配對新的GoBe “%1$s”。以前連接的 “%2$s” GoBe手環將被遺忘。</string>
+    <!-- Quick start. Connection state-->
+    <string name="searching">正在搜索……</string>
+    <!-- Quick start. Button for advices and suggestions-->
+    <string name="understood">我明白</string>
+    <!-- Quick start. Title for geolocation request-->
+    <string name="geo_request">打開位置服務</string>
+    <!-- Quick start. Title for disconnect request-->
+    <string name="disconnect_request">斷開其他設備</string>
+    <!-- Quick start. Advice on turning on gobe2-->
+    <string name="gobe2_advice">要打開GoBe2,請按住設備側面的按鈕3秒鐘,直到它振動並顯示“HELLO”或“SYNC”消息。</string>
+    <!-- Quick start. Advice on disconnecting all the devices bt current one-->
+    <string name="multiconnection_advice">如果智能手環已經連接到其他設備,則無法將GoBe連接到該智能手機。 請確保您的GoBe沒有通過HEALBE應用程序或智能手機的默認藍牙菜單中的任何設備連接。</string>
+    <!-- Quick start. Title for the support screen-->
+    <string name="contact_support">請聯繫我們的支援團隊</string>
+    <!-- Quick start. Desc for the support screen-->
+    <string name="contact_support_desc">不能自己解決問題嗎？聯繫我們的支持團隊。 HEALBE客戶服務很樂意為您提供幫助！</string>
+    <!-- Quick start. Title for the quick start - connection screen-->
+    <string name="connect_your_gobe">連接到您的GoBe</string>
+    <string name="checking_updates">正在檢查更新......</string>
+    <!-- Update. Update unavailable description 1st part. Concatenates with other string into "The latest updates have to be installed to continue working with GoBe .Contact our support team\nat %s-->
+    <string name="update_unavailable_desc">必須安裝最新更新才能繼續使用GoBe。請與我們的支持團隊聯系 %s。</string>
+    <string name="firmware_success_notif">GoBe更新已成功完成。</string>
+    <string name="firmware_fail_notification">我們無法更新您的GoBe。請轉到應用程序獲取詳細信息。</string>
+    <!--Firmware update. Insufficient charge title.-->
+    <string name="charge_gobe_title">連接充電器</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="StringFormatCount">
+    <string name="kcal">千卡</string>
+    <string name="bpm">次/分</string>
+    <string name="pressure">毫米汞柱</string>
+    <string name="weight_grams">克</string>
+    <!-- String in format "n steps" or part of "n steps, h hour m minutes active" -->
+    <plurals name="plurals_steps">
+        <item quantity="other">%s 步</item>
+    </plurals>
+    <!-- DISTANCE -->
+    <!-- Distance units short -->
+    <string name="dist_short_km">千米</string>
+    <string name="dist_short_mi">英里</string>
+    <string name="dist_short_m">米</string>
+    <!-- Distance units long -->
+    <string name="dist_long_km">千米</string>
+    <string name="dist_long_mi">英里</string>
+    <string name="dist_long_m">米</string>
+    <!-- WEIGHT -->
+    <!-- Weight units short -->
+    <string name="weight_short_kg">千克</string>
+    <string name="weight_short_lb">磅</string>
+    <string name="weight_short_jin">斤</string>
+    <string name="weight_short_st">英石</string>
+    <!-- Weight units short small -->
+    <string name="weight_short_small_g">克</string>
+    <string name="weight_short_small_lb">磅</string>
+    <!-- Weight units long -->
+    <string name="weight_long_kg">千克</string>
+    <string name="weight_long_lb">磅</string>
+    <string name="weight_long_jin">斤</string>
+    <string name="weight_long_st_lbs">英石和磅</string>
+    <!-- Weight units complex -->
+    <string name="weight_complex_kg">千克</string>
+    <string name="weight_complex_lb">磅</string>
+    <string name="weight_complex_jin">斤</string>
+    <string name="weight_complex_st_lb">英石和磅</string>
+    <!-- VOLUME -->
+    <!-- Volume units long -->
+    <string name="volume_long_ml">毫升</string>
+    <string name="volume_long_oz">盎司</string>
+    <!-- Volume units short -->
+    <string name="volume_short_ml">毫升</string>
+    <string name="volume_short_oz">盎司</string>
+    <!-- LENGTH -->
+    <!-- Length units short -->
+    <string name="length_short_cm">厘米</string>
+    <string name="length_short_in">寸</string>
+    <string name="length_short_ft">英尺</string>
+    <!-- Length units short for editing screen -->
+    <string name="length_short_editing_cm">厘米</string>
+    <string name="length_short_editing_in">英寸</string>
+    <string name="length_short_editing_ft">英尺</string>
+    <!-- Length units short small -->
+    <string name="length_short_small_ft">英寸</string>
+    <!-- Length units short small for editing screen -->
+    <string name="length_short_small_editing_ft" tools:ignore="ImpliedQuantity">寸</string>
+    <!-- Length units long -->
+    <string name="length_long_cm">厘米</string>
+    <string name="length_long_in">英寸</string>
+    <string name="length_long_ft_in">英尺和英寸</string>
+    <!-- Length units complex (fully cover selected units) -->
+    <string name="length_complex_cm">厘米</string>
+    <string name="length_complex_in">寸</string>
+    <string name="length_complex_ft_in">英尺和英寸</string>
+    <string name="time_period_hours">小时</string>
+    <string name="time_period_mins">分</string>
+    <!-- Do NOT remove tag "annotations". You can add/remove whitespaces and/or move elements. For example:
+     for string "min10 h5" this will be
+      <annotation val="m_helper">%4$s</annotation><annotation val="minutes">%3$d</annotation><annotation val="h_helper">%2$s</annotation><annotation val="hours">%1$d</annotation>-->
+    <string name="time_period_long"><annotation val="hours">%1$d</annotation><annotation val="h_helper">%2$s</annotation><annotation val="minutes">%3$d</annotation><annotation val="m_helper">%4$s</annotation></string>
+    <!-- see comment for time_period_long -->
+    <string name="time_period_short"><annotation val="minutes">%1$s</annotation><annotation val="m_helper">%2$s</annotation></string>
+    <string name="value_and_units_short">%1$s%2$s</string>
+    <string name="value_and_units_long" tools:keep="@string/value_and_units_long">%1$s %2$s %3$s %4$s</string>
+    <string name="day_period">%1$s – %2$s</string>
+    <string name="pressure_pattern">%1$d/%2$d毫米汞柱</string>
+    <string name="units_settings">单位设置</string>
+    <string name="want_lose_weight">您想减重吗？</string>
+    <string name="lower_than_percent"><![CDATA[< 1%]]></string>
+    <plurals name="days_ago">
+        <item quantity="other">%d 天前</item>
+    </plurals>
+</resources>

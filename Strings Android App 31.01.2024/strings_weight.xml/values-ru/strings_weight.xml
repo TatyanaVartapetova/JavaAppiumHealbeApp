@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_weight">Текущий вес</string>
+    <string name="current_progress">Динамика</string>
+    <string name="your_weight_goal">Желаемый вес</string>
+    <string name="setup_weight_goal">Поставьте цель по весу</string>
+    <string name="select_a_plan">Выберите план</string>
+    <string name="last_weights">История взвешиваний</string>
+    <string name="show_all_weights">Показать всю историю</string>
+    <string name="goals_history">История целей</string>
+    <string name="by_">к %1$s</string>
+    <string name="since_">начиная с %1$s (%2$s)</string>
+    <string name="add_weight">Взвешивание</string>
+    <string name="no_weight_data_for_period">Нет информации о взвешиваниях за данный период</string>
+    <string name="weight_history">История взвешиваний</string>
+    <string name="no_weight_data">Нет данных</string>
+    <string name="no_weight_data_available">Нет данных о весе</string>
+    <string name="cancel_goal">Отменить цель</string>
+    <string name="new_goal">Новая цель</string>
+    <string name="time_to_track_weight">Следите за весом с HEALBE</string>
+    <string name="connect_google_fit">Подключите Google Fit, чтобы хранить все данные о вашем теле в одном месте</string>
+    <string name="connect_google_fit_btn">"Подключить Google Fit "</string>
+    <string name="lets_go">Конечно да!</string>
+    <string name="weight_too_high">Начинать с малого — это нормально. Снизьте вес хотя бы %d%% от своего текущего веса. Пока что HEALBE поддерживает только цели по снижению веса</string>
+    <string name="it_is_your_weight">Это ваш текущий вес?</string>
+    <string name="track_it_automatically">Измеряйте вес автоматически</string>
+    <string name="weight_too_low">Будьте последовательны. Достигните веса %1$s, а затем переходите к новой цели</string>
+    <string name="recommended_goal">Снижение веса тела должно быть постепенным. С учетом индивидуальных параметров вашего тела безопасной и достижимой будет цель в диапазоне: %1$s—%2$s</string>
+    <string name="lazy">Простой</string>
+    <string name="lazy_desc">Достигните своей цели за %1$s с минимальными усилиями</string>
+    <string name="comfortable">Комфортный</string>
+    <string name="comfortable_desc">Достигните своей цели за %1$s (рекомендовано)</string>
+    <string name="extreme">Быстрый</string>
+    <string name="extreme_desc">Возьмите под контроль свои привычки и достигните цели за %1$s</string>
+    <string name="start_lose_it">Начать</string>
+    <string name="weight_goal_is">Желаемый вес</string>
+    <string name="weight_empty_error">Невозможно сохранить пустой вес</string>
+    <string name="way_to_lose_weight">Итак, ваша цель — снизить вес на %1$s за %2$s</string>
+    <string name="cannot_select_time">Нельзя добавить взвешивание в будущем</string>
+    <string name="occurrence_underweight">Ваш текущий вес ниже нормы</string>
+    <string name="occurrence_underweight_desc">Индекс массы вашего тела (BMI) ниже нормы. Нормой для вашего роста считается вес выше %1$s</string>
+    <string name="occurrence_fast_loose">Не спешите</string>
+    <string name="occurrence_fast_loose_desc">Быстрая потеря веса (более %1$s в неделю) может навредить вашему здоровью</string>
+    <string name="occurrence_slow_loose">Низкий темп</string>
+    <string name="occurrence_slow_loose_desc">Вы идете к своей цели недостаточно быстро, постарайтесь сократить порции и увеличить активность</string>
+    <string name="occurrence_time_to_weight">Пора взвеситься</string>
+    <plurals name="occurrence_time_to_weight_desc">
+        <item quantity="one">Вы не добавляли взвешивания уже %d неделю</item>
+        <item quantity="other">Вы не добавляли взвешивания уже %d недель</item>
+        <item quantity="few">Вы не добавляли взвешивания уже %d недели</item>
+        <item quantity="many">Вы не добавляли взвешивания уже %d недель</item>
+    </plurals>
+    <string name="occurrence_week_left">Осталась всего одна неделя</string>
+    <string name="occurrence_week_left_desc">У вас осталась всего неделя для достижения цели</string>
+    <string name="occurrence_goal_difficult">Сложная цель</string>
+    <string name="occurrence_goal_difficult_desc">Вес %1$s уже недостижим к %2$s безопасным способом</string>
+    <string name="occurrence_goal_half">Вы сбросили %1$s из %2$s</string>
+    <string name="occurrence_goal_half_desc">Вы на полпути к своей цели, так держать!</string>
+    <string name="occurrence_goal_not_reached">Цель не достигнута</string>
+    <string name="occurrence_goal_not_reached_desc">Не расстраивайтесь! Лучше попробуйте установить более простую цель</string>
+    <string name="occurrence_goal_reached">Вы достигли цели!</string>
+    <plurals name="occurrence_goal_reached_desc">
+        <item quantity="one">Вы сбросили %2$s и достигли веса %3$s за %1$d день</item>
+        <item quantity="other">Вы сбросили %2$s и достигли веса %3$s за %1$d дней</item>
+        <item quantity="few">Вы сбросили %2$s и достигли веса %3$s за %1$d дня</item>
+        <item quantity="many">Вы сбросили %2$s и достигли веса %3$s за %1$d дней</item>
+    </plurals>
+    <string name="setup_new_goal">Новая цель</string>
+    <string name="source_gfit">Google Fit</string>
+    <string name="source_apple_health">Apple Здоровье</string>
+    <string name="source_healbe">HEALBE</string>
+    <string name="source_withings">Withings / Nokia</string>
+    <string name="source_validic">Validic</string>
+    <string name="source_unknown">Неизвестный источник</string>
+    <string name="goal_reached">Достигнута</string>
+    <string name="goal_not_reached">Не достигнута</string>
+    <string name="goal_cancelled">Отменена</string>
+    <!--Weight. Not-new goal CTA button-->
+    <string name="add_goal">Поставьте цель по весу</string>
+    <!--Weight. No data state-->
+    <string name="weigh_regularly_to_keep_track_our_body_weight">Регулярно взвешивайтесь, чтобы увидеть здесь прогресс</string>
+    <!--Weight. Goal achieved screen. Button-->
+    <string name="hooray">Урааааа!!!!</string>
+    <!--Weight. Goal setup screen. Desc-->
+    <string name="if_want_control_body_need_measure_it">Знание точки отсчёта — уже отличный шаг на пути к изменениям</string>
+    <!--Weight. Main screen section title-->
+    <string name="previous_weights">Предыдущие взвешивания</string>
+    <!--Weight. Goal achieved screen. Title-->
+    <string name="сongratulations">Поздравляем!</string>
+</resources>

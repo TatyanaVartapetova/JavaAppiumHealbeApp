@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wristband_notifications">Оповещения с вибрацией</string>
+    <string name="enable_notifications">Вибрация</string>
+    <string name="enable_notifications_desc">Настройте уведомления на браслете, если хотите получать напоминания посредством вибрации браслета в случае низкого Водного баланса или других событий.</string>
+    <string name="time_interval">По расписанию</string>
+    <string name="time_interval_desc">Выберите интервал времени, когда браслет может подавать вам сигналы с помощью вибрации.</string>
+    <string name="start_time">Начало</string>
+    <string name="google_fit_settings_header">Настройки интеграции с Google Fit</string>
+    <string name="google_fit_button_text">Включить интеграцию с Google Fit</string>
+    <string name="do_you_like_app">Вам нравится наше приложение?</string>
+    <string name="sync_weight_data">Синхронизировать взвешивания</string>
+    <string name="sync_weight_data_desc">Включите данную опцию если хотите синхронизировать данные о ваших взвешиваниях между Google Fit и приложением HEALBE.</string>
+    <string name="export_sensors_data">Отправлять данные датчиков</string>
+    <string name="export_sensors_data_desc">"Включите эту опцию, если хотите сделать данные, полученные с датчиков GoBe, доступными в Google Fit. Данные о Пульсе, Усвоении и Расходе калорий, Cне и подсчете Шагов будут также доступны другим приложениям через Google Fit."</string>
+    <string name="report_problem">Сообщить о проблеме</string>
+    <string name="rate_the_app">Оценить приложение</string>
+    <string name="google_fit_connection_error">Ошибка подключения к Google Fit</string>
+    <string name="email_feedback">Отзыв пользователя</string>
+    <string name="version">Приложение: %1$s (%2$d)</string>
+    <!--Settings. SDK version string.-->
+    <string name="sdk_version">HEALBE SDK: %1$s</string>
+    <!--Settings. Subscription section title-->
+    <string name="subscriptions_title">Подписки</string>
+    <!--Settings. Subscription section. Restore bttn-->
+    <string name="subscriptions_rest_bttn">Восстановить подписки</string>
+    <!--Settings. Title for the Fast sync switcher-->
+    <string name="fast_sync">Быстрая синхронизация</string>
+</resources>

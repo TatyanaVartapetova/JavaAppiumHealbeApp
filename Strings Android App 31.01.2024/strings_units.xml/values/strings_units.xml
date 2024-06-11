@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="StringFormatCount">
+    <string name="kcal">kcal</string>
+    <string name="bpm">bpm</string>
+    <string name="pressure">mm Hg</string>
+    <string name="weight_grams">g</string>
+    <!-- String in format "n steps" or part of "n steps, h hour m minutes active" -->
+    <plurals name="plurals_steps">
+        <item quantity="one">%s step</item>
+        <item quantity="other">%s steps</item>
+    </plurals>
+    <!-- DISTANCE -->
+    <!-- Distance units short -->
+    <string name="dist_short_km">km</string>
+    <string name="dist_short_mi">mi</string>
+    <string name="dist_short_m">m</string>
+    <!-- Distance units long -->
+    <string name="dist_long_km">Kilometers</string>
+    <string name="dist_long_mi">Miles</string>
+    <string name="dist_long_m">Meters</string>
+    <!-- WEIGHT -->
+    <!-- Weight units short -->
+    <string name="weight_short_kg">kg</string>
+    <string name="weight_short_lb">lb</string>
+    <string name="weight_short_jin">jin</string>
+    <string name="weight_short_st">st</string>
+    <!-- Weight units short small -->
+    <string name="weight_short_small_g">g</string>
+    <string name="weight_short_small_lb">lb</string>
+    <!-- Weight units long -->
+    <string name="weight_long_kg">Kilograms</string>
+    <string name="weight_long_lb">Pounds</string>
+    <string name="weight_long_jin">Jin</string>
+    <string name="weight_long_st_lbs">Stones and pounds</string>
+    <!-- Weight units complex -->
+    <string name="weight_complex_kg">kg</string>
+    <string name="weight_complex_lb">lb</string>
+    <string name="weight_complex_jin">jin</string>
+    <string name="weight_complex_st_lb">st &amp; lb</string>
+    <!-- VOLUME -->
+    <!-- Volume units long -->
+    <string name="volume_long_ml">Milliliters</string>
+    <string name="volume_long_oz">Ounces</string>
+    <!-- Volume units short -->
+    <string name="volume_short_ml">ml</string>
+    <string name="volume_short_oz">oz</string>
+    <!-- LENGTH -->
+    <!-- Length units short -->
+    <string name="length_short_cm">cm</string>
+    <string name="length_short_in">in</string>
+    <string name="length_short_ft">\'</string>
+    <!-- Length units short for editing screen -->
+    <string name="length_short_editing_cm">cm</string>
+    <string name="length_short_editing_in">in</string>
+    <string name="length_short_editing_ft">ft</string>
+    <!-- Length units short small -->
+    <string name="length_short_small_ft">\"</string>
+    <!-- Length units short small for editing screen -->
+    <string name="length_short_small_editing_ft" tools:ignore="ImpliedQuantity">in</string>
+    <!-- Length units long -->
+    <string name="length_long_cm">Centimeters</string>
+    <string name="length_long_in">Inches</string>
+    <string name="length_long_ft_in">Feet and inches</string>
+    <!-- Length units complex (fully cover selected units) -->
+    <string name="length_complex_cm">cm</string>
+    <string name="length_complex_in">in</string>
+    <string name="length_complex_ft_in">ft &amp; in</string>
+    <string name="time_period_hours">h</string>
+    <string name="time_period_mins">min</string>
+    <!-- Do NOT remove tag "annotations". You can add/remove whitespaces and/or move elements. For example:
+     for string "min10 h5" this will be
+      <annotation val="m_helper">%4$s</annotation><annotation val="minutes">%3$d</annotation><annotation val="h_helper">%2$s</annotation><annotation val="hours">%1$d</annotation>-->
+    <string name="time_period_long"><annotation val="hours">%1$d</annotation> <annotation val="h_helper">%2$s</annotation> <annotation val="minutes">%3$d</annotation> <annotation val="m_helper">%4$s</annotation></string>
+    <!-- see comment for time_period_long -->
+    <string name="time_period_short"><annotation val="minutes">%1$s</annotation> <annotation val="m_helper">%2$s</annotation></string>
+    <string name="value_and_units_short">%1$s %2$s</string>
+    <string name="value_and_units_long" tools:keep="@string/value_and_units_long">%1$s %2$s %3$s %4$s</string>
+    <string name="day_period">%1$s – %2$s</string>
+    <string name="pressure_pattern">%1$d/%2$d mm Hg</string>
+    <string name="units_settings">Units settings</string>
+    <string name="want_lose_weight">Do you want to lose weight?</string>
+    <string name="lower_than_percent"><![CDATA[< 1%]]></string>
+    <plurals name="days_ago">
+        <item quantity="one">yesterday</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+</resources>

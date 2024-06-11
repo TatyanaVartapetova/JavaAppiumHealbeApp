@@ -1,43 +1,46 @@
 import lib.CoreTestCase;
-import lib.ui.EnergyPageObject;
-import lib.ui.EnterPageObject;
-import lib.ui.OnboardingPageObject;
+import lib.ui.EnergyPage;
+import lib.ui.EnterPage;
+import lib.ui.OnboardingPage;
+import lib.ui.ProfilePage;
 import org.junit.Test;
 
 public class Main extends CoreTestCase {
 
     @Test
     public void testPassOnboardingFull() {
-        OnboardingPageObject OnboardingPageObject = new OnboardingPageObject(driver);
-        OnboardingPageObject.passOnboardingFull("ru");
+        OnboardingPage OnboardingPage = new OnboardingPage(driver);
+        OnboardingPage.passOnboardingFull("ru");
     }
     @Test
     public void testSignInSuccessful() {
-        OnboardingPageObject OnboardingPageObject = new OnboardingPageObject(driver);
-        OnboardingPageObject.passOnboardingQuick();
-        EnterPageObject EnterPageObject = new EnterPageObject(driver);
-        EnterPageObject.signInFromEnterForm();
-        EnterPageObject.signInAndAssertSignInSuccessful("v60@v.co", "Heal");
+        OnboardingPage OnboardingPage = new OnboardingPage(driver);
+        OnboardingPage.passOnboardingQuick();
+        EnterPage EnterPage = new EnterPage(driver);
+        EnterPage.signInFromEnterForm();
+        EnterPage.signInAndAssertSignInSuccessful("v60@v.co", "Heal");
     }
     @Test
     public void testSignInUnsuccessful() {
-        OnboardingPageObject OnboardingPageObject = new OnboardingPageObject(driver);
-        OnboardingPageObject.passOnboardingQuick();
-        EnterPageObject EnterPageObject = new EnterPageObject(driver);
-        EnterPageObject.signInFromEnterForm();
-        EnterPageObject.signInWrongPassword();
-        EnterPageObject.clearEmailAndPasswordFields();
-        EnterPageObject.signInEmailNotValid();
+        OnboardingPage OnboardingPage = new OnboardingPage(driver);
+        OnboardingPage.passOnboardingQuick();
+        EnterPage EnterPage = new EnterPage(driver);
+        EnterPage.signInFromEnterForm();
+        EnterPage.signInWrongPassword();
+        EnterPage.clearEmailAndPasswordFields();
+        EnterPage.signInEmailNotValid();
     }
 
     @Test
     public void testEnergy(){
-        OnboardingPageObject OnboardingPageObject = new OnboardingPageObject(driver);
-        OnboardingPageObject.passOnboardingQuick();
-        EnterPageObject EnterPageObject = new EnterPageObject(driver);
-        EnterPageObject.signInFromEnterForm();
-        EnterPageObject.signIn("v60@v.co", "Heal");
-        EnergyPageObject EnergyPageObject = new EnergyPageObject(driver);
-        EnergyPageObject.openEnergyScreenWithData();
+        EnterPage EnterPage = new EnterPage(driver);
+        EnterPage.quickSignIn("v60@v.co", "Heal");
+        EnergyPage EnergyPage = new EnergyPage(driver);
+        EnergyPage.openEnergyScreenWithData();
     }
+@Test
+    public void testProfile(){
+    ProfilePage ProfilePage = new ProfilePage(driver);
+    ProfilePage.editProfile();
+}
 }

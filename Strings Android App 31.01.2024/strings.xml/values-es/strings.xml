@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_to_image">Selecciona una fuente para elegir una imagen</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="connection_error">Falló la conexión con tu GoBe. Por favor, inténtalo de nuevo.</string>
+    <string name="close">Cerrar</string>
+    <string name="end_time">Hora de término</string>
+    <string name="update">Instalar</string>
+    <string name="connect">Conectar</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="connected">Conectado</string>
+    <string name="warning">Advertencia</string>
+    <string name="enable">Habilitar</string>
+    <string name="apply">Aplicar</string>
+    <string name="date">Fecha</string>
+    <string name="time">Hora</string>
+    <string name="delete">Eliminar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="logs_channel_name">HEALBE registro de notificaciones</string>
+    <string name="notifications_state_channel_name">Notificaciones de estado de GoBe</string>
+    <string name="notifications_sync_channel_name">Notificaciones de datos</string>
+    <string name="notifications_default_channel_name">Notificaciones por defecto</string>
+    <!--duration in minutes short form (10 min, 24 min)-->
+    <string name="num_m">%1$d min</string>
+    <!--duration in hours short form (5 h, 3 h)-->
+    <string name="num_h">%1$d hr</string>
+    <!--duration in days short form (3 d, 5 d)-->
+    <string name="num_d">%1$d d.</string>
+    <!--duration in weeks short form (4 w, 9 w)-->
+    <string name="num_w">%1$d sem</string>
+    <string-array name="genders">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+    <plurals name="num_seconds">
+        <item quantity="one">%1$d segundo</item>
+        <item quantity="other">%1$d segundos</item>
+    </plurals>
+    <plurals name="num_videos">
+        <item quantity="one">%1$d vídeo</item>
+        <item quantity="other">%1$d vídeos</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="one">%1$d minuto</item>
+        <item quantity="other">%1$d minutos</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="one">%1$d hora</item>
+        <item quantity="other">%1$d horas</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">hora</item>
+        <item quantity="other">horas</item>
+    </plurals>
+    <plurals name="num_days">
+        <item quantity="one">%1$d día</item>
+        <item quantity="other">%1$d días</item>
+    </plurals>
+    <plurals name="num_weeks">
+        <item quantity="one">%1$d semana</item>
+        <item quantity="other">%1$d semanas</item>
+    </plurals>
+    <plurals name="num_months">
+        <item quantity="one">%1$d mes</item>
+        <item quantity="other">%1$d meses</item>
+    </plurals>
+    <plurals name="num_years">
+        <item quantity="one">%1$d año</item>
+        <item quantity="other">%1$d años</item>
+    </plurals>
+    <!--The current progress of the firmware update string. For example:
+"Step 1 of 3: Downloading update from server"-->
+    <string name="no_app_to_open">Ninguna aplicación puede realizar esta acción.</string>
+    <string name="recommendation_desc">La recomendación se basa en cuánto has dormido durante los 7 días previos. La actividad y los niveles de Estrés del último día afectan también a la Duración del sueño recomendado.
+
+La duración normal del sueño para tu edad varía desde %1$d a %2$d %3$s.</string>
+    <string name="search">Búsqueda</string>
+    <string name="menu_user">Perfil</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="enable_bluetooth">Enciende Bluetooth para conectar con tu GoBe</string>
+    <string name="bluetooth_error">Error de Bluetooth LE del dispositivo interno</string>
+    <!-- Location warning card -->
+    <string name="requires_location_services">En algunos dispositivos, Android requiere habilitar los Servicios de ubicación para poder encontrar GoBe a través de Bluetooth LE. HEALBE no utiliza tus datos de ubicación. Si no puedes conectar tu GoBe, intenta habilitar los servicios de ubicación en tu teléfono inteligente.</string>
+    <string name="energy_help_title">Balance energético: información útil</string>
+    <string name="water_help_title">Balance de agua: información útil</string>
+    <string name="hearth_help_title">Corazón: información útil</string>
+    <string name="night_help_title">Sueño: información útil</string>
+    <string name="stress_help_title">Estrés: información útil</string>
+    <string name="check_internet_connection">Comprobar la conexión a Internet</string>
+    <string name="please_wait">Por favor, espere…</string>
+    <string name="week_report">Reporte semanal</string>
+    <string name="query_too_short">¡Consulta demasiado corta!</string>
+    <string name="range">rango</string>
+    <string name="articles">Artículos</string>
+    <!--concatenatas with "The data may be incomplete". Used to describe graph incompleteness or other data loss. Please, make sure to leave space after dot if your locale uses such punctuation between two sentences.-->
+    <string name="something_updated">"Has actualizado GoBe, tu aplicación o tu smartphone recientemente. "</string>
+    <!--Error, universal for fields-->
+    <string name="field_is_empty">Este campo no puede quedar vacio</string>
+    <!--Dashboard. Week report. Water Balance subtitle-->
+    <string name="last_days_legend">durante los últimos 7 días</string>
+    <!--Dashboard. Week report. Legend-->
+    <string name="average_legend">Nivel promedio</string>
+    <!--Back button (used when user could go back to previous page/screen). Do not use words utilizing "Cancel" meaning as a synonym or translation-->
+    <string name="back_button">Atrás</string>
+    <!--Separator, used for e.g. in sequences like "Wed, Tue, Fri, ...". Please change to your target language's native punctuation mark.-->
+    <string name="comma_spacer">", "</string>
+    <!--Separator, used for concatenation. Please change to your target language's native punctuation mark.-->
+    <string name="dot_spacer">". "</string>
+    <!--Notification description-->
+    <string name="notification_charged">Tu GoBe está completamente cargado. ¡Puedes empezar a usarlo!</string>
+    <!--Time descriptor-->
+    <string name="earlier">Anteriormente</string>
+    <!--Time descriptor-->
+    <string name="last_week">La semana pasada</string>
+    <!--Error - no item chosen in a list. (item in this case is an option / tag etc. )-->
+    <string name="no_items_err">Elige al menos un artículo.</string>
+    <!--Error - no option chosen in a picker.-->
+    <string name="no_option_err">Elige una de las opciones.</string>
+    <!--Error - app should be updated to proceed-->
+    <string name="app_upd_err">Actualiza la aplicación o ponte en contacto con el servicio de asistencia (%s).</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_sync_channel_name">データ通知</string>
+    <!--GoBe push. Increased stress event title.-->
+    <string name="stress_push_title">💣あなたのストレスは限界に近づいています。</string>
+    <!--GoBe push. Increased stress event desc.-->
+    <string name="stress_push_desc">ストレスレベルが高くなりました。 休憩を取って何があなたにストレスを与えているかを確認し、追加の休息を取る計画を立ててみてください。</string>
+</resources>

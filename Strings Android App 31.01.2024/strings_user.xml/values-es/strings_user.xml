@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_out_popout">Cerrar sesión</string>
+    <string name="sleep_duration">Duración confortable del sueño</string>
+    <string name="weight_error">Actualmente, HEALBE GoBe solo puede funcionar con un rango de peso entre %1$s y %2$s</string>
+    <string name="wrong_params">¡Email y/o contraseña incorrectos!</string>
+    <string name="pass_restored">Por favor revisa tu correo electrónico, ¡Te enviamos las instrucciones para restablecer tu contraseña!</string>
+    <!--Toast, so place for translation is virtually unlimited-->
+    <string name="email_registered">Esta dirección de correo electrónico ya está registrada. Si este es tuya, por favor ingresa en iniciar sesión.</string>
+    <string name="height">Altura</string>
+    <string name="volume">Volumen</string>
+    <string name="distance">Distancia</string>
+    <string name="length">Altura y largo</string>
+    <string name="step">Longitud de paso</string>
+    <string name="weight">Peso</string>
+    <string name="glass_volume">Volumen de vaso</string>
+    <string name="height_error">Altura debe ser entre %1$s y %2$s.</string>
+    <string name="step_error">Longitud debe ser entre %1$s y %2$s.</string>
+    <string name="wristband_will_be_reset_error">Esta acción restablecerá tu GoBe. ¿Estás seguro?</string>
+    <string name="last_name_is_empty">El apellido no puede estar vacío</string>
+    <string name="restore">Restaurar</string>
+    <string name="restore_password">Restablecer la contraseña</string>
+    <string name="wrong_symbols">"Caracteres incorrectos. El campo debe contener solo letras, espacios y símbolos entre paréntesis (\' ` -)"</string>
+    <string name="name_is_empty">El nombre no puede estar vacío</string>
+    <string name="step_len_empty_error">La longitud del paso no puede estar vacía</string>
+    <string name="height_empty_error">La altura no puede estar vacía</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="gender">Sexo</string>
+    <string name="date_of_birth">Fecha de nacimiento</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="forgot">¿Olvidaste tu contraseña?</string>
+    <string name="privacy_address">https://healbe.com/privacy/?utm_source=android_app&amp;utm_medium=privacy</string>
+    <string name="privacy">Términos y Condiciones y Política de Privacidad</string>
+    <string name="by_signing_up">Al registrarte estás de acuerdo con
+%s</string>
+    <string name="will_log_out">Vas a cerrar la sesión. ¿Estás seguro?</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="or_sign_in">o iniciar sesión</string>
+    <string name="create_account">Crear una cuenta</string>
+    <string name="or_create">o crear una cuenta</string>
+    <string name="password_error">La contraseña debe tener al menos 4 símbolos</string>
+    <string name="login_error">El formato de correo electrónico es incorrecto</string>
+    <string name="sign_up">Registrese</string>
+    <string name="city">Ciudad</string>
+    <string name="country">País</string>
+    <string name="continue_text">Continuar</string>
+    <string name="last_name">Apellido</string>
+    <string name="first_name">Nombre</string>
+    <string name="please_check_fields_is_correct">"Por favor verifica que todos los campos estén llenos correctamente"</string>
+    <string name="please_fill_your_profile">Llena tu perfil</string>
+    <string name="buy_address">https://healbe.com/store/?utm_source=android_app&amp;utm_medium=store</string>
+    <string name="buy_link">Compra aquí</string>
+    <!--Link title with call to action — like «Forgot password?». «%s» here will be replaced with «>» arrow symbol.-->
+    <string name="buy_it">¿Aún no tiene GoBe? ¡%s!</string>
+    <string name="login_healbe">Inicia sesión en la cuenta HEALBE</string>
+    <!--Profile. Delete profile button-->
+    <string name="profile_delete">Borrar el perfil</string>
+    <!--Profile. Delete warning title-->
+    <string name="action_warning">¿Estás seguro?</string>
+    <!--Profile. Delete warning description-->
+    <string name="profile_delete_desc">Por favor, procede sólo si realmente quieres eliminar tu perfil de HEALBE y todos tus datos de usuario.</string>
+    <!--Profile. Delete success title-->
+    <string name="profile_delete_success">Tu perfil será eliminado permanentemente 30 días después de la confirmación.</string>
+    <!--Profile. Delete success description-->
+    <string name="profile_delete_success_desc">Puedes seguir utilizando la aplicación HEALBE hasta que eliminemos tu perfil. Esto ocurrirá en los próximos 30 días. Si cambias de opinión antes de que eliminemos todos tus datos, escríbenos a través del chat de la aplicación o en %s.</string>
+    <!--Profile. Delete photo button-->
+    <string name="photo_delete">Eliminar foto</string>
+    <!--Profile. Take photo button-->
+    <string name="photo_take">Hacer foto</string>
+    <!--Profile. Go to Library button-->
+    <string name="photo_choose">Elegir desde la Biblioteca</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title_eb">Control your Energy balance</string>
+    <string name="welcome_title_water">GoBe will notify you\nwhen to drink water</string>
+    <string name="welcome_title_pulse">Your body gives you signals\naround the clock</string>
+    <string name="welcome_title_sleep">Your body recovers\nwhile you sleep</string>
+    <string name="welcome_title_stress">Control stress level</string>
+    <string name="welcome_text_eb">You decide how much \"fuel\"\nto give your body and how\nmuch you should burn</string>
+    <string name="welcome_text_water">Your body works more reliable\nwhen you drink enough water</string>
+    <string name="welcome_text_pulse">Monitor your Pulse with GoBe\nduring any activity</string>
+    <string name="welcome_text_sleep">GoBe gives you detailed information\nabout the quality of your sleep,\nand \"Smart alarm\" will wake you up\nat the right time</string>
+    <string name="welcome_text_stress">GoBe determines stress level\non the basis of continuous monitoring\nof the state of your body</string>
+    <string name="skip">SKIP</string>
+    <!--Onboarding section 1 screen 1 title-->
+    <string name="onb_1_title">Tune into your body</string>
+    <!--Onboarding section 1 screen 1 description-->
+    <string name="onb_1_desc">Enhance nutrition and whole lifestyle\n\nMeet the only complete body Dashboard</string>
+    <!--Onboarding section 1 screen 1 button-->
+    <string name="onb_1_bttn">HELLO!</string>
+    <!--Onboarding section 1 screen 2 title-->
+    <string name="onb_2_title">Find a perfect balance</string>
+    <!--Onboarding section 1 screen 2 description-->
+    <string name="onb_2_desc">Direct insight into your personal lifestyle balance and habits</string>
+    <!--Onboarding section 1 screen 2 buttn-->
+    <string name="onb_2_bttn">I\'M ON IT!</string>
+    <!--Onboarding section 2 screen 1 title-->
+    <string name="onb_3_ttl">Every calorie counts</string>
+    <!--Onboarding section 2 screen 1 description-->
+    <string name="onb_3_desc">GoBe counts calories directly when tissues uptake the glucose\n(it happens even at night)\n\nDigestion and absorption of different meals may take up to 24 hours…</string>
+    <!--Onboarding section 2 screen 1 button-->
+    <string name="onb_3_bttn">Got it</string>
+    <!--Onboarding section 2 screen 2 title-->
+    <string name="onb_4_ttl">Wearing brings data</string>
+    <!--Onboarding section 2 screen 2 description-->
+    <string name="onb_4_desc">…and since these processes are so long it’s better to wear GoBe all the time except while charging</string>
+    <!--Onboarding section 2 screen 2 button-->
+    <string name="onb_4_bttn">The more the better</string>
+    <!--Onboarding section 2 screen 3 title-->
+    <string name="onb_5_ttl">Stay in touch with your body</string>
+    <!--Onboarding section 2 screen 3 description-->
+    <string name="onb_5_desc">Skin contact is the key to an accurate readings\n\nWear GoBe 1–2 finger widths above your wrist bone. The tightening should be firm, but still comfortable</string>
+    <!--Onboarding section 2 screen 3 button-->
+    <string name="onb_5_bttn">Contact is the key</string>
+    <!--Onboarding section 2 screen 4 title-->
+    <string name="onb_6_ttl">The power to change</string>
+    <!--Onboarding section 2 screen 4 description-->
+    <string name="onb_6_desc">GoBe full charge takes 90 min\n\nHere is our recipe of ideal charging:\nCharge before going to sleep or after waking up\n\nWear the band at least 30 min before having a meal</string>
+    <!--Onboarding section 2 screen 4 button-->
+    <string name="onb_6_bttn">And the last one…</string>
+    <!--Onboarding section 2 screen 5 title-->
+    <string name="onb_7_ttl">We are always by your side</string>
+    <!--Onboarding section 2 screen 5 description-->
+    <string name="onb_7_desc">Share your experience and find answers anytime using our in-app chat\n\nHere to help\n24/7\nСhat or email</string>
+    <!--Onboarding section 2 screen 5 button-->
+    <string name="onb_7_bttn">GET STARTED</string>
+</resources>

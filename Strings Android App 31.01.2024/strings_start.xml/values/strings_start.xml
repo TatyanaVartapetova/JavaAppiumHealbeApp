@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="welcome_name">Welcome, %s!</string>
+    <string name="bluetooth_is_off">Bluetooth disabled</string>
+    <string name="bluetooth_is_on">Bluetooth is on</string>
+    <string name="you_need_bluetooth">Turn on Bluetooth \nto connect your GoBe</string>
+    <string name="continue_start">continue</string>
+    <string name="turn_on_bluetooth">turn on Bluetooth</string>
+    <string name="start_search">start search</string>
+    <string name="searching_devices_nearby">Searching for devices nearby…</string>
+    <string name="query_error">Network error! Check internet connection or try again later.</string>
+    <string name="repeat_search">repeat search</string>
+    <string name="make_sure">Make sure that GoBe is near your phone and is turned on.</string>
+    <string name="gobe_wristband_name">Your GoBe name</string>
+    <string name="body_measurements">Body measurements</string>
+    <string name="setup_pin">Set up PIN code</string>
+    <string name="pin_helper">Create a 6-digit PIN code to protect your data</string>
+    <string name="pins_different">Entered PIN codes are not the same</string>
+    <string name="pins_is_default">PIN code \"000000\" is not allowed</string>
+    <string name="enter_pin">Enter your GoBe\'s PIN code</string>
+    <string name="restore_pin">Reset PIN code</string>
+    <string name="pin_required">Your GoBe\'s PIN code does not match. Please update your PIN code to get access to your GoBe.</string>
+    <string name="new_pin_required">Your GoBe PIN code was not set. Please set new PIN code to get access to your GoBe.</string>
+    <string name="forgot_pin">Forgot PIN code?</string>
+    <string name="enter_puk">Enter your GoBe’s PUK code here</string>
+    <string name="puk_code">PUK code</string>
+    <string name="not_have_puk_code">Don’t have the PUK code?</string>
+    <string name="incorrect_puk">Wrong PUK code</string>
+    <string name="pin_restored">PIN code was reset</string>
+    <string name="confirm_helper">Repeat your PIN code to confirm</string>
+    <string name="puk_sent">PUK code will be sent in a few minutes. Check the email you have used to activate GoBe. Please copy and paste it into the field above.</string>
+    <string name="support">support</string>
+    <string name="retry">retry</string>
+    <string name="fw_lost_connection">Lost connection with GoBe</string>
+    <string name="fw_final_error">Update failed</string>
+    <string name="fw_final_error_stat">If this error repeats, please\ncontact our support team\nat %s.</string>
+    <string name="fw_begin_error_stat">Contact our support team\nat %s</string>
+    <string name="warn_permission">You have denied HEALBE app to access the Location services</string>
+    <string name="email_fw_sup">Failed to verify the firmware for the device</string>
+    <string name="available">Available</string>
+    <string name="no_updates">No updates available</string>
+    <string name="сharge_not_enough">Your GoBe сharge level is not\nenough to start the update. Please connect your GoBe to a charger to start the update</string>
+    <string name="or_enable_location_services">or enable LOCATION services</string>
+    <plurals name="n_updates_avail">
+        <item quantity="one">%d update</item>
+        <item quantity="other">%d updates</item>
+    </plurals>
+    <string name="select_gobe_device">Select GoBe device to connect with:</string>
+    <string name="pin_helper_connect">GoBe is protected with the PIN code that was set during the activation</string>
+    <!--Quick start. title of quick start scenario-->
+    <string name="welcome_title">Please prepare your GoBe for work:</string>
+    <!--Quick start. alghorythm - step 1-->
+    <string name="welcome_1st_step">Take off all protective films from device</string>
+    <!--Quick start. alghorythm - step 2-->
+    <string name="welcome_2nd_step">Connect the charging cable to your GoBe</string>
+    <!--Quick start. alghorythm - step 3-->
+    <string name="welcome_3rd_step">Connect charging cable to USB-port of a charger</string>
+    <!--Quick start. description under CONTINUE button-->
+    <string name="gobe3_charge_advice">GoBe3 turns on automatically after the charger is connected.</string>
+    <!--Start screen. title -->
+    <string name="start_screen_title">Say \"Hello\" 👋\nto a better version of yourself!</string>
+    <!--Start screen. desc, 1st part of the "please, sign in to continue or | create an account| " phrase -->
+    <string name="start_screen_desc">Please sign in to continue\nоr</string>
+    <!--Start screen. desc, 2nd part of the "please, sign in to continue or | create an account| " phrase. shown as a link-like button -->
+    <string name="start_screen_signup">Create an account</string>
+    <!-- Update wizard. Desc shown if update is critical -->
+    <string name="update_install_needed">The latest update is available, we recommend installing it to improve your GoBe experience</string>
+    <!-- Quick start. Successful onnection screen title-->
+    <string name="connect_gobe">Connect your GoBe</string>
+    <!-- Quick start. Unsuccessful onnection screen. Button for showing short advices -->
+    <string name="tips_button">Learn more</string>
+    <!-- Quick start. GoBe connection screen. Short description shown after the search is performed -->
+    <string name="search_complete">Search is complete</string>
+    <!-- Quick start. GoBe connection screen. If user has paired GoBe already, this warning is shown -->
+    <string name="unpair_warning">You are going to connect the new GoBe \"%1$s\". The previously connected \"%2$s\" GoBe band will be forgotten.</string>
+    <!-- Quick start. Connection state-->
+    <string name="searching">searching…</string>
+    <!-- Quick start. Button for advices and suggestions-->
+    <string name="understood">Got it</string>
+    <!-- Quick start. Title for geolocation request-->
+    <string name="geo_request">Turn on Location services</string>
+    <!-- Quick start. Title for disconnect request-->
+    <string name="disconnect_request">Disconnect other devices</string>
+    <!-- Quick start. Advice on turning on gobe2-->
+    <string name="gobe2_advice">To turn on GoBe2 press and hold the button on its side for 3 seconds until the smart band vibrates and shows \"HELLO\" or \"SYNC\" message.</string>
+    <!-- Quick start. Advice on disconnecting all the devices bt current one-->
+    <string name="multiconnection_advice">GoBe can not be connected to this smartphone if the smart band is already connected to other devices. Please, make sure that your GoBe is not connected to any device via the HEALBE app or in the smartphone\'s default Bluetooth menu.</string>
+    <!-- Quick start. Title for the support screen-->
+    <string name="contact_support">Contact our support team</string>
+    <!-- Quick start. Desc for the support screen-->
+    <string name="contact_support_desc">Couldn\'t solve a problem on your own? Write to our support team. HEALBE Customer Care specialists would be happy to help you!</string>
+    <!-- Quick start. Title for the quick start - connection screen-->
+    <string name="connect_your_gobe">Connect your GoBe</string>
+    <string name="checking_updates">checking for updates…</string>
+    <!-- Update. Update unavailable description 1st part. Concatenates with other string into "The latest updates have to be installed to continue working with GoBe .Contact our support team\nat %s-->
+    <string name="update_unavailable_desc">The latest updates have to be installed to continue working with GoBe. Contact our support team at %s.</string>
+    <string name="firmware_success_notif">GoBe update has finished successfully.</string>
+    <string name="firmware_fail_notification">We weren\'t able to update your GoBe. Please, proceed to the app for details.</string>
+    <!--Firmware update. Insufficient charge title.-->
+    <string name="charge_gobe_title">Connect the charger</string>
+</resources>

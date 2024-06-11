@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wristband_notifications">バイブ通知</string>
+    <string name="enable_notifications">振動</string>
+    <string name="enable_notifications_desc">水分バランスの低下やその他のイベントついて、手首へのGoBe振動アラートを受け取りたい場合は、通知をオンにしてください。</string>
+    <string name="time_interval">通知時間設定</string>
+    <string name="time_interval_desc">スマートバンド振動リマインダを有効にする時間幅を選択します。</string>
+    <string name="start_time">開始時間</string>
+    <string name="google_fit_settings_header">Google Fitとの統合設定</string>
+    <string name="google_fit_button_text">Google Fitとの統合を有効にする</string>
+    <string name="do_you_like_app">弊社のアプリを気に入っていただけましたか？</string>
+    <string name="sync_weight_data">体重データを同期する</string>
+    <string name="sync_weight_data_desc">HEALBEアプリとGoogle Fitの体重データを同期する場合は、このオプションをオンにしてください。</string>
+    <string name="export_sensors_data">センサーデータをエクスポートする</string>
+    <string name="export_sensors_data_desc">"GoBeのセンサーデータをGoogle Fitにエクスポートする場合は、このオプションをオンにします。脈拍、睡眠、歩数、カロリー摂取量、カロリー燃焼データを、Google Fitやその他のアプリで利用できるようになります。 "</string>
+    <string name="report_problem">問題を報告する</string>
+    <string name="rate_the_app">アプリを評価する</string>
+    <string name="google_fit_connection_error">Google Fit接続エラー</string>
+    <string name="email_feedback">ユーザーフィードバック</string>
+    <string name="version">アプリバージョン: %1$s (%2$d)</string>
+    <!--Settings. SDK version string.-->
+    <string name="sdk_version">HEALBE SDK: %1$s</string>
+    <!--Settings. Subscription section title-->
+    <string name="subscriptions_title">定期購入</string>
+    <!--Settings. Subscription section. Restore bttn-->
+    <string name="subscriptions_rest_bttn">定期購入を復元する</string>
+    <!--Settings. Title for the Fast sync switcher-->
+    <string name="fast_sync">高速同期</string>
+</resources>

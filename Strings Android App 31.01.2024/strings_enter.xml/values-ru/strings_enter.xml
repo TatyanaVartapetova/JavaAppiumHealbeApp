@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_agrees_to_privacy_policy">Я соглашаюсь с <annotation link="privacy">Политикой конфиденциальности и Условиями использования HEALBE</annotation> и получением сервисных рассылок и уведомлений</string>
+    <string name="user_agrees_to_special_offsers">Я соглашаюсь получать рассылки о специальных предложениях, новостях компании и опросах</string>
+    <string name="need_to_agree_to_privacy_policy">Пожалуйста, согласитесь с политикой конфиденциальности, чтобы использовать продукты HEALBE</string>
+    <string name="session_has_expired">Мы завершили прошлую сессию, чтобы сохранить ваши данные в безопасности. Пожалуйста, перезайдите.</string>
+</resources>

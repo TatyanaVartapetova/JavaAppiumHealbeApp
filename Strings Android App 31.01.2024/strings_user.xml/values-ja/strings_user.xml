@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_out_popout">サインアウト</string>
+    <string name="sleep_duration">睡眠期間</string>
+    <string name="weight_error">現在、HEALBE GoBeは体重%1$s～%2$sの範囲でのみ機能します</string>
+    <string name="wrong_params">メールアドレスまたはパスワードが正しくありません！</string>
+    <string name="pass_restored">メールをチェックしてください。パスワードリセットの手順をお送りしました！</string>
+    <!--Toast, so place for translation is virtually unlimited-->
+    <string name="email_registered">このメールアドレスは、すでに登録されています。あなたのアドレスである場合は、サインインしてください。</string>
+    <string name="height">身長</string>
+    <string name="volume">容量</string>
+    <string name="distance">距離</string>
+    <string name="length">身長＆歩幅</string>
+    <string name="step">歩幅</string>
+    <string name="weight">体重</string>
+    <string name="glass_volume">コップ容量</string>
+    <string name="height_error">身長は%1$s～%2$sである必要があります</string>
+    <string name="step_error">歩幅は%1$s～%2$sである必要があります</string>
+    <string name="wristband_will_be_reset_error">この操作によりGoBeがリセットされます。よろしいですか？</string>
+    <string name="last_name_is_empty">姓は必須です</string>
+    <string name="restore">リセット</string>
+    <string name="restore_password">パスワードのリセット</string>
+    <string name="wrong_symbols">"不正な文字が入力されました。このフィールドで使用できるのは文字、スペース、特殊文字（「\'」、「`」「"」、「-」、「\」）のみです"</string>
+    <string name="name_is_empty">名前は必須です</string>
+    <string name="step_len_empty_error">歩幅は必須です</string>
+    <string name="height_empty_error">身長は必須です</string>
+    <string name="edit_profile">プロファイルを編集</string>
+    <string name="gender">性別</string>
+    <string name="date_of_birth">生年月日</string>
+    <string name="password">パスワード</string>
+    <string name="email">メールアドレス</string>
+    <string name="forgot">パスワードをお忘れですか？</string>
+    <string name="privacy_address">https://healbe.com/privacy/?utm_source=android_app&amp;utm_medium=privacy</string>
+    <string name="privacy">利用規約とプライバシーポリシー</string>
+    <string name="by_signing_up">サインアップすることにより、同意したものとみなされます
+
+%s</string>
+    <string name="will_log_out">ログアウトしますか？</string>
+    <string name="sign_out">サインアウト</string>
+    <string name="sign_in">サインイン</string>
+    <string name="or_sign_in">またはサインイン</string>
+    <string name="create_account">アカウントを作成する</string>
+    <string name="or_create">またはサインアップ</string>
+    <string name="password_error">パスワードは4文字以上で入力してください</string>
+    <string name="login_error">メールアドレスの形式が正しくありません</string>
+    <string name="sign_up">サインアップ</string>
+    <string name="city">市町村区</string>
+    <string name="country">国</string>
+    <string name="continue_text">続行</string>
+    <string name="last_name">姓</string>
+    <string name="first_name">名</string>
+    <string name="please_check_fields_is_correct">"すべてのフィールドが正しく入力されていることを確認してください"</string>
+    <string name="please_fill_your_profile">プロフィールを入力して</string>
+    <string name="buy_address">https://healbe.com/store/?utm_source=android_app&amp;utm_medium=store</string>
+    <string name="buy_link">まずはゲットしよう!</string>
+    <!--Link title with call to action — like «Forgot password?». «%s» here will be replaced with «>» arrow symbol.-->
+    <string name="buy_it">GoBe持ってない? %s！</string>
+    <string name="login_healbe">HEALBEアカウントにログイン</string>
+    <!--Profile. Delete profile button-->
+    <string name="profile_delete">プロフィール削除</string>
+    <!--Profile. Delete warning title-->
+    <string name="action_warning">本当ですか？</string>
+    <!--Profile. Delete warning description-->
+    <string name="profile_delete_desc">本当にHEALBEプロファイルとすべてのユーザーデータを削除する場合のみ、手続きを行ってください。</string>
+    <!--Profile. Delete success title-->
+    <string name="profile_delete_success">プロフィールは、確認後30日経過すると、永久に削除されます。</string>
+    <!--Profile. Delete success description-->
+    <string name="profile_delete_success_desc">プロフィールを削除するまで、HEALBEアプリを使用し続けることができます。これは今後30日以内に行われる予定です。すべてのデータを削除する前に気が変わった場合は、アプリ内チャットまたは%sまでご連絡ください。</string>
+    <!--Profile. Delete photo button-->
+    <string name="photo_delete">写真の削除</string>
+    <!--Profile. Take photo button-->
+    <string name="photo_take">写真の撮影</string>
+    <!--Profile. Go to Library button-->
+    <string name="photo_choose">ライブラリから選択する</string>
+</resources>

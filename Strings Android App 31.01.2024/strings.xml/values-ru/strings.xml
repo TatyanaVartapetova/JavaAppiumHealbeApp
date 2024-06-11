@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_to_image">Выберите приложение</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="connection_error">Не удалось подключиться к вашему GoBe. Пожалуйста, попробуйте ещё раз.</string>
+    <string name="close">Закрыть</string>
+    <string name="end_time">Конец</string>
+    <string name="update">Установить</string>
+    <string name="connect">Подключить</string>
+    <string name="disconnect">Отключить</string>
+    <string name="connected">подключен</string>
+    <string name="warning">Внимание!</string>
+    <string name="enable">Включить</string>
+    <string name="apply">Применить</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="delete">Удалить</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="logs_channel_name">Уведомления об отправке логов HEALBE</string>
+    <string name="notifications_state_channel_name">Уведомления о статусе GoBe</string>
+    <string name="notifications_sync_channel_name">Уведомления о синхронизации</string>
+    <string name="notifications_default_channel_name">Другие уведомления</string>
+    <!--duration in minutes short form (10 min, 24 min)-->
+    <string name="num_m">%1$d мин</string>
+    <!--duration in hours short form (5 h, 3 h)-->
+    <string name="num_h">%1$d ч</string>
+    <!--duration in days short form (3 d, 5 d)-->
+    <string name="num_d">%1$d д</string>
+    <!--duration in weeks short form (4 w, 9 w)-->
+    <string name="num_w">%1$d нед.</string>
+    <string-array name="genders">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+    <plurals name="num_seconds">
+        <item quantity="few">%1$d секунды</item>
+        <item quantity="one">%1$d секунда</item>
+        <item quantity="other">%1$d секунды</item>
+        <item quantity="many">%1$d секунд</item>
+    </plurals>
+    <plurals name="num_videos">
+        <item quantity="one">%1$d видео</item>
+        <item quantity="other">%1$d видео</item>
+        <item quantity="few">%1$d видео</item>
+        <item quantity="many">%1$d видео</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="one">%1$d минута</item>
+        <item quantity="other">%1$d минут</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="few">%1$d часа</item>
+        <item quantity="one">%1$d час</item>
+        <item quantity="other">%1$d часов</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="few">часа</item>
+        <item quantity="one">час</item>
+        <item quantity="other">часов</item>
+        <item quantity="many">часов</item>
+    </plurals>
+    <plurals name="num_days">
+        <item quantity="few">%1$d дня</item>
+        <item quantity="one">%1$d день</item>
+        <item quantity="other">%1$d дней</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="num_weeks">
+        <item quantity="few">%1$d недели</item>
+        <item quantity="one">%1$d неделя</item>
+        <item quantity="other">%1$d недель</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="num_months">
+        <item quantity="few">%1$d месяца</item>
+        <item quantity="one">%1$d месяц</item>
+        <item quantity="other">%1$d месяцев</item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="num_years">
+        <item quantity="few">%1$d года</item>
+        <item quantity="one">%1$d год</item>
+        <item quantity="other">%1$d лет</item>
+        <item quantity="many"></item>
+    </plurals>
+    <!--The current progress of the firmware update string. For example:
+"Step 1 of 3: Downloading update from server"-->
+    <string name="no_app_to_open">Нет приложения для выполнения этого действия</string>
+    <string name="recommendation_desc">Рекомендация учитывает длительность ночного сна за прошедшие 7 суток. Уровни физической Активности и Стресса за прошедший день также влияют на рекомендуемую продолжительность сна. 
+
+Нормальная длительность сна для человека вашего возраста — от %1$d до %2$d %3$s.</string>
+    <string name="search">Найти</string>
+    <string name="menu_user">Профиль</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="enable_bluetooth">Включите Bluetooth для подключения к GoBe</string>
+    <string name="bluetooth_error">Внутренняя ошибка Bluetooth смартфона</string>
+    <!-- Location warning card -->
+    <string name="requires_location_services">На некоторых Android-устройствах требуется включить Службы определения местоположения, чтобы HEALBE GoBe мог подключиться по Bluetooth LE. HEALBE не использует данные о вашем местоположении.  Если вы не можете найти свой GoBe, попробуйте включить Геолокацию.</string>
+    <string name="energy_help_title">Энергобаланс: полезная информация</string>
+    <string name="water_help_title">Водный баланс: полезная информация</string>
+    <string name="hearth_help_title">Сердце: полезная информация</string>
+    <string name="night_help_title">Cон: полезная информация</string>
+    <string name="stress_help_title">Стресс: полезная информация</string>
+    <string name="check_internet_connection">Проверьте интернет-соединение</string>
+    <string name="please_wait">Пожалуйста, подождите</string>
+    <string name="week_report">Недельный отчет</string>
+    <string name="query_too_short">Слишком короткий запрос!</string>
+    <string name="range">интервал</string>
+    <string name="articles">Статьи</string>
+    <!--concatenatas with "The data may be incomplete". Used to describe graph incompleteness or other data loss. Please, make sure to leave space after dot if your locale uses such punctuation between two sentences.-->
+    <string name="something_updated">"Вы недавно обновили GoBe, приложение или смартфон. "</string>
+    <!--Error, universal for fields-->
+    <string name="field_is_empty">Это поле не должно оставаться пустым</string>
+    <!--Dashboard. Week report. Water Balance subtitle-->
+    <string name="last_days_legend">за последние 7 дней</string>
+    <!--Dashboard. Week report. Legend-->
+    <string name="average_legend">Средний уровень</string>
+    <!--Back button (used when user could go back to previous page/screen). Do not use words utilizing "Cancel" meaning as a synonym or translation-->
+    <string name="back_button">Назад</string>
+    <!--Separator, used for e.g. in sequences like "Wed, Tue, Fri, ...". Please change to your target language's native punctuation mark.-->
+    <string name="comma_spacer">", "</string>
+    <!--Separator, used for concatenation. Please change to your target language's native punctuation mark.-->
+    <string name="dot_spacer">". "</string>
+    <!--Notification description-->
+    <string name="notification_charged">Ваш GoBe полностью заряжен. Вы уже можете надеть браслет!</string>
+    <!--Time descriptor-->
+    <string name="earlier">Ранее</string>
+    <!--Time descriptor-->
+    <string name="last_week">На прошлой неделе</string>
+    <!--Error - no item chosen in a list. (item in this case is an option / tag etc. )-->
+    <string name="no_items_err">Выберите хотя бы один элемент.</string>
+    <!--Error - no option chosen in a picker.-->
+    <string name="no_option_err">Выберите один из вариантов.</string>
+    <!--Error - app should be updated to proceed-->
+    <string name="app_upd_err">Пожалуйста, обновите приложение или обратитесь в поддержку (%s).</string>
+</resources>

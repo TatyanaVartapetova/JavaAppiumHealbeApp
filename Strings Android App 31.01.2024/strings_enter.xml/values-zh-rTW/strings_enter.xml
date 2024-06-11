@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_agrees_to_privacy_policy">我同意HEALBE得<annotation link="privacy">HEALBE條件和條款以及隱私政策</annotation>並同意接收產品電郵和通知。</string>
+    <string name="user_agrees_to_special_offsers">我同意接受有關特別優惠、公司新聞及調查的聯絡</string>
+    <string name="need_to_agree_to_privacy_policy">請同意使用HEALBE產品的隱私政策</string>
+    <string name="session_has_expired">HEALBE應用程序使你的數據安全。請再次授權。</string>
+</resources>

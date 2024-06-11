@@ -3,16 +3,13 @@ package lib.ui;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 
-public class EnergyPageObject extends MainPageObject{
-    public EnergyPageObject(AppiumDriver driver) {
+public class EnergyPage extends MainPageObject{
+    public EnergyPage(AppiumDriver driver) {
         super(driver);
     }
-    private static final String
-    ENERGY_BALANCE_CELL_DASHBOARD = "//android.widget.TextView[@text=\"Energy balance\"]"; //только англ
-
 
     public void openEnergyScreenWithData(){ // это временный вариант пока нет профиля с данными от Антона
-        waitForElementAndClick(By.xpath(ENERGY_BALANCE_CELL_DASHBOARD), "bla", 5);
+        waitForElementAndClick(By.xpath(URI.ENERGY_BALANCE_CELL_DASHBOARD), "bla", 5);
         waitForElementAndClick(By.xpath("//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View"), "bla1",5);
         waitForElementAndClick(By.xpath("//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View"), "bla2",5);
         //swipeLeft(); // не работают свайпы на эмуляторе (руками совсем, авто - плохо)

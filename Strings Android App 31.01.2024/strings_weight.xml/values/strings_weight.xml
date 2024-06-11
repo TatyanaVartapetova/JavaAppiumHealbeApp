@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_weight">Current weight</string>
+    <string name="current_progress">Dynamics</string>
+    <string name="your_weight_goal">Your weight goal</string>
+    <string name="setup_weight_goal">Choose your weight goal</string>
+    <string name="select_a_plan">Select a plan</string>
+    <string name="last_weights">Weight history</string>
+    <string name="show_all_weights">Show all history</string>
+    <string name="goals_history">Goals history</string>
+    <string name="by_">by %1$s</string>
+    <string name="since_">since %1$s (%2$s)</string>
+    <string name="add_weight">Weigh-in</string>
+    <string name="no_weight_data_for_period">You didn’t weigh yourself during this period</string>
+    <string name="weight_history">Weight history</string>
+    <string name="no_weight_data">No data</string>
+    <string name="no_weight_data_available">No weight data available</string>
+    <string name="cancel_goal">Cancel goal</string>
+    <string name="new_goal">New goal</string>
+    <string name="time_to_track_weight">It’s time to track your weight</string>
+    <string name="connect_google_fit">Connect with Google Fit to keep all your body\'s data in one place</string>
+    <string name="connect_google_fit_btn">Connect Google Fit</string>
+    <string name="lets_go">Let’s go!</string>
+    <string name="weight_too_high">It\'s OK to start small. Lose at least %d%% of your current weight. HEALBE now supports only weight-loss goals</string>
+    <string name="it_is_your_weight">Is it your current weight?</string>
+    <string name="track_it_automatically">Track your weight automatically</string>
+    <string name="weight_too_low">Be consistent. Reach the weight goal %1$s and move on to a next one</string>
+    <string name="recommended_goal">Make sure that you are losing your weight gradually. Depending on your current conditions, the safe and achievable goal would be %1$s–%2$s</string>
+    <string name="lazy">Light</string>
+    <string name="lazy_desc">Achieve your goal in %1$s with minimum effort</string>
+    <string name="comfortable">Comfortable</string>
+    <string name="comfortable_desc">Achieve your goal in %1$s (recommended)</string>
+    <string name="extreme">Fast</string>
+    <string name="extreme_desc">Take control of your habits and reach the goal in %1$s</string>
+    <string name="start_lose_it">Start</string>
+    <string name="weight_goal_is">Your weight goal is</string>
+    <string name="weight_empty_error">Can not save empty weight</string>
+    <string name="way_to_lose_weight">So you are on the way to lose %1$s in %2$s</string>
+    <string name="cannot_select_time">You can\'t set future time for measurement</string>
+    <string name="occurrence_underweight">You\'re underweight</string>
+    <string name="occurrence_underweight_desc">Your BMI is lower than normal. The optimal weight for the person of your height is over %1$s</string>
+    <string name="occurrence_fast_loose">Don\'t lose it so fast</string>
+    <string name="occurrence_fast_loose_desc">Losing weight more than %1$s per week could be dangerous. It can harm your health</string>
+    <string name="occurrence_slow_loose">You could do better</string>
+    <string name="occurrence_slow_loose_desc">You are moving to your goal too slowly. Try to reduce your calorie Intake and increase your Activity level</string>
+    <string name="occurrence_time_to_weight">Time to weigh</string>
+    <plurals name="occurrence_time_to_weight_desc">
+        <item quantity="one">You didn’t weigh yourself for one week</item>
+        <item quantity="other">You didn’t weigh yourself for %d weeks</item>
+    </plurals>
+    <string name="occurrence_week_left">One week left</string>
+    <string name="occurrence_week_left_desc">You have only one week to reach the goal. Hurry up!</string>
+    <string name="occurrence_goal_difficult">The goal is difficult</string>
+    <string name="occurrence_goal_difficult_desc">Reaching %1$s by %2$s is not a safe goal anymore</string>
+    <string name="occurrence_goal_half">You\'ve lost %1$s of %2$s</string>
+    <string name="occurrence_goal_half_desc">Keep going this way. Your goal is so close!</string>
+    <string name="occurrence_goal_not_reached">The goal wasn\'t reached</string>
+    <string name="occurrence_goal_not_reached_desc">Time is out. Try to set up a more comfortable goal</string>
+    <string name="occurrence_goal_reached">You\'ve reached the goal!</string>
+    <plurals name="occurrence_goal_reached_desc">
+        <item quantity="one">You\'ve lost %2$s and reached %3$s in one day</item>
+        <item quantity="other">You\'ve lost %2$s and reached %3$s in %1$d days</item>
+    </plurals>
+    <string name="setup_new_goal">New goal</string>
+    <string name="source_gfit">Google Fit</string>
+    <string name="source_apple_health">Apple Health</string>
+    <string name="source_healbe">HEALBE</string>
+    <string name="source_withings">Withings / Nokia</string>
+    <string name="source_validic">Validic</string>
+    <string name="source_unknown">Unknown</string>
+    <string name="goal_reached">Reached</string>
+    <string name="goal_not_reached">Not reached</string>
+    <string name="goal_cancelled">Cancelled</string>
+    <!--Weight. Not-new goal CTA button-->
+    <string name="add_goal">Set a weight goal</string>
+    <!--Weight. No data state-->
+    <string name="weigh_regularly_to_keep_track_our_body_weight">Weigh yourself regularly to see the progress here</string>
+    <!--Weight. Goal achieved screen. Button-->
+    <string name="hooray">Hooraaay!!!!</string>
+    <!--Weight. Goal setup screen. Desc-->
+    <string name="if_want_control_body_need_measure_it">Knowing your starting point is a good step towards changes</string>
+    <!--Weight. Main screen section title-->
+    <string name="previous_weights">Previous weigh-ins</string>
+    <!--Weight. Goal achieved screen. Title-->
+    <string name="сongratulations">Congratulations!</string>
+</resources>

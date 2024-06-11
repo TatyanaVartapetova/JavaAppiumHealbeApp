@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_agrees_to_privacy_policy"><annotation link="privacy">HEALBE利用規約とプライバシーポリシー</annotation>に同意し、弊社の商品に関するメール通知を受信することに同意します。</string>
+    <string name="user_agrees_to_special_offsers">ニュースレター、スペシャルオファー及びアンケート調査メールを受信することに同意します。</string>
+    <string name="need_to_agree_to_privacy_policy">HEALBE商品をご利用いただくために、プライバシーポリシーに同意していただくようお願い致します。</string>
+    <string name="session_has_expired">個人情報を保護する為に、HEALBEが期限切れとなったセッションを終了いたしました。お手数をお掛け致しますが、再度ログインをお願い致します。</string>
+</resources>

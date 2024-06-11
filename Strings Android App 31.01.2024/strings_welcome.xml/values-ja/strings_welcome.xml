@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title_eb">エネルギーバランスを
+コントロールする</string>
+    <string name="welcome_title_water">給水のタイミングを\nGoBeが通知します</string>
+    <string name="welcome_title_pulse">あなたの身体は常に\n信号を送り続けています</string>
+    <string name="welcome_title_sleep">身体は寝ている間に\n回復します</string>
+    <string name="welcome_title_stress">ストレスレベルを
+コントロールします</string>
+    <string name="welcome_text_eb">どのくらい「燃料」を摂取し、\nどのくらい燃焼させるかを\n決めるのはあなたです</string>
+    <string name="welcome_text_water">水分補給が十分であれば、身体は\nより良く機能してくれます</string>
+    <string name="welcome_text_pulse">どんな活動中でも \nGoBeで脈拍をモニタリング</string>
+    <string name="welcome_text_sleep">GoBeが睡眠の質に関する\n詳細な情報を提供し、\n「スマートアラーム」があなたを\n最適なタイミングで起こしてくれます</string>
+    <string name="welcome_text_stress">GoBeがあなたの身体の状態を\n継続的にモニタリングすることにより、\nストレスレベルをチェックします</string>
+    <string name="skip">スキップ</string>
+    <!--Onboarding section 1 screen 1 title-->
+    <string name="onb_1_title">お身体に耳を傾けましょう</string>
+    <!--Onboarding section 1 screen 1 description-->
+    <string name="onb_1_desc">正確なデータに基づいて食生活とライフスタイルを改善していきましょう</string>
+    <!--Onboarding section 1 screen 1 button-->
+    <string name="onb_1_bttn">こんにちは！</string>
+    <!--Onboarding section 1 screen 2 title-->
+    <string name="onb_2_title">自分に一番合ったバランスを見つけましょう</string>
+    <!--Onboarding section 1 screen 2 description-->
+    <string name="onb_2_desc">生活習慣があなたに与える影響が把握できます</string>
+    <!--Onboarding section 1 screen 2 buttn-->
+    <string name="onb_2_bttn">やってみようじゃないか！</string>
+    <!--Onboarding section 2 screen 1 title-->
+    <string name="onb_3_ttl">カロリー1つ1つを大切に</string>
+    <!--Onboarding section 2 screen 1 description-->
+    <string name="onb_3_desc">GoBe3は、細胞がブドウ糖（グルコース）を吸収すると共にカロリー計算をしていきます（昼夜問わず）。 \n\n食事の種類によって、消化に24時間までかかる場合がございます…</string>
+    <!--Onboarding section 2 screen 1 button-->
+    <string name="onb_3_bttn">了解！</string>
+    <!--Onboarding section 2 screen 2 title-->
+    <string name="onb_4_ttl">GoBe3を装着する＝身体を知る</string>
+    <!--Onboarding section 2 screen 2 description-->
+    <string name="onb_4_desc">…体内プロセスは時間がかかるので、GoBe3をなるべく手首から外さないのがポイント。</string>
+    <!--Onboarding section 2 screen 2 button-->
+    <string name="onb_4_bttn">多ければ多いほど良い</string>
+    <!--Onboarding section 2 screen 3 title-->
+    <string name="onb_5_ttl">身体とのコンタクトを保ちましょう</string>
+    <!--Onboarding section 2 screen 3 description-->
+    <string name="onb_5_desc">皮膚とのコンタクトはデータ精度のキーポイント。\n\n装着位置は手首の骨より指1本〜2本分の太さでつけるのがベスト。しっかりと締めつつ、心地よくつけるのが大事。</string>
+    <!--Onboarding section 2 screen 3 button-->
+    <string name="onb_5_bttn">接続第一</string>
+    <!--Onboarding section 2 screen 4 title-->
+    <string name="onb_6_ttl">多ければ多いほど良い</string>
+    <!--Onboarding section 2 screen 4 description-->
+    <string name="onb_6_desc">フル充電まではだいたい90分掛かります。 \n\n私たちの理想的な充電方法をご紹介します： \n充電は就寝直前、または起床直後に行うのがベスト。\n\nそして、GoBe3を少なくとも食事を取る30分前に装着することがとても大事です。</string>
+    <!--Onboarding section 2 screen 4 button-->
+    <string name="onb_6_bttn">最後に…</string>
+    <!--Onboarding section 2 screen 5 title-->
+    <string name="onb_7_ttl">HEALBEチームは常にお客様の側にいます</string>
+    <!--Onboarding section 2 screen 5 description-->
+    <string name="onb_7_desc">装着の体験をシェアしたいときや、ご質問があるときは、アプリ内チャットでお問い合わせください。\n\nいつもユーザー様の側にいます。\nお問い合わせはチャットやメールで受け付けております。</string>
+    <!--Onboarding section 2 screen 5 button-->
+    <string name="onb_7_bttn">スタート</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_agrees_to_privacy_policy">I agree to the <annotation link="privacy">HEALBE Terms and Conditions and Privacy Policy</annotation> and agree to receive product emails and notifications</string>
+    <string name="user_agrees_to_special_offsers">I agree to receive communication on special offers, company news and surveys</string>
+    <string name="need_to_agree_to_privacy_policy">Please, agree to the privacy policy to use HEALBE products</string>
+    <string name="session_has_expired">HEALBE has closed the session to keep your data safe. Please, re-authorise</string>
+</resources>

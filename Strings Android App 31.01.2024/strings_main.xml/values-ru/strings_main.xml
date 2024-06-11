@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="energy_header">Энергобаланс</string>
+    <!-- String in format "n steps, h hour m minutes active" -->
+    <string name="energy_activity_info_full">%1$s, %2$s активности</string>
+    <!-- String in format "h hour m minutes active" -->
+    <string name="energy_activity_info_only_active">%s активности</string>
+    <string name="hydration_header_cur">Гидратация</string>
+    <string name="hydration_header">Водный баланс</string>
+    <string name="pulse_header">Пульс</string>
+    <string name="pulse_header_cur">Текущий пульс</string>
+    <string name="night_header">Сон</string>
+    <string name="stress_header">Стресс</string>
+    <string name="stress_header_cur">Стресс сейчас</string>
+    <string name="weight_header">Вес</string>
+    <string name="current_header">текущие значения</string>
+    <string name="last_header">последние значения</string>
+    <string name="may_take_up_to_hour">может занять более часа</string>
+    <string name="edit">Изменить</string>
+    <string name="save">Сохранить</string>
+    <string name="dashboard_menu">HEALBE</string>
+    <string name="settings_menu">Настройки</string>
+    <string name="needs_bluetooth">Приложению HEALBE нужен Bluetooth для взаимодействия с вашим GoBe</string>
+    <string name="again">Повторить</string>
+    <string name="exit_app">выход</string>
+    <string name="device_not_linked">не привязан</string>
+    <string name="no_sensor_data">Нет данных с датчиков</string>
+    <string name="not_wear">Вы не носили GoBe</string>
+    <string name="no_contact">Проверьте контакт датчика</string>
+    <string name="time_to_add_weight">Пора взвеситься</string>
+    <string name="charge_your_gobe">Не забудьте зарядить свой GoBe</string>
+    <string name="battery_level">уровень заряда: %d%%</string>
+    <string name="smart_alarm">Умный будильник</string>
+    <string name="by_time_in_zero">по времени</string>
+    <string name="by_time_in">по времени, за %s</string>
+    <string name="by_quality_dash">по качеству</string>
+    <string name="upcoming">напоминания</string>
+    <string name="last_weight_in">прошлое взвешивание</string>
+    <!--average pulse during awake-->
+    <string name="awake_avg">днем: %d</string>
+    <!--average pulse during asleep-->
+    <string name="asleep_avg">во сне: %d</string>
+    <!--average pulse during awake for weeks -->
+    <string name="awake_pulse">Днем</string>
+    <!--average pulse during asleep for weeks -->
+    <string name="asleep_pulse">Во сне</string>
+    <string name="healbe_support">служба поддержки</string>
+    <string name="if_you_have">Свяжитесь со службой поддержки HEALBE Customer Care через чат внутри приложения или email</string>
+    <string name="support_mail">gobe@healbe.com</string>
+    <string name="advice_title">совет</string>
+    <string name="advice_ble_error">На некоторых Android-устройствах замечены проблемы с подключением по Bluetooth LE. Если вам не удается подключиться к своему GoBe, попробуйте выключить и включить Bluetooth или перезагрузить устройство.</string>
+    <string name="advice_no_contact">В случае плохого контакта датчиков с кожей, попробуйте затянуть ремешок потуже или протереть их поверхность влажной салфеткой.</string>
+    <string name="rate_header">в погоне за звездами</string>
+    <string name="rate_text">Оцените наше приложение в Google Play, чтобы поддержать разработчиков и помочь нам сделать его еще лучше.</string>
+    <string name="rate_btn">оценить</string>
+    <string name="don_t_show_this_again">Больше не показывать</string>
+    <string name="average_per_day">в среднем за день</string>
+    <!--Title for Heart section. Seen in Dashboard -> Heart-->
+    <string name="heart_title">Сердце</string>
+    <!--Dashboard. State of wearing advice. Shown when > 22 hours of wearing -->
+    <string name="timestate_great">Вы отлично носите GoBe! Мы собрали достаточно данных. Теперь у нас есть все необходимое для точной оценки Активности и Усвоении калорий в течение дня.</string>
+    <!--Dashboard. State of Water balance level. Shown when water level rises-->
+    <string name="water_goes_up">Уровень растёт</string>
+    <!--Dashboard. State of Water balance level. Shown when water level falls-->
+    <string name="water_goes_down">Уровень снижается</string>
+    <!--Dashboard. Daily reports section. Inside the section one could learn more about day-by-day results-->
+    <string name="daily_reports">Отчеты прошлых дней</string>
+    <!--Support Button-->
+    <string name="support_button">Свяжитесь с нами</string>
+    <!--Dashboard. State of wearing advice. Shown when > 22 hours of wearing-->
+    <string name="timestate_not_worn">Старайтесь носить GoBe не менее %1$s часов в день, так мы сможем оценить Усвоение и Расход калорий с максимально возможной точностью.</string>
+    <!--Dashboard. Stress daily accumulation subtitle-->
+    <string name="day_accumulated">средний накопленный за день</string>
+    <!--Dashboard. Stress daily accumulation subtitle-->
+    <string name="no_accumulated">нет накопленного стресса</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="balance_positive">положительный</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="balance_negative">отрицательный</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="balance_zero">нулевой</string>
+    <!--Dashboard. EB state in widget-->
+    <string name="not_worn">малое время ношения</string>
+    <!--Dashboard. State of wearing advice. Shown when > 22 hours of wearing-->
+    <string name="timestate_collect">Мы собираем данные. Носите GoBe в течение всего дня для получения максимально точных результатов измерений!</string>
+    <!--Dashboard. GoBe State-->
+    <string name="reset_pin">Сбросьте PIN-код</string>
+    <!--Dashboard. Week report. Stress legend-->
+    <string name="legend_balance">баланс</string>
+    <!--Dashboard. Week report. Stress legend-->
+    <string name="legend_fatigue">усталость</string>
+    <!--Dashboard. Week report. Stress legend-->
+    <string name="legend_exhaustion">истощение</string>
+    <!--Dashboard. Week report. Stress title while balanced-->
+    <string name="balanced_stress">Сбалансированный стресс</string>
+    <!--Dashboard. Week report. legend markup-->
+    <string name="average_level">средний уровень</string>
+    <!--Dashboard. Week report. legend markup-->
+    <string name="sleep_legend">Качество сна:</string>
+    <!--Separation symbol. May be used for separating strings like [4 wake-ups | 42 min]-->
+    <string name="special_sep">%1$s • %2$s</string>
+    <!--Week reports. Legend. Dangerous Stress-->
+    <string name="danger_legend">Опасный</string>
+    <!--Dashboard. Week report legend-->
+    <string name="above_stress">Выше нормы</string>
+    <!--Dashboard. Sleep desc. Concatenates into "n times · n% quality"-->
+    <string name="sleep_overall_quality">%s · %d%% качества</string>
+    <string name="confirm_email_suggestion">Пожалуйста, проверьте вашу почту %s и подтвердите её. Это поможет вам проще восстанавливать аккаунт и сделать его более безопасным.</string>
+    <string name="resend_email_confirmation">Отправить заново</string>
+    <!--Wearing time widget. Title descripting good wearing-->
+    <string name="timestate_great_title">Достаточно ношения</string>
+    <!--Wearing time widget. Title descripting not enough wearing-->
+    <string name="timestate_collect_title">GoBe нужно больше ношения</string>
+    <!--Wearing time widget. Title descripting bad wearing time-->
+    <string name="timestate_not_worn_title">Мало ношения</string>
+    <!--Wearing time widget. Description for bar with 24-hour wearing time-->
+    <string name="wearbar_description">Время ношения GoBe за последние 24 часа:</string>
+    <!--Upcoming alarm cell notification-->
+    <string name="upcoming_alarm_cell">Умный будильник поставлен на %1$s</string>
+    <!--GoBe charging notification-->
+    <string name="gobecharge_cell">Зарядите GoBe, чтобы получить максимум собранных данных</string>
+    <!--Dashboard. Insights cell title-->
+    <string name="insights_main_title">Инсайты</string>
+    <!--Dashboard. Insights cell desc-->
+    <string name="insights_dash_desc">взаимосвязи показателей</string>
+    <!--GetDone. Name of a service-->
+    <string name="getd_name">HEALBE GoBe</string>
+    <!--GetDone. Main call to action-->
+    <string name="getd_CTA">Пройдите путь к своей цели с HEALBE GetDone</string>
+    <!--GetDone. Placeholder for a picker-->
+    <string name="getd_placeholder">Выберите свою цель</string>
+    <!--GetDone. Additional call to action-->
+    <string name="getd_CTA2">Узнайте, как достичь своей цели с нашими экспертами</string>
+    <!--GetDone. Description for a  service screen-->
+    <string name="getd_desc">Выберите удобный для вас способ добиться цели</string>
+    <!--GetDone. Button for subscription-->
+    <string name="getd_buybttn">купить подписку</string>
+    <!--Title in stress section.-->
+    <string name="stresslevels_title">Уровни стресса</string>
+</resources>

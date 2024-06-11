@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title_eb">Контролируйте ваш Энергобаланс</string>
+    <string name="welcome_title_water">GoBe напомнит\nпопить воды</string>
+    <string name="welcome_title_pulse">Ваше тело подает сигналы\nкруглые сутки</string>
+    <string name="welcome_title_sleep">Ваш организм\nвосстанавливается во сне</string>
+    <string name="welcome_title_stress">Контролируйте уровень Стресса</string>
+    <string name="welcome_text_eb">Вы сами решаете, сколько «топлива» \nдать телу и сколько израсходовать</string>
+    <string name="welcome_text_water">Ваше тело работает более надежно,\nкогда вы пьете достаточно жидкости</string>
+    <string name="welcome_text_pulse">Следите за работой сердца с GoBe\nво время любой активности</string>
+    <string name="welcome_text_sleep">GoBe предоставит информацию о качестве сна, \nа «Умный будильник» разбудит в нужное время \nили поможет выспаться</string>
+    <string name="welcome_text_stress">GoBe определяет уровень стресса\nна основе постоянного мониторинга \nвашего тела</string>
+    <string name="skip">Пропустить</string>
+    <!--Onboarding section 1 screen 1 title-->
+    <string name="onb_1_title">Настройтесь на своё тело</string>
+    <!--Onboarding section 1 screen 1 description-->
+    <string name="onb_1_desc">Улучшайте питание и весь образ жизни, опираясь на точные данные</string>
+    <!--Onboarding section 1 screen 1 button-->
+    <string name="onb_1_bttn">НАЧАТЬ</string>
+    <!--Onboarding section 1 screen 2 title-->
+    <string name="onb_2_title">Найдите идеальный баланс</string>
+    <!--Onboarding section 1 screen 2 description-->
+    <string name="onb_2_desc">Обретите полное понимание того, как привычки влияют на вас</string>
+    <!--Onboarding section 1 screen 2 buttn-->
+    <string name="onb_2_bttn">ВПЕРЁД!</string>
+    <!--Onboarding section 2 screen 1 title-->
+    <string name="onb_3_ttl">Каждая калория на счету</string>
+    <!--Onboarding section 2 screen 1 description-->
+    <string name="onb_3_desc">GoBe считает калории по мере усвоения глюкозы клетками\n(которое продолжается даже ночью)\n\nА переваривание разных блюд может занимать до 24 часов…</string>
+    <!--Onboarding section 2 screen 1 button-->
+    <string name="onb_3_bttn">УСВОЕНО</string>
+    <!--Onboarding section 2 screen 2 title-->
+    <string name="onb_4_ttl">Ношение = знание</string>
+    <!--Onboarding section 2 screen 2 description-->
+    <string name="onb_4_desc">…и из-за того, что эти процессы такие долгие, GoBe лучше носить всё время, кроме подзарядки</string>
+    <!--Onboarding section 2 screen 2 button-->
+    <string name="onb_4_bttn">БОЛЬШЕ — ЛУЧШЕ</string>
+    <!--Onboarding section 2 screen 3 title-->
+    <string name="onb_5_ttl">Будьте на связи со своим телом</string>
+    <!--Onboarding section 2 screen 3 description-->
+    <string name="onb_5_desc">Контакт с кожей — главное условие для точных измерений\n\nНосите GoBe на 1-2 пальца выше косточки запястья. Браслет должен сидеть плотно и комфортно</string>
+    <!--Onboarding section 2 screen 3 button-->
+    <string name="onb_5_bttn">ГЛАВНОЕ — КОНТАКТ</string>
+    <!--Onboarding section 2 screen 4 title-->
+    <string name="onb_6_ttl">Подготовьтесь к переменам</string>
+    <!--Onboarding section 2 screen 4 description-->
+    <string name="onb_6_desc">GoBe3 полностью заряжается за 90 минут\n\nВот наш рецепт идеальной зарядки:\nЗаряжайте браслет утром или перед сном\n\nНадевайте GoBe3 хотя бы за 30 минут до еды</string>
+    <!--Onboarding section 2 screen 4 button-->
+    <string name="onb_6_bttn">И последнее…</string>
+    <!--Onboarding section 2 screen 5 title-->
+    <string name="onb_7_ttl">Мы всегда рядом</string>
+    <!--Onboarding section 2 screen 5 description-->
+    <string name="onb_7_desc">Делитесь впечатлениями и находите любые ответы в чате приложения\n\nМы поможем\n24/7\nВ чате или по почте</string>
+    <!--Onboarding section 2 screen 5 button-->
+    <string name="onb_7_bttn">НАЧАТЬ</string>
+</resources>

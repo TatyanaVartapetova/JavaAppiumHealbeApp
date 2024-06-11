@@ -45,7 +45,7 @@ public void testSignIn(){
     MainPageObject.waitForElementAndClick(By.id("com.healbe.healbegobe.debug:id/button"), "Cannot click on Sign In Button on Sign In", 5);
     MainPageObject.waitForElementAndClick(By.id("com.healbe.healbegobe.debug:id/sex"), "Cannot find Sex field",  15);
     MainPageObject.showDimensionOfElement(By.id("com.healbe.healbegobe.debug:id/sex"), "cannot find demension of element");
-    MainPageObject.tapToPointRelativeToElement(By.id("com.healbe.healbegobe.debug:id/sex"), 0, 340, "margin error");
+  //  MainPageObject.tapToPointRelativeToElement(By.id("com.healbe.healbegobe.debug:id/sex"), 0, 340, "margin error");
     MainPageObject.assertElementHasText(By.id("com.healbe.healbegobe.debug:id/sex"), "female", "No Female on sex field");
 
     // MainPageObject.waitForElementAndClick(By.xpath("//android.widget.ImageButton[@content-desc=\"Close\"]"), "Cannot find X button", 5);
@@ -72,7 +72,7 @@ public void testSignUp(){
     MainPageObject.waitForElementAndSendKeys(By.id("com.healbe.healbegobe.debug:id/first_name"), "Tatyana", "Cannot find and type into First Name field", 15);
     MainPageObject.waitForElementAndSendKeys(By.id("com.healbe.healbegobe.debug:id/second_name"), "Vart", "Cannot find and type into Last Name field", 15);
     MainPageObject.waitForElementAndClick(By.id("com.healbe.healbegobe.debug:id/sex"), "Cannot find Sex field",  15);
-    MainPageObject.showDimensionOfElement(By.id("com.healbe.healbegobe.debug:id/sex"), "cannot find demension of element");
+    MainPageObject.showDimensionOfElement(By.id("com.healbe.healbegobe.debug:id/sex"), "cannot find dimension of element");
   //  MainPageObject.waitForElementAndSendKeys(By.id("com.healbe.healbegobe.debug:id/sex"), "female ", "Cannot input value", 15);
   //  MainPageObject.tapToPointRelativeToElement(By.id("com.healbe.healbegobe.debug:id/sex"), 0, 30, "margin error");
 

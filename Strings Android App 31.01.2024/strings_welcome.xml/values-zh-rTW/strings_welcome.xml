@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title_eb">控制您的能量平衡</string>
+    <string name="welcome_title_water">GoBe會通知您何時飲水</string>
+    <string name="welcome_title_pulse">您的身體不斷給您信號</string>
+    <string name="welcome_title_sleep">睡眠時身體進行恢復</string>
+    <string name="welcome_title_stress">控制您的壓力水準</string>
+    <string name="welcome_text_eb">您決定給您的身體多少“燃料”和您應該燃燒多少</string>
+    <string name="welcome_text_water">當你喝足夠的水時,您的身體會更可靠</string>
+    <string name="welcome_text_pulse">在任何活動中使用GoBe監控您的脈搏\n</string>
+    <string name="welcome_text_sleep">GoBe會給您詳細信息關於睡眠質量,“智能鬧鐘”會在合適的時間叫醒您</string>
+    <string name="welcome_text_stress">GoBe確定壓力水平在持續監測的基礎上您身體的狀態</string>
+    <string name="skip">跳過</string>
+    <!--Onboarding section 1 screen 1 title-->
+    <string name="onb_1_title">調諧至你的身體</string>
+    <!--Onboarding section 1 screen 1 description-->
+    <string name="onb_1_desc">加強營養,改善生活方式\n\n滿足唯一完整的身體儀錶盤</string>
+    <!--Onboarding section 1 screen 1 button-->
+    <string name="onb_1_bttn">開始！</string>
+    <!--Onboarding section 1 screen 2 title-->
+    <string name="onb_2_title">找到較好的平衡點</string>
+    <!--Onboarding section 1 screen 2 description-->
+    <string name="onb_2_desc">洞察你的個人生活方式的平衡和習慣</string>
+    <!--Onboarding section 1 screen 2 buttn-->
+    <string name="onb_2_bttn">現在開始！</string>
+    <!--Onboarding section 2 screen 1 title-->
+    <string name="onb_3_ttl">每卡路里計數</string>
+    <!--Onboarding section 2 screen 1 description-->
+    <string name="onb_3_desc">當組織吸收血糖時,GoBe會直接計算卡路里\n（甚至在晚上也會發生）\n\n不同食物的消化和吸收可能需要長達24小時……</string>
+    <!--Onboarding section 2 screen 1 button-->
+    <string name="onb_3_bttn">明白了</string>
+    <!--Onboarding section 2 screen 2 title-->
+    <string name="onb_4_ttl">佩戴帶來數據</string>
+    <!--Onboarding section 2 screen 2 description-->
+    <string name="onb_4_desc">……由於這些過程很長,所以除了充電之外,最好一直佩戴GoBe</string>
+    <!--Onboarding section 2 screen 2 button-->
+    <string name="onb_4_bttn">越多越好</string>
+    <!--Onboarding section 2 screen 3 title-->
+    <string name="onb_5_ttl">與你身體保持聯繫</string>
+    <!--Onboarding section 2 screen 3 description-->
+    <string name="onb_5_desc">皮膚接觸是準確讀數的關鍵\n\n佩戴GoBe在手腕骨上方1-2指寬。收緊應該是緊的,但仍然舒服</string>
+    <!--Onboarding section 2 screen 3 button-->
+    <string name="onb_5_bttn">接觸是關鍵</string>
+    <!--Onboarding section 2 screen 4 title-->
+    <string name="onb_6_ttl">為改變做準備</string>
+    <!--Onboarding section 2 screen 4 description-->
+    <string name="onb_6_desc">GoBe充滿電需要90分鐘 \n\n以下是我們理想的充電配方： \n睡覺前或醒來後充電\n\n至少在用餐30分钟前佩戴设备</string>
+    <!--Onboarding section 2 screen 4 button-->
+    <string name="onb_6_bttn">而最後一個……</string>
+    <!--Onboarding section 2 screen 5 title-->
+    <string name="onb_7_ttl">我們永遠在你身邊</string>
+    <!--Onboarding section 2 screen 5 description-->
+    <string name="onb_7_desc">分享你的經驗,並隨時使用我們的應用程序聊天找到答案 \n24/7幫助\n聊天或電郵</string>
+    <!--Onboarding section 2 screen 5 button-->
+    <string name="onb_7_bttn">開始</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Type of activity, calories burned while sitting+Basal metabolism-->
+    <string name="why_is_it_important">为什么这很重要？</string>
+    <string name="collecting_data_continue_wearing">在收集数据中,请继续佩戴GoBe。</string>
+    <string name="collecting_data_description">你佩戴GoBe的时间越长,它就越能准确地估计出你的运动量和卡路里摄入量。我们建议每天佩戴GoBe %1$s。</string>
+    <string name="great_wearing">您正确戴着GoBe！继续保持！</string>
+    <string name="great_wearing_description">你每天佩戴GoBe %1$s,所以可以准确估计你的活动和卡路里摄入量。</string>
+    <string name="not_enough_data">无足够数据,请记得戴GoBe</string>
+    <string name="not_enough_data_description">您每天只穿戴GoBe %1$s,我们无法收集足够信息来对您的每日活动量和卡路里摄入量进行准确的估算,我们建议您一天至少穿戴GoBe %2$s。</string>
+    <string name="show_all">显示所有</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_connected">no conectado</string>
+    <string name="no_contact_with_skin">Ningún o mal contacto de los sensores con la piel.</string>
+    <string name="successfully_updated">Actualizado exitosamente</string>
+    <string name="installing">instalando…</string>
+    <string name="charging">Cargando…</string>
+    <string name="percent" formatted="false">%d%%</string>
+    <string name="your_healbe_gobe">Mi GoBe</string>
+    <string name="gobe_display">Pantalla de GoBe</string>
+    <string name="system_information">Información de servicio</string>
+    <string name="about_this_device">acerca de este dispositivo</string>
+    <string name="change_orientation">rotar la pantalla</string>
+    <string name="change_gobe_s_pin">Cambiar código PIN</string>
+    <string name="find_another_gobe">Conectar otro GoBe</string>
+    <string name="connecting">conectando…</string>
+    <string name="gobe_connection_error_desc">No se puede encontrar tu GoBe. Asegúrate de que esté cerca, cargado y encendido. Además, desvincula cualquier otro teléfono inteligente conectado a tu GoBe.</string>
+    <string name="gobe_connection_error_short">No se puede encontrar tu GoBe.</string>
+    <string name="gobe_bluetooth_disabled_desc">Bluetooth está deshabilitado. Enciende Bluetooth para conectar tu GoBe</string>
+    <string name="flashing">reiniciando…</string>
+    <string name="edit_your_gobe_s_name">Establece un nombre para tu GoBe</string>
+    <string name="set_name">Guardar</string>
+    <string name="erase_device">Borrar datos de GoBe</string>
+    <string name="reset">Restaurar</string>
+    <string name="reset_suc">El dispositivo se restableció correctamente</string>
+    <string name="reset_err">Error de restableciemiento</string>
+    <string name="reset_warning_text">Esta acción restablecerá tu GoBe. ¿Estás seguro?</string>
+    <string name="change_pin_code">Cambiar código PIN</string>
+    <string name="update_pin">Actualizar código PIN</string>
+    <string name="set_gobe_name">Establece un nombre para tu GoBe</string>
+    <string name="firmware_update">Actualización GoBe</string>
+    <string name="checking_avail">Comprobando actualizaciones de GoBe disponibles</string>
+    <string name="cancel_update">Cancelar la actualización</string>
+    <string name="abort_update">Cancelar actualización</string>
+    <string name="connection_failed">Pérdida de conexión a Internet. Por favor, comprueba la conexión y vuelve a intentarlo.</string>
+    <string name="disconnected">Desconectado</string>
+    <string name="pin_need">Se cambió el código PIN</string>
+    <string name="wrong_symbols_in_pin">Caracter incorrecto. Solo se permiten números.</string>
+    <string name="wrong_pin">Código PIN incorrecto</string>
+    <string name="fw_need">Se requiere una actualización</string>
+    <string name="fw_available">No hay actualizaciones disponibles</string>
+    <string name="uploading_logs_title">Enviar registros</string>
+    <string name="uploading_logs_text">preparando…</string>
+    <string name="log_uploaded_successfully">Registros enviados con éxito</string>
+    <string name="logs_uploading_failed">La carga de registros ha fallado. Por favor, inténtalo de nuevo</string>
+    <string name="send_logs_text">Enviar registros</string>
+    <string name="send_logs">Enviar</string>
+    <string name="uploading_logs_progress">Subido en un %d%%</string>
+    <string name="logs_uploading_started">Se ha iniciado la carga de registros. Verifica el estado de carga en la barra de notificaciones.</string>
+    <string name="command_not_supported">Comando no compatible</string>
+    <string name="command_not_supported_message">Verifica las actualizaciones de GoBe o comunícate con nuestro equipo de soporte en %s.</string>
+    <string name="synchronization_p_dd">sincronizando (%1$d%%)…</string>
+    <!--GoBe page, User manual button.-->
+    <string name="user_manual">Manual de usuario</string>
+    <!--GoBe menu. Button used for GoBe3 only. Switches the GoBe's screen view between two types.-->
+    <string name="switch_screen_mode">Cambiar modo de pantalla</string>
+    <!--GoBe menu. GoBe charging state shown after the charging process is completed.-->
+    <string name="charged">Cargado</string>
+    <!--GoBe menu. Error. Shown for problems with saving GoBe's name-->
+    <string name="save_name_error">No se puede guardar el nombre</string>
+    <!--PIN update. Second title shown afer the first PIN code was entered-->
+    <string name="repeat_pin">Repita el código PIN para confirmar</string>
+    <!--PIN update. Title for Enter PIN section-->
+    <string name="enter_new_pin">Introducir código PIN</string>
+    <!--Quick start. Toast shown after PIN was saved-->
+    <string name="pin_saved">Se restableció el código PIN</string>
+    <!--Quick start. PIN code field placeholder-->
+    <string name="pin_placeholder">Código PIN</string>
+    <!--Phys activity permission-->
+    <string name="need_anctivity_recognition_permissions">Falta el permiso de actividad física.</string>
+    <!--GoBe status. Shown on GoBe page and Dashboard when some permissions are missing-->
+    <string name="need_bluetooth_permissions">Necesita permiso</string>
+    <!--GoBe menu. Alert text shown if Nearby devices permission is missing-->
+    <string name="need_bluetooth_permissions_desc">Falta el permiso de dispositivos cercanos. Permita que la aplicación HEALBE utilice el Bluetooth para conectar su GoBe</string>
+</resources>

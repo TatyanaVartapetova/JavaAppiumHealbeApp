@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_not_sync">You didn\'t sync with your GoBe for %1$s. Please don\'t forget to sync your data.</string>
+    <string name="notification_not_weight">You didn\'t add weigh-ins for %1$s. Please, add a record about your current weight to track your dynamics better.</string>
+    <!--Notifications section title-->
+    <string name="notif_title">Events</string>
+    <!--Notifications section. Error title. When no notifications found-->
+    <string name="no_notif_title">No events yet</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc1">HEALBE starts sending handy personal notifications and advices after GoBe pairing. Contact our support if that didn\'t happen</string>
+    <!--Notifications section. Error desc. When no notifications found-->
+    <string name="no_notif_desc2">Your notifications will appear here</string>
+    <!--Notifications section. Error. Button-->
+    <string name="contact_sup_bttn">Contact support</string>
+</resources>

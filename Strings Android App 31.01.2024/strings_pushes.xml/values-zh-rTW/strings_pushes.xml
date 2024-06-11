@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_sync_channel_name">數據通知</string>
+    <!--GoBe push. Increased stress event title.-->
+    <string name="stress_push_title">💣你接近崩潰的邊緣了。</string>
+    <!--GoBe push. Increased stress event desc.-->
+    <string name="stress_push_desc">你的壓力水平升高了。休息一下，檢查一下是什麼讓你感到壓力，並嘗試計劃一些額外的休息。</string>
+</resources>

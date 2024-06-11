@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_out_popout">登出</string>
+    <string name="sleep_duration">睡眠时长</string>
+    <string name="weight_error">目前 HEALBE GoBe 只能在 %1$s 和 %2$s 之间的称量体重范围工作</string>
+    <string name="wrong_params">邮箱或密码错误！</string>
+    <string name="pass_restored">请检查您的收邮件,我们已向您发送了重置密码的说明！</string>
+    <!--Toast, so place for translation is virtually unlimited-->
+    <string name="email_registered">该此邮箱地址已被注册。如果是您,请继续登录。</string>
+    <string name="height">身高</string>
+    <string name="volume">容量</string>
+    <string name="distance">距离</string>
+    <string name="length">身高和长度</string>
+    <string name="step">步长</string>
+    <string name="weight">体重</string>
+    <string name="glass_volume">水杯容量</string>
+    <string name="height_error">身高必须介于%1$s和%2$s之间</string>
+    <string name="step_error">步长必须介于%1$s和%2$s之间</string>
+    <string name="wristband_will_be_reset_error">这个操作将重置您的GoBe设备,确定吗？</string>
+    <string name="last_name_is_empty">姓氏不能为空</string>
+    <string name="restore">重置</string>
+    <string name="restore_password">请重置密码</string>
+    <string name="wrong_symbols">"符号错误。字段仅可包含字母,空格和符号(\' ` -)"</string>
+    <string name="name_is_empty">名字不能为空</string>
+    <string name="step_len_empty_error">步长不能为空</string>
+    <string name="height_empty_error">身高不能为空</string>
+    <string name="edit_profile">编辑简档</string>
+    <string name="gender">性别</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="password">密码</string>
+    <string name="email">邮箱</string>
+    <string name="forgot">忘了密码吗？</string>
+    <string name="privacy_address">https://healbe.com/privacy/?utm_source=android_app&amp;utm_medium=privacy</string>
+    <string name="privacy">条款及细则和隐私政策</string>
+    <string name="by_signing_up">注册即表明我同意
+
+%s</string>
+    <string name="will_log_out">您要退出登录。您确定吗？</string>
+    <string name="sign_out">退出</string>
+    <string name="sign_in">登录</string>
+    <string name="or_sign_in">或登录</string>
+    <string name="create_account">创建帐户</string>
+    <string name="or_create">或注册</string>
+    <string name="password_error">密码必须包含至少4个字符</string>
+    <string name="login_error">邮箱格式错误</string>
+    <string name="sign_up">注册</string>
+    <string name="city">城市</string>
+    <string name="country">国家/地区</string>
+    <string name="continue_text">继续</string>
+    <string name="last_name">姓氏</string>
+    <string name="first_name">名字</string>
+    <string name="please_check_fields_is_correct">"请检查所有字段是否正确填写"</string>
+    <string name="please_fill_your_profile">填写您的简档</string>
+    <string name="buy_address">https://healbe.com/store/?utm_source=android_app&amp;utm_medium=store</string>
+    <string name="buy_link">请买一个</string>
+    <!--Link title with call to action — like «Forgot password?». «%s» here will be replaced with «>» arrow symbol.-->
+    <string name="buy_it">您还没有GoBe吗？%s！</string>
+    <string name="login_healbe">登录HEALBE账户</string>
+    <!--Profile. Delete profile button-->
+    <string name="profile_delete">删除资料</string>
+    <!--Profile. Delete warning title-->
+    <string name="action_warning">你确定吗？</string>
+    <!--Profile. Delete warning description-->
+    <string name="profile_delete_desc">请继续如果你真的想删除HEALBE资料和所有用户数据。</string>
+    <!--Profile. Delete success title-->
+    <string name="profile_delete_success">確認後30天內，你的個人資料將被永久刪除。</string>
+    <!--Profile. Delete success description-->
+    <string name="profile_delete_success_desc">你可以繼續使用HEALBE應用程序，直到我們刪除你的資料。這將在未來30天內發生。如果你在我們刪除所有數據之前改變主意，請通過應用程序內聊天或在%s聯繫我們。</string>
+    <!--Profile. Delete photo button-->
+    <string name="photo_delete">删除照片</string>
+    <!--Profile. Take photo button-->
+    <string name="photo_take">拍照</string>
+    <!--Profile. Go to Library button-->
+    <string name="photo_choose">从相簿选择</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_agrees_to_privacy_policy">Estoy de acuerdo con la <annotation link="privacy"> Términos, Condiciones y Política de Privacidad de HEALBE</annotation> y acepto recibir correos electrónicos y notificaciones sobre los productos.</string>
+    <string name="user_agrees_to_special_offsers">Acepto recibir comunicaciones sobre ofertas especiales, noticias de la empresa y encuestas</string>
+    <string name="need_to_agree_to_privacy_policy">Por favor, acepta la política de privacidad para utilizar los productos HEALBE</string>
+    <string name="session_has_expired">HEALBE ha cerrado la sesión para mantener tus datos seguros. Por favor, vuelve a autorizar</string>
+</resources>

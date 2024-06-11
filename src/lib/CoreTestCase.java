@@ -27,7 +27,7 @@ public class CoreTestCase extends TestCase { // это позволит нам �
         capabilities.setCapability("appium:app", "C:/Users/Tatyana/Desktop/JavaAppiumHealbeApp/apks/healbe.apk");
         capabilities.setCapability("unicodeKeyboard", true); // это чтобы клавиатура не показывалась при тестах
         capabilities.setCapability("resetKeyboard", true);
-       // capabilities.setCapability("appium:noReset", "true"); // эта строка будет сохранять настройки после перезапуска МА (для теста чтобы в меню была кнопка сохранить статью
+        capabilities.setCapability("appium:noReset", "true"); // эта строка будет сохранять настройки после перезапуска МА (для теста чтобы в меню была кнопка сохранить статью
         driver = new AndroidDriver(new URL(AppiumURL), capabilities); // тут мы включаем андроид драйвер, в скобках пишем путь до сервера
         this.rotateScreenPortrait(); // чтобы быть уверенными что приложение в портретной ориентации
         // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); - другой вариант установки wait взятый из интернета

@@ -13,7 +13,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Locale;
 
 
 public class MainPageObject {
@@ -49,12 +52,17 @@ public class MainPageObject {
         return element;
     }
 
+    public WebElement waitForElementAndClick(By by, String error_message) { // перегрузка метода с timeoutInSeconds = 5с
+        return waitForElementAndClick(by, error_message, 5);
+    }
     public WebElement waitForElementAndSendKeys(By by, String value, String error_message, long timeoutInSeconds) { // метод, в котором сначала дожидается какого-то элемента, а затем вводят какое-то значение
         WebElement element = waitForElementPresent(by, error_message, timeoutInSeconds);
         element.sendKeys(value);
         return element;
     }
-
+    public WebElement waitForElementAndSendKeys(By by, String value, String error_message) { // перегрузка метода с timeoutInSeconds = 5с
+        return waitForElementAndSendKeys(by,value, error_message, 5);
+    }
     public boolean waitForElementNotPresent(By by, String error_message, long timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
         wait.withMessage(error_message + "\n");
@@ -75,7 +83,9 @@ public class MainPageObject {
         element.clear();
         return element;
     }
-
+    public WebElement waitForElementAndClear(By by, String error_message) { // перегрузка метода с timeoutInSeconds = 5с
+        return waitForElementAndClear(by,error_message, 5);
+    }
     public void assertElementHasText(By by, String expected_text, String error_message) { //проверяет наличие ожидаемого текста у элемента
         WebElement element = waitForElementPresent(by, error_message, 5);
         String text_element = element.getText().toLowerCase(Locale.ROOT);
@@ -171,7 +181,7 @@ public class MainPageObject {
         this.doubleTapToPoint(middle_x, middle_y);
     }
 
-    public void tapToPointRelativeToElement(By by, int margin_x, int margin_y, String error_message) {
+    public void tapToPointWithMarginFromCenterOfElement(By by, int margin_x, int margin_y, String error_message) {
         WebElement element = waitForElementPresent(by, error_message, 10);
 
         Point location = element.getLocation(); // расположение элемента на странице - это точка левый верхний угол
@@ -237,7 +247,17 @@ public class MainPageObject {
         }
     }
 
-
+    public void swipeUpToFindElementAndClick(By by, String error_message, int max_swipes) {
+        int already_swiped = 0;
+        while (driver.findElements(by).size() == 0) {
+            if (already_swiped > max_swipes) {
+                waitForElementAndClick(by, "Cannot find element and click on it by swiping up. \n" + error_message, 0);
+                return;
+            }
+            swipeUpQuick();
+            ++already_swiped;
+        }
+    }
     public void swipeElementToLeft(By by, String error_message) {
 
         WebElement element = waitForElementPresent(by, error_message, 10);
@@ -272,7 +292,21 @@ public class MainPageObject {
         this.swipe(new Point(middle_x, start_y), new Point(middle_x, end_y), Duration.ofMillis(550));
     }
 
+public void changeLocale(String Locale) {
+    switch (Locale) {
+        case "Ru":
+            System.out.println("русский");
+            break;
+        case "En":
+            System.out.println("english");
+            break;
+    }
+
 
 }
 
+
+}
+
+// ((AndroidDriver)driver).pressKeyCode(67); // Backspace Key - work
 

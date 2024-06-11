@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_connected">接続されていません</string>
+    <string name="no_contact_with_skin">センサーが皮膚に接触していない、または正しく接触していません。</string>
+    <string name="successfully_updated">正常にアップデートされました</string>
+    <string name="installing">インストール中…</string>
+    <string name="charging">充電中…</string>
+    <string name="percent" formatted="false">%d%%</string>
+    <string name="your_healbe_gobe">私のGoBe</string>
+    <string name="gobe_display">GoBeディスプレイ</string>
+    <string name="system_information">サービス情報</string>
+    <string name="about_this_device">このデバイスについて</string>
+    <string name="change_orientation">表示を反転</string>
+    <string name="change_gobe_s_pin">PINコードを変更</string>
+    <string name="find_another_gobe">別のGoBeを見つける</string>
+    <string name="connecting">接続中…</string>
+    <string name="gobe_connection_error_desc">このGoBeが見つかりません。近くにあり、充電され、電源が入っていることを確認します。また、GoBeに接続されている他のスマホのペアリングも解除してください。</string>
+    <string name="gobe_connection_error_short">GoBeが見つかりません</string>
+    <string name="gobe_bluetooth_disabled_desc">Bluetoothがオフです。GoBeを接続するにはBluetoothをオンにします</string>
+    <string name="flashing">再起動しています…</string>
+    <string name="edit_your_gobe_s_name">GoBeの名前を設定</string>
+    <string name="set_name">保存</string>
+    <string name="erase_device">GoBeデバイスデータを削除</string>
+    <string name="reset">リセット</string>
+    <string name="reset_suc">デバイスが正常にリセットされました</string>
+    <string name="reset_err">リセットエラー</string>
+    <string name="reset_warning_text">この操作によりGoBeがリセットされます。よろしいですか？</string>
+    <string name="change_pin_code">PINコードを変更</string>
+    <string name="update_pin">PINコードをアップデート</string>
+    <string name="set_gobe_name">GoBeの名前を設定</string>
+    <string name="firmware_update">GoBeアップデート</string>
+    <string name="checking_avail">利用可能なファームウェアをGoBe確認しています</string>
+    <string name="cancel_update">更新をキャンセルする</string>
+    <string name="abort_update">アップデートを中止する</string>
+    <string name="connection_failed">インターネット接続が失われました。接続を確認して、もう一度お試しください。</string>
+    <string name="disconnected">切断されました</string>
+    <string name="pin_need">PINコードが変更されました</string>
+    <string name="wrong_symbols_in_pin">不正な文字が入力されました。使用できるのは数字のみです。</string>
+    <string name="wrong_pin">PINコードが正しくありません</string>
+    <string name="fw_need">更新が必要です</string>
+    <string name="fw_available">更新プログラムが利用可能</string>
+    <string name="uploading_logs_title">ログをアップロードしています</string>
+    <string name="uploading_logs_text">準備中…</string>
+    <string name="log_uploaded_successfully">ログが正常に送信されました</string>
+    <string name="logs_uploading_failed">ログのアップロードに失敗しました。もう一度お試しください</string>
+    <string name="send_logs_text">ログを送信</string>
+    <string name="send_logs">送信</string>
+    <string name="uploading_logs_progress">%d%% アップロード済み</string>
+    <string name="logs_uploading_started">ログのアップデートが開始されました。通知バーでステータスを確認できます。</string>
+    <string name="command_not_supported">サポートされていないコマンドです</string>
+    <string name="command_not_supported_message">ご利用のGoBeのファームウェアアップデートを確認してください。またはサポートチームにお問い合わせください: %s。</string>
+    <string name="synchronization_p_dd">同期 (%1$d%%)…</string>
+    <!--GoBe page, User manual button.-->
+    <string name="user_manual">ユーザーマニュアル</string>
+    <!--GoBe menu. Button used for GoBe3 only. Switches the GoBe's screen view between two types.-->
+    <string name="switch_screen_mode">スクリーンモード変更</string>
+    <!--GoBe menu. GoBe charging state shown after the charging process is completed.-->
+    <string name="charged">充電済み</string>
+    <!--GoBe menu. Error. Shown for problems with saving GoBe's name-->
+    <string name="save_name_error">名前を保存できません</string>
+    <!--PIN update. Second title shown afer the first PIN code was entered-->
+    <string name="repeat_pin">PINコードを繰り返して確認</string>
+    <!--PIN update. Title for Enter PIN section-->
+    <string name="enter_new_pin">PINコードを入力します</string>
+    <!--Quick start. Toast shown after PIN was saved-->
+    <string name="pin_saved">PINコードが正常に保存されました</string>
+    <!--Quick start. PIN code field placeholder-->
+    <string name="pin_placeholder">PINコード</string>
+    <!--Phys activity permission-->
+    <string name="need_anctivity_recognition_permissions">身体活動の許可が必要です。</string>
+    <!--GoBe status. Shown on GoBe page and Dashboard when some permissions are missing-->
+    <string name="need_bluetooth_permissions">要許可</string>
+    <!--GoBe menu. Alert text shown if Nearby devices permission is missing-->
+    <string name="need_bluetooth_permissions_desc">近くのデバイスの許可が必要です。HEALBEアプリがBluetoothを使用してGoBeに接続することを許可してください。</string>
+</resources>
