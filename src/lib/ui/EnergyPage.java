@@ -9,7 +9,7 @@ public class EnergyPage extends MainPageObject{
     }
 
     public void openEnergyScreenWithData(){ // это временный вариант пока нет профиля с данными от Антона
-        waitForElementAndClick(By.xpath(URI.ENERGY_BALANCE_CELL_DASHBOARD), "bla", 5);
+        waitForElementAndClick(DashboardPage.ENERGY_BALANCE_CELL_DASHBOARD, "bla", 5);
         waitForElementAndClick(By.xpath("//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View"), "bla1",5);
         waitForElementAndClick(By.xpath("//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View"), "bla2",5);
         //swipeLeft(); // не работают свайпы на эмуляторе (руками совсем, авто - плохо)

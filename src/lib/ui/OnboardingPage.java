@@ -72,7 +72,7 @@ public class OnboardingPage extends MainPageObject {
         // doubleTapToCenterOfElement(By.xpath("//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View"), "Cannot find center of element gif  onboarding"); - почему-то если вначале ускорить процесс, то он не кликает по второй кнопке NEXT, оэтому убрала этот метод
         navigationNext();
         navigationNext();
-        waitForElementPresent(By.id(URI.SIGN_IN_BUTTON_ENTER_FORM_SCREEN), "Cannot find Sign in Button on EnterForm ", 15);
+        waitForElementPresent(EnterPage.SIGN_IN_BUTTON, "Cannot find Sign in Button on EnterForm ", 15);
     }
 
     public void passOnboardingFull(String locale) {
@@ -83,7 +83,7 @@ public class OnboardingPage extends MainPageObject {
         waitForElementPresent(By.xpath(getOnboardingPage2TitleXpath(onboarding_page2_title)), "cannot find title onboarding 2");
         waitForElementPresent(By.xpath(getOnboardingPage2TextXpath(onboarding_page2_text)), "cannot find description onboarding 2");
         navigationNext();
-        waitForElementPresent(By.id(URI.SIGN_IN_BUTTON_ENTER_FORM_SCREEN), "Cannot find Sign in Button on EnterForm ", 15);
+        waitForElementPresent(EnterPage.SIGN_IN_BUTTON, "Cannot find Sign in Button on EnterForm ", 15);
     }
 
 

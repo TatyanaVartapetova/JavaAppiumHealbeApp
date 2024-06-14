@@ -2,122 +2,41 @@ package lib.ui;
 
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.WebElement;
 
+public class ProfilePage extends EditProfilePage {
 
-public class ProfilePage extends MainPageObject {
     public ProfilePage(AppiumDriver driver) {
         super(driver);
     }
 
-    public static final String
-            EDIT_PROFILE_BUTTON = "com.healbe.healbegobe.debug:id/edit",
-            SAVE_PROFILE_BUTTON = "com.healbe.healbegobe.debug:id/saveButton",
-            FIRST_NAME_FIELD = "com.healbe.healbegobe.debug:id/et_name",
-            LAST_NAME_FIELD = "com.healbe.healbegobe.debug:id/et_lastName",
-            SEX_FIELD = "com.healbe.healbegobe.debug:id/sex",
-            DATE_OF_BIRTH_FIELD = "com.healbe.healbegobe.debug:id/birth_date",
-            HEIGHT_FIELD = "com.healbe.healbegobe.debug:id/single_units_input", // по id не получается очистить поле, поэтому использую xpath
-            STEP_FIELD = "(//android.widget.EditText[contains(@resource-id, 'single_units_input')])[2]", // по id не получается очистить поле, поэтому использую xpath
-            SLEEP_DURATION_FIELD = "com.healbe.healbegobe.debug:id/sleep_duration",
-            GLASS_VOLUME_FIELD = "com.healbe.healbegobe.debug:id/glass_volume",
-            COUNTRY_FIELD = "com.healbe.healbegobe.debug:id/country",
-            CITY_FIELD = "com.healbe.healbegobe.debug:id/et_city",
-            CALENDAR_TEXT_INPUT_MODE_BUTTON = "com.healbe.healbegobe.debug:id/mtrl_picker_header_toggle",
-            CALENDAR_CONFIRM_DATA_BUTTON = "com.healbe.healbegobe.debug:id/confirm_button",
-            CALENDAR_DATE_OF_BIRTH_FIELD = "android.widget.EditText"; // по id не получается очистить поле, поэтому использую xpath
+    // локаторы
+    public static final By
+            USERNAME = By.id("com.healbe.healbegobe.debug:id/headerUsername"),
+            SEX = By.id("com.healbe.healbegobe.debug:id/gender_value"),
+            DATE_OF_BIRTH = By.id("com.healbe.healbegobe.debug:id/birth_date_value"),
+            HEIGHT = By.id("com.healbe.healbegobe.debug:id/height_value"),
+            STEP_LENGTH = By.id("com.healbe.healbegobe.debug:id/step_length_value"),
+            SLEEP_DURATION = By.id("com.healbe.healbegobe.debug:id/sleep_duration_value"),
+            GLASS_VOLUME = By.id("com.healbe.healbegobe.debug:id/glass_volume_value"),
+            COUNTRY = By.id("com.healbe.healbegobe.debug:id/country_value"),
+            CITY = By.id("com.healbe.healbegobe.debug:id/city_value"),
+            EMAIL = By.id("com.healbe.healbegobe.debug:id/email_value");
 
-    private String
-            first_name = "Ali",
-            last_name = "Baba",
-            sex = "Male", //"Female"
-            date_of_birth = "11/11/1980",
-            output_date_of_birth = "11/11/80", //workaround пока не разберусь с форматом даты
-            height = "180",
-            step_length = "70",
-            glass_volume = "50 ml",
-            sleep_duration = "4 h 0 min",
-            country = "Afghanistan",
-            city = "Kabul";
+    private String // ??? тут надо придумать, как использовать единицы измерения правильно относительно локали
+            units_height_and_length = "cm";
 
-
-//        Date date = new Date();
-//        SimpleDateFormat formatter = new SimpleDateFormat("11/11/1980");
-//        String date_of_birth = formatter.format(date);
-
-
-    public void editProfile() {
-        // переходим в редактирование профиля пользователя
-        waitForElementAndClick(By.id(URI.NAVBAR_PROFILE), "Cannot find profile button in navBar");
-        waitForElementAndClick(By.id(EDIT_PROFILE_BUTTON), "Cannot find edit profile button");
-        //Имя: редактируем, убеждаемся, что введенное значение верное
-        waitForElementClearAndSendKeys(By.id(FIRST_NAME_FIELD), first_name, "Cannot input first name");
-        assertElementHasText(By.id(FIRST_NAME_FIELD), first_name, "First name is unexpected");
-        //Фамилия: редактируем, убеждаемся, что введенное значение верное
-        waitForElementClearAndSendKeys(By.id(LAST_NAME_FIELD), last_name, "Cannot input last name");
-        assertElementHasText(By.id(LAST_NAME_FIELD), last_name, "Last name is unexpected");
-        //Пол: выбираем в выпадающем списке, убеждаемся, что выбрано верное значение
-        waitForElementAndClick(By.id(SEX_FIELD), "Cannot find Sex field");
-        pickSexFromDropDown(sex);
-        assertElementHasText(By.id(SEX_FIELD), sex, "Sex is unexpected");
-        //Дата рождения: редактируем, сохраняем, убеждаемся, что значение верное
-        waitForElementAndClick(By.id(DATE_OF_BIRTH_FIELD), "Cannot find date of birth field");
-        waitForElementAndClick(By.id(CALENDAR_TEXT_INPUT_MODE_BUTTON), "Cannot find CALENDAR_TEXT_INPUT_MODE_BUTTON");
-        waitForElementClearAndSendKeys(By.className(CALENDAR_DATE_OF_BIRTH_FIELD), date_of_birth, "Cannot input date of birth");
-        waitForElementAndClick(By.id(CALENDAR_CONFIRM_DATA_BUTTON), "Cannot find Confirm button");
-        assertElementHasText(By.id(DATE_OF_BIRTH_FIELD), output_date_of_birth, "Unexpected date od birth");
-        //Рост: редактируем, убеждаемся, что введенное значение верное
-        waitForElementClearAndSendKeys(By.id(HEIGHT_FIELD), height, "Cannot input height");
-        assertElementHasText(By.id(HEIGHT_FIELD), height, "Unexpected height");
-        //Длина шага: свайп, пока не найдем элемент, редактируем, убеждаемся, что введенное значение верное
-        swipeUpToFindElement(By.xpath(STEP_FIELD), "Cannot find step field by swiping", 5);
-        waitForElementClearAndSendKeys(By.xpath(STEP_FIELD), step_length, "");
-        assertElementHasText(By.xpath(STEP_FIELD), step_length, "");
-        //Длительность сна: свайп, пока не найдем элемент; выбираем из выпадающего списка верхнее значение (4 часа), убеждаемся что значение верное
-        swipeUpToFindElement(By.id(SLEEP_DURATION_FIELD), "Cannot find sleep duration field by swiping", 10);
-        waitForElementAndClick(By.id(SLEEP_DURATION_FIELD), "Cannot find sleep duration field");
-        pickUpperValueFromDropDown();
-        assertElementHasText(By.id(SLEEP_DURATION_FIELD), sleep_duration, "Text of search input is unexpected");
-        //Объем стакана: свайп, пока не найдем элемент; выбираем из выпадающего списка верхнее значение (50мл), убеждаемся что значение верное
-        swipeUpToFindElement(By.id(GLASS_VOLUME_FIELD), "Cannot find glass volume field by swiping", 5);
-        waitForElementAndClick(By.id(GLASS_VOLUME_FIELD), "Cannot find glass volume field");
-        pickUpperValueFromDropDown();//при таких координатах выберется 50ml
-        assertElementHasText(By.id(GLASS_VOLUME_FIELD), glass_volume, "Text of search input is unexpected");
-        //Страна:  свайп, пока не найдем элемент; выбираем из выпадающего списка верхнее значение (Афганистан), убеждаемся что значение верное
-        swipeUpToFindElement(By.id(COUNTRY_FIELD), "Cannot find country field by swiping", 5);
-        waitForElementAndClick(By.id(COUNTRY_FIELD), "Cannot find country field");
-        pickUpperValueFromDropDown();//при таких координатах выберется Afghanistan
-        assertElementHasText(By.id(COUNTRY_FIELD), country, "Text of search input is unexpected");
-        //Город:  свайп, пока не найдем элемент; редактируем, убеждаемся, что введенное значение верное
-        swipeUpToFindElement(By.id(CITY_FIELD), "Cannot find city field by swiping", 5);
-        waitForElementClearAndSendKeys(By.id(CITY_FIELD), city, "Cannot input value to city field");
-        assertElementHasText(By.id(CITY_FIELD), city, "Text of search input is unexpected");
-        waitForElementAndClick(By.id(SAVE_PROFILE_BUTTON), "Cannot find save profile button");
+    public void assertProfileUpdate() {
+        assertElementHasText(USERNAME, first_name + " " + last_name, "Unexpected username");
+        assertElementHasText(SEX, sex, "Unexpected sex");
+        assertElementHasText(DATE_OF_BIRTH, output_date_of_birth, "Unexpected date of birth");
+        assertElementHasText(HEIGHT, height + " " + units_height_and_length, "Unexpected height");
+        assertElementHasText(STEP_LENGTH, step_length + " " + units_height_and_length, "Unexpected step length");
+        assertElementHasText(SLEEP_DURATION, sleep_duration, "Unexpected sleep duration");
+        assertElementHasText(GLASS_VOLUME, glass_volume, "Unexpected glass volume");
+        swipeUpToFindElement(COUNTRY, "Cannot find Country by swiping up", 5);
+        assertElementHasText(COUNTRY, country, "Unexpected country");
+        swipeUpToFindElement(CITY, "Cannot find City by swiping up", 5);
+        assertElementHasText(CITY, city, "Unexpected city");
     }
 
-    private void pickSexFromDropDown(String sex) { //workaround method, так как выпадающий список типа AutoCompleteTextView не видно в инспекторе
-        WebElement element = waitForElementPresent(By.id(SEX_FIELD), "Cannot find Sex field");
-        Dimension size = element.getSize(); // размеры элемента
-        int margin_x = 0;
-        int margin_y = 0;
-        switch (sex) {
-            case "Male":
-                margin_y = size.getHeight();
-                break;
-            case "Female":
-                margin_y = size.getHeight() * 2;
-                break;
-            default:
-                System.out.println("Invalid value. Please enter Female or Male.");
-        }
-        tapToPointWithMarginFromCenterOfElement(By.id(SEX_FIELD), margin_x, margin_y, "margin error");
-    }
-
-    public void pickUpperValueFromDropDown() {
-        Dimension size = driver.manage().window().getSize();
-        int x = (int) (size.width * 0.5);
-        int y = (int) (size.height * 0.1);
-        tapToPoint(x, y);
-    }
 }

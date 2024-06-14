@@ -17,6 +17,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+//В этом классе куча разных общих методов, нужно будет тут прибраться
 
 public class MainPageObject {
     protected AppiumDriver driver; // инициализируем драйвер
@@ -102,12 +103,16 @@ public class MainPageObject {
         Assert.assertTrue("Cannot find few topics", size > 1);
     }
 
-    public WebElement assertButtonIsNotEnable(By by, String error_message, long timeoutInSeconds) {
-        WebElement element = waitForElementPresent(by, error_message, timeoutInSeconds);
-        element.isEnabled();
-        return element;
+
+    public boolean isButtonDisabled(By locator) {
+        WebElement button = driver.findElement(locator);
+        return !button.isEnabled();
     }
 
+    public boolean isButtonEnabled(By locator) {
+        WebElement button = driver.findElement(locator);
+        return button.isEnabled();
+    }
     public int countAmountOfElements(WebElement listOfTopics, By by) {
         int amount = listOfTopics.findElements(by).size();
         return amount;
