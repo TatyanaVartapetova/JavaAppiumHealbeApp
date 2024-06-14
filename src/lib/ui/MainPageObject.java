@@ -16,7 +16,6 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.Locale;
 
 
 public class MainPageObject {
@@ -88,7 +87,8 @@ public class MainPageObject {
     }
     public void assertElementHasText(By by, String expected_text, String error_message) { //проверяет наличие ожидаемого текста у элемента
         WebElement element = waitForElementPresent(by, error_message, 5);
-        String text_element = element.getText().toLowerCase(Locale.ROOT);
+        String text_element = element.getText();
+        // String text_element = element.getText().toLowerCase(Locale.ROOT);
         Assert.assertEquals(error_message, expected_text, text_element);
     }
 
@@ -217,6 +217,14 @@ public class MainPageObject {
         int end_y = (int) (size.height * 0.2);
         this.swipe(new Point(middle_x, start_y), new Point(middle_x, end_y), Duration.ofMillis(550));
     }
+
+    public void swipeDown(Duration duration) {
+        Dimension size = driver.manage().window().getSize();
+        int middle_x = size.width / 2;
+        int end_y = (int) (size.height * 0.8);
+        int start_y = (int) (size.height * 0.2);
+        this.swipe(new Point(middle_x, start_y), new Point(middle_x, end_y), Duration.ofMillis(550));
+    }
     public void swipeUpQuick() {
         swipeUp(Duration.ofMillis(200));
     }
@@ -247,18 +255,7 @@ public class MainPageObject {
         }
     }
 
-    public void swipeUpToFindElementAndClick(By by, String error_message, int max_swipes) {
-        int already_swiped = 0;
-        while (driver.findElements(by).size() == 0) {
-            if (already_swiped > max_swipes) {
-                waitForElementAndClick(by, "Cannot find element and click on it by swiping up. \n" + error_message, 0);
-                return;
-            }
-            swipeUpQuick();
-            ++already_swiped;
-        }
-    }
-    public void swipeElementToLeft(By by, String error_message) {
+     public void swipeElementToLeft(By by, String error_message) {
 
         WebElement element = waitForElementPresent(by, error_message, 10);
 
@@ -306,7 +303,14 @@ public void changeLocale(String Locale) {
 }
 
 
+    public void waitForElementClearAndSendKeys(By by, String value, String error_message, long timeoutInSeconds){
+        waitForElementAndClear(by, error_message, timeoutInSeconds);
+        waitForElementAndSendKeys(by, value,error_message, timeoutInSeconds);
+    }
+
+    public void waitForElementClearAndSendKeys(By by, String value, String error_message){ //перегрузка метода
+        waitForElementClearAndSendKeys(by, value, error_message, 5);
+    }
 }
 
-// ((AndroidDriver)driver).pressKeyCode(67); // Backspace Key - work
-
+// System.out.println(driver.getPageSource()); // этот метод выводит XML документа в консоль

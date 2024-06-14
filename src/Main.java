@@ -42,5 +42,6 @@ public class Main extends CoreTestCase {
     public void testProfile(){
     ProfilePage ProfilePage = new ProfilePage(driver);
     ProfilePage.editProfile();
+
 }
 }
