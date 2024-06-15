@@ -1,6 +1,7 @@
 package lib.ui;
 
 import io.appium.java_client.AppiumDriver;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
@@ -17,15 +18,23 @@ public class SettingsPage extends MainPageObject {
             VOLUME_UNITS = By.id("com.healbe.healbegobe.debug:id/volume_units"),
             NOTIFICATION_SWITCH = By.id("com.healbe.healbegobe.debug:id/notifications_switch"),
             NOTIFICATION_PERIOD_ICON = By.id("com.healbe.healbegobe.debug:id/notification_period_icon"),
+            NOTIFICATION_START_TIME = By.id("com.healbe.healbegobe.debug:id/start_layout"),
+            NOTIFICATION_END_TIME = By.id("com.healbe.healbegobe.debug:id/end_layout"),
             FAST_SYNC_SWITCH = By.id("com.healbe.healbegobe.debug:id/fast_sync_switch"),
-            CONNECT_GF_BUTTON = By.id("com.healbe.healbegobe.debug:id/google_fit_button");
+            CONNECT_GF_BUTTON = By.id("com.healbe.healbegobe.debug:id/google_fit_button"),
+            SYNC_WEIGHT_DATA_SWITCH = By.id("com.healbe.healbegobe.debug:id/sync_profile_data_switch"),
+            EXPORT_SENSOR_DATA_SWITCH = By.id("com.healbe.healbegobe.debug:id/export_sensors_data_switch");
 
-private String
-    weight_units = "Pounds",
-    height_units = "Inches",
-    distance_units = "Miles",
-    volume_units = "Ounces";
-    public void editUnitsAndVerifySuccess(){
+
+    private String
+            weight_units = "Pounds",
+            height_units = "Inches",
+            distance_units = "Miles",
+            volume_units = "Ounces";
+
+    public void editUnitsAndVerifySuccess() {
+        // этот метод меняет все единицы измерения и проверяет, что они изменились на экране Settings
+        // позже добавить проверку, что они изменились и на остальных экранах
         waitForElementAndClick(NavBar.NAVBAR_SETTINGS, "Cannot find Settings button on Navbar");
         waitForElementAndClick(WEIGHT_UNITS, "Cannot find weight units dropdown");
         pickSecondValueFromDropDown(WEIGHT_UNITS); //выберется Pounds
@@ -40,6 +49,33 @@ private String
         pickSecondValueFromDropDown(VOLUME_UNITS); //выберется Ounces
         assertElementHasText(VOLUME_UNITS, volume_units, "Unexpected weight units");
     }
+
+    //метод поверхностно проверяет работоспособность остальных элементов на странице (кнопка GF, vibration, fast sync)
+    public void checkOtherUIComponents() {
+        //выключаем переключатель NOTIFICATION_SWITCH, если он включен, затем включаем, убеждаемся, что он включен.
+        switchOffToggleIfNeeded(NOTIFICATION_SWITCH);
+        waitForElementAndClick(NOTIFICATION_SWITCH, "Cannot find NOTIFICATION_SWITCH");
+        Assert.assertTrue(isToggleSwitchOn(NOTIFICATION_SWITCH));
+        // убеждаемся, что после включения NOTIFICATION_SWITCH появилась возможность выбрать период нотификаций
+        swipeUpToFindElement(NOTIFICATION_PERIOD_ICON, "Cannot find NOTIFICATION_PERIOD_ICON by swiping up", 5);
+        waitForElementAndClick(NOTIFICATION_PERIOD_ICON, "Cannot find NOTIFICATION_PERIOD_ICON");
+        waitForElementPresent(NOTIFICATION_START_TIME, "Cannot find start time for notification");
+        waitForElementPresent(NOTIFICATION_END_TIME, "Cannot find end time for notification");
+        //выключаем переключатель FAST_SYNC_SWITCH, если он включен, затем включаем, убеждаемся, что он включен.
+        swipeUpToFindElement(FAST_SYNC_SWITCH, "Cannot find FAST_SYNC_SWITCH", 5);
+        switchOffToggleIfNeeded(FAST_SYNC_SWITCH);
+        waitForElementAndClick(FAST_SYNC_SWITCH, "Cannot find FAST_SYNC_SWITCH");
+        Assert.assertTrue(isToggleSwitchOn(FAST_SYNC_SWITCH));
+        // нажимаем на кнопку Connect Google Fit, убеждаемся, что появляются переключатели
+        swipeUpToFindElement(CONNECT_GF_BUTTON, "Cannot find Connect GF button by swiping up", 5);
+        waitForElementAndClick(CONNECT_GF_BUTTON, "Cannot find GF button to click");
+        swipeUpToFindElement(SYNC_WEIGHT_DATA_SWITCH, "Cannot find SYNC_WEIGHT_DATA_SWITCH by swiping up", 5);
+        waitForElementPresent(SYNC_WEIGHT_DATA_SWITCH, "Cannot find SYNC_WEIGHT_DATA_SWITCH");
+        swipeUpToFindElement(EXPORT_SENSOR_DATA_SWITCH, "Cannot find EXPORT_SENSOR_DATA_SWITCH by swiping up", 5);
+        waitForElementPresent(EXPORT_SENSOR_DATA_SWITCH, "Cannot find EXPORT_SENSOR_DATA_SWITCH");
+
+    }
+
     //метод, который выбирает второе значение сверху из выпадающего списка
     // workaround, так как выпадающий список типа AutoCompleteTextView не видно в инспекторе
     public void pickSecondValueFromDropDown(By by) {
@@ -50,21 +86,17 @@ private String
         tapToPointWithMarginFromCenterOfElement(by, margin_x, margin_y, "margin error");
     }
 
-//    private void pickSexFromDropDown(String sex) {
-//        WebElement element = waitForElementPresent(SEX_FIELD, "Cannot find Sex field");
-//        Dimension size = element.getSize(); // размеры элемента
-//        int margin_x = 0;
-//        int margin_y = 0;
-//        switch (sex) {
-//            case "Male":
-//                margin_y = size.getHeight();
-//                break;
-//            case "Female":
-//                margin_y = size.getHeight() * 2;
-//                break;
-//            default:
-//                System.out.println("Invalid value. Please enter Female or Male.");
-//        }
-//        tapToPointWithMarginFromCenterOfElement(SEX_FIELD, margin_x, margin_y, "margin error");
-//    }
+    // метод, который выключает переключатель, если он включен
+    public void switchOffToggleIfNeeded(By locator) {
+        WebElement toggleSwitch = driver.findElement(locator);
+
+        String checkedValue = toggleSwitch.getAttribute("checked");
+
+        if ("true".equals(checkedValue)) {
+            toggleSwitch.click();
+
+        } else {
+        }
+
+    }
 }

@@ -113,6 +113,18 @@ public class MainPageObject {
         WebElement button = driver.findElement(locator);
         return button.isEnabled();
     }
+//    public boolean isToggleSwitchOn(By locator) {
+//        WebElement toggleSwitch = driver.findElement(locator);
+//        return toggleSwitch.isSelected();
+//    }
+
+    public boolean isToggleSwitchOn(By locator) {
+        WebElement toggleSwitch = driver.findElement(locator);
+        String checkedValue = toggleSwitch.getAttribute("checked");
+        return checkedValue != null && checkedValue.equals("true");
+    }
+
+
     public int countAmountOfElements(WebElement listOfTopics, By by) {
         int amount = listOfTopics.findElements(by).size();
         return amount;

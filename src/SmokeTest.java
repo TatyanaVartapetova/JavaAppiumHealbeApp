@@ -46,6 +46,14 @@ public class SmokeTest extends CoreTestCase {
         ProfilePage.assertProfileUpdate();
     }
 
+    //Экран Settings: меняются единицы измерения, проверяется, что они изменились на экране Settings (позже добавлю проверку на др экранах). Так же проверяется, что переключатели Vibration/Fast sync работают, кнопка Connect GF нажимается и показаны переключатели Sync/Export
+    public void testSettings() {
+        SignInPage SignInPage = new SignInPage(driver);
+        SignInPage.quickSignIn();
+        SettingsPage SettingsPage = new SettingsPage(driver);
+        SettingsPage.editUnitsAndVerifySuccess();
+        SettingsPage.checkOtherUIComponents();
+    }
 
     @Test
     // тест не готов, нужны синтетические данные
@@ -56,10 +64,4 @@ public class SmokeTest extends CoreTestCase {
         EnergyPage.openEnergyScreenWithData();
     }
 
-    public void testSettings(){
-        SignInPage SignInPage = new SignInPage(driver);
-        SignInPage.quickSignIn();
-        SettingsPage SettingsPage = new SettingsPage(driver);
-        SettingsPage.editUnitsAndVerifySuccess();
-    }
 }
